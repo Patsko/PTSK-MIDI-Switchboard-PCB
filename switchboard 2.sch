@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -21392,8 +21392,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R_RST" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="U$2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805"/>
@@ -21451,16 +21449,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
-<part name="T7" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="P+9" library="supply1" deviceset="VCC" device=""/>
-<part name="T8" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="40xx" deviceset="4053" device="D"/>
@@ -21468,28 +21456,15 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="IC5" library="40xx" deviceset="4053" device="D"/>
-<part name="IC6" library="40xx" deviceset="4053" device="D"/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="VCC/2" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
-<part name="P+16" library="supply1" deviceset="VCC" device=""/>
-<part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
@@ -21498,13 +21473,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
 <part name="R24" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -21513,7 +21483,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R27" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="R28" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="R29" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="R30" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="R31" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="P+19" library="supply1" deviceset="VCC/2" device=""/>
 <part name="P+20" library="supply1" deviceset="VCC/2" device=""/>
@@ -21522,10 +21491,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="P+22" library="supply1" deviceset="VCC/2" device=""/>
 <part name="P+23" library="supply1" deviceset="VCC/2" device=""/>
 <part name="P+24" library="supply1" deviceset="VCC/2" device=""/>
-<part name="R33" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="P+25" library="supply1" deviceset="VCC/2" device=""/>
-<part name="P+26" library="supply1" deviceset="VCC/2" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ3" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ4" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ5" library="jumper" deviceset="SJ" device=""/>
@@ -21573,12 +21538,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R41" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="P+40" library="supply1" deviceset="VCC/2" device=""/>
 <part name="C15" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
-<part name="R42" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="P+41" library="supply1" deviceset="VCC/2" device=""/>
-<part name="C16" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
-<part name="R43" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="P+42" library="supply1" deviceset="VCC/2" device=""/>
-<part name="C17" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
 <part name="R44" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="P+43" library="supply1" deviceset="VCC/2" device=""/>
 <part name="C18" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
@@ -21597,12 +21556,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R49" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="P+48" library="supply1" deviceset="VCC/2" device=""/>
 <part name="C23" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
-<part name="R50" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="P+49" library="supply1" deviceset="VCC/2" device=""/>
-<part name="C24" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
-<part name="R51" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="P+50" library="supply1" deviceset="VCC/2" device=""/>
-<part name="C25" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
 <part name="P+51" library="supply1" deviceset="VCC" device=""/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
@@ -21676,23 +21629,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="D6" library="LUIS" deviceset="SS14" device=""/>
 <part name="P_UART" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
-<part name="JP16" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="GND79" library="supply1" deviceset="GND" device=""/>
-<part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="JP17" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="JP18" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="GND81" library="supply1" deviceset="GND" device=""/>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
 <part name="JP24" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND83" library="supply1" deviceset="GND" device=""/>
-<part name="JP25" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="JP26" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="JP27" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND84" library="supply1" deviceset="GND" device=""/>
 <part name="GND85" library="supply1" deviceset="GND" device=""/>
-<part name="JP28" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="GND86" library="supply1" deviceset="GND" device=""/>
-<part name="GND87" library="supply1" deviceset="GND" device=""/>
 <part name="P_ANALOG" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -21713,6 +21657,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="1u 0805"/>
 <part name="C9" library="rcl" deviceset="CPOL-EU" device="SMCB" value="1u SMC"/>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
+<part name="JP10" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP11" library="pinhead" deviceset="PINHD-2X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21736,13 +21682,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="C4" gate="G$1" x="5.08" y="58.42"/>
 <instance part="+3V3" gate="G$1" x="5.08" y="66.04"/>
 <instance part="GND4" gate="1" x="5.08" y="48.26"/>
-<instance part="R_RST" gate="G$1" x="154.94" y="41.91" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.48" y="40.8686" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.48" y="38.608" size="1.778" layer="96"/>
-</instance>
-<instance part="U$2" gate="G$1" x="154.94" y="49.53" smashed="yes">
-<attribute name="VALUE" x="157.48" y="49.53" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="+3V4" gate="G$1" x="254" y="215.9"/>
 <instance part="GND3" gate="1" x="254" y="193.04"/>
 <instance part="R1" gate="G$1" x="254" y="200.66" rot="R90"/>
@@ -21819,22 +21758,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="R19" gate="G$1" x="182.88" y="-383.54" rot="R270"/>
 <instance part="GND16" gate="1" x="182.88" y="-406.4"/>
 <instance part="P+8" gate="VCC" x="182.88" y="-375.92"/>
-<instance part="T7" gate="G$1" x="215.9" y="-398.78" smashed="yes">
-<attribute name="NAME" x="210.82" y="-393.7" size="1.778" layer="95"/>
-<attribute name="VALUE" x="205.74" y="-393.7" size="1.778" layer="96"/>
-</instance>
-<instance part="R20" gate="G$1" x="205.74" y="-398.78" rot="R180"/>
-<instance part="R21" gate="G$1" x="218.44" y="-383.54" rot="R270"/>
-<instance part="GND17" gate="1" x="218.44" y="-406.4"/>
-<instance part="P+9" gate="VCC" x="218.44" y="-375.92"/>
-<instance part="T8" gate="G$1" x="251.46" y="-398.78" smashed="yes">
-<attribute name="NAME" x="246.38" y="-393.7" size="1.778" layer="95"/>
-<attribute name="VALUE" x="241.3" y="-393.7" size="1.778" layer="96"/>
-</instance>
-<instance part="R22" gate="G$1" x="241.3" y="-398.78" rot="R180"/>
-<instance part="R23" gate="G$1" x="254" y="-383.54" rot="R270"/>
-<instance part="GND18" gate="1" x="254" y="-406.4"/>
-<instance part="P+10" gate="VCC" x="254" y="-375.92"/>
 <instance part="GND19" gate="1" x="-111.76" y="-256.54" rot="R270"/>
 <instance part="GND20" gate="1" x="-38.1" y="-248.92" rot="R270"/>
 <instance part="IC3" gate="A" x="43.18" y="-254"/>
@@ -21842,35 +21765,20 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND21" gate="1" x="27.94" y="-241.3" rot="R270"/>
 <instance part="GND22" gate="1" x="27.94" y="-256.54" rot="R270"/>
 <instance part="GND23" gate="1" x="106.68" y="-248.92" rot="R270"/>
-<instance part="IC5" gate="A" x="190.5" y="-254"/>
-<instance part="IC6" gate="A" x="264.16" y="-254"/>
-<instance part="GND24" gate="1" x="175.26" y="-241.3" rot="R270"/>
-<instance part="GND25" gate="1" x="175.26" y="-256.54" rot="R270"/>
-<instance part="GND26" gate="1" x="243.84" y="-248.92" rot="R270"/>
-<instance part="GND27" gate="1" x="243.84" y="-269.24" rot="R270"/>
-<instance part="GND28" gate="1" x="243.84" y="-256.54" rot="R270"/>
-<instance part="GND29" gate="1" x="279.4" y="-246.38" rot="R90"/>
-<instance part="GND30" gate="1" x="279.4" y="-254" rot="R90"/>
 <instance part="P+11" gate="G$1" x="58.42" y="-149.86" rot="R180"/>
 <instance part="GND31" gate="1" x="-111.76" y="-261.62" rot="R270"/>
 <instance part="GND32" gate="1" x="-38.1" y="-261.62" rot="R270"/>
 <instance part="GND33" gate="1" x="27.94" y="-261.62" rot="R270"/>
 <instance part="GND34" gate="1" x="106.68" y="-261.62" rot="R270"/>
-<instance part="GND35" gate="1" x="175.26" y="-261.62" rot="R270"/>
-<instance part="GND36" gate="1" x="248.92" y="-261.62" rot="R270"/>
 <instance part="IC1" gate="P" x="-93.98" y="-289.56"/>
 <instance part="IC2" gate="P" x="-20.32" y="-289.56"/>
 <instance part="IC3" gate="P" x="45.72" y="-289.56"/>
 <instance part="IC4" gate="P" x="124.46" y="-289.56"/>
-<instance part="IC5" gate="P" x="193.04" y="-289.56"/>
-<instance part="IC6" gate="P" x="266.7" y="-289.56"/>
 <instance part="IC9" gate="P" x="38.1" y="-170.18"/>
 <instance part="P+12" gate="VCC" x="-93.98" y="-279.4"/>
 <instance part="P+13" gate="VCC" x="-20.32" y="-279.4"/>
 <instance part="P+14" gate="VCC" x="45.72" y="-279.4"/>
 <instance part="P+15" gate="VCC" x="124.46" y="-279.4"/>
-<instance part="P+16" gate="VCC" x="193.04" y="-279.4"/>
-<instance part="P+17" gate="VCC" x="266.7" y="-279.4"/>
 <instance part="GND37" gate="1" x="-99.06" y="-299.72"/>
 <instance part="GND38" gate="1" x="-93.98" y="-299.72"/>
 <instance part="GND39" gate="1" x="-25.4" y="-299.72"/>
@@ -21879,13 +21787,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND42" gate="1" x="45.72" y="-299.72"/>
 <instance part="GND43" gate="1" x="119.38" y="-299.72"/>
 <instance part="GND44" gate="1" x="124.46" y="-299.72"/>
-<instance part="GND45" gate="1" x="187.96" y="-299.72"/>
-<instance part="GND46" gate="1" x="193.04" y="-299.72"/>
-<instance part="GND47" gate="1" x="261.62" y="-299.72"/>
-<instance part="GND48" gate="1" x="266.7" y="-299.72"/>
 <instance part="GND49" gate="1" x="38.1" y="-180.34"/>
 <instance part="P+18" gate="VCC" x="38.1" y="-160.02"/>
-<instance part="SJ1" gate="1" x="264.16" y="-200.66"/>
 <instance part="C6" gate="G$1" x="129.54" y="-137.16" rot="R90"/>
 <instance part="R24" gate="G$1" x="137.16" y="-142.24" rot="R90"/>
 <instance part="GND50" gate="1" x="137.16" y="-149.86"/>
@@ -21894,7 +21797,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="R27" gate="G$1" x="-7.62" y="-259.08" rot="R90"/>
 <instance part="R28" gate="G$1" x="137.16" y="-233.68" rot="R90"/>
 <instance part="R29" gate="G$1" x="137.16" y="-259.08" rot="R90"/>
-<instance part="R30" gate="G$1" x="279.4" y="-233.68" rot="R90"/>
 <instance part="R31" gate="G$1" x="-66.04" y="-241.3" rot="R90"/>
 <instance part="P+19" gate="G$1" x="-66.04" y="-233.68"/>
 <instance part="P+20" gate="G$1" x="-7.62" y="-226.06"/>
@@ -21903,10 +21805,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="P+22" gate="G$1" x="73.66" y="-233.68"/>
 <instance part="P+23" gate="G$1" x="137.16" y="-226.06"/>
 <instance part="P+24" gate="G$1" x="137.16" y="-266.7" rot="R180"/>
-<instance part="R33" gate="G$1" x="220.98" y="-241.3" rot="R90"/>
-<instance part="P+25" gate="G$1" x="220.98" y="-233.68"/>
-<instance part="P+26" gate="G$1" x="279.4" y="-226.06"/>
-<instance part="SJ2" gate="1" x="248.92" y="-200.66"/>
 <instance part="SJ3" gate="1" x="233.68" y="-200.66"/>
 <instance part="SJ4" gate="1" x="218.44" y="-200.66"/>
 <instance part="SJ5" gate="1" x="203.2" y="-200.66"/>
@@ -21957,36 +21855,24 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="R41" gate="G$1" x="-27.94" y="-327.66" rot="R90"/>
 <instance part="P+40" gate="G$1" x="-27.94" y="-320.04"/>
 <instance part="C15" gate="G$1" x="-20.32" y="-332.74" rot="R90"/>
-<instance part="R42" gate="G$1" x="45.72" y="-327.66" rot="R90"/>
-<instance part="P+41" gate="G$1" x="45.72" y="-320.04"/>
-<instance part="C16" gate="G$1" x="53.34" y="-332.74" rot="R90"/>
-<instance part="R43" gate="G$1" x="45.72" y="-347.98" rot="R90"/>
-<instance part="P+42" gate="G$1" x="45.72" y="-340.36"/>
-<instance part="C17" gate="G$1" x="53.34" y="-353.06" rot="R90"/>
-<instance part="R44" gate="G$1" x="-83.82" y="-393.7" rot="MR90"/>
-<instance part="P+43" gate="G$1" x="-83.82" y="-386.08" rot="MR0"/>
-<instance part="C18" gate="G$1" x="-91.44" y="-398.78" rot="MR90"/>
-<instance part="R45" gate="G$1" x="-83.82" y="-414.02" rot="MR90"/>
-<instance part="P+44" gate="G$1" x="-83.82" y="-406.4" rot="MR0"/>
-<instance part="C19" gate="G$1" x="-91.44" y="-419.1" rot="MR90"/>
-<instance part="R46" gate="G$1" x="-83.82" y="-434.34" rot="MR90"/>
-<instance part="P+45" gate="G$1" x="-83.82" y="-426.72" rot="MR0"/>
-<instance part="C20" gate="G$1" x="-91.44" y="-439.42" rot="MR90"/>
-<instance part="R47" gate="G$1" x="-2.54" y="-393.7" rot="MR90"/>
-<instance part="P+46" gate="G$1" x="-2.54" y="-386.08" rot="MR0"/>
-<instance part="C21" gate="G$1" x="-10.16" y="-398.78" rot="MR90"/>
-<instance part="R48" gate="G$1" x="-2.54" y="-414.02" rot="MR90"/>
-<instance part="P+47" gate="G$1" x="-2.54" y="-406.4" rot="MR0"/>
-<instance part="C22" gate="G$1" x="-10.16" y="-419.1" rot="MR90"/>
-<instance part="R49" gate="G$1" x="-2.54" y="-434.34" rot="MR90"/>
-<instance part="P+48" gate="G$1" x="-2.54" y="-426.72" rot="MR0"/>
-<instance part="C23" gate="G$1" x="-10.16" y="-439.42" rot="MR90"/>
-<instance part="R50" gate="G$1" x="71.12" y="-393.7" rot="MR90"/>
-<instance part="P+49" gate="G$1" x="71.12" y="-386.08" rot="MR0"/>
-<instance part="C24" gate="G$1" x="63.5" y="-398.78" rot="MR90"/>
-<instance part="R51" gate="G$1" x="71.12" y="-414.02" rot="MR90"/>
-<instance part="P+50" gate="G$1" x="71.12" y="-406.4" rot="MR0"/>
-<instance part="C25" gate="G$1" x="63.5" y="-419.1" rot="MR90"/>
+<instance part="R44" gate="G$1" x="-104.14" y="-393.7" rot="R90"/>
+<instance part="P+43" gate="G$1" x="-104.14" y="-386.08"/>
+<instance part="C18" gate="G$1" x="-96.52" y="-398.78" rot="R90"/>
+<instance part="R45" gate="G$1" x="-104.14" y="-414.02" rot="R90"/>
+<instance part="P+44" gate="G$1" x="-104.14" y="-406.4"/>
+<instance part="C19" gate="G$1" x="-96.52" y="-419.1" rot="R90"/>
+<instance part="R46" gate="G$1" x="-104.14" y="-434.34" rot="R90"/>
+<instance part="P+45" gate="G$1" x="-104.14" y="-426.72"/>
+<instance part="C20" gate="G$1" x="-96.52" y="-439.42" rot="R90"/>
+<instance part="R47" gate="G$1" x="-27.94" y="-393.7" rot="R90"/>
+<instance part="P+46" gate="G$1" x="-27.94" y="-386.08"/>
+<instance part="C21" gate="G$1" x="-20.32" y="-398.78" rot="R90"/>
+<instance part="R48" gate="G$1" x="-27.94" y="-414.02" rot="R90"/>
+<instance part="P+47" gate="G$1" x="-27.94" y="-406.4"/>
+<instance part="C22" gate="G$1" x="-20.32" y="-419.1" rot="R90"/>
+<instance part="R49" gate="G$1" x="-27.94" y="-434.34" rot="R90"/>
+<instance part="P+48" gate="G$1" x="-27.94" y="-426.72"/>
+<instance part="C23" gate="G$1" x="-20.32" y="-439.42" rot="R90"/>
 <instance part="P+51" gate="VCC" x="129.54" y="215.9" rot="R90"/>
 <instance part="C26" gate="G$1" x="149.86" y="210.82"/>
 <instance part="GND58" gate="1" x="149.86" y="203.2"/>
@@ -22084,11 +21970,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="JP13" gate="A" x="-233.68" y="-109.22"/>
 <instance part="JP14" gate="A" x="-233.68" y="-121.92"/>
 <instance part="GND72" gate="1" x="-220.98" y="-121.92" rot="R90"/>
-<instance part="P+54" gate="1" x="-210.82" y="-68.58" smashed="yes">
-<attribute name="VALUE" x="-208.28" y="-66.04" size="1.778" layer="96" rot="R90"/>
+<instance part="P+54" gate="1" x="-210.82" y="-83.82" smashed="yes">
+<attribute name="VALUE" x="-208.28" y="-81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+55" gate="VCC" x="-254" y="-68.58" smashed="yes">
-<attribute name="VALUE" x="-251.46" y="-66.04" size="1.778" layer="96" rot="R90"/>
+<instance part="P+55" gate="VCC" x="-254" y="-83.82" smashed="yes">
+<attribute name="VALUE" x="-251.46" y="-81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND73" gate="1" x="-220.98" y="-109.22" rot="R90"/>
 <instance part="GND74" gate="1" x="-220.98" y="-96.52" rot="R90"/>
@@ -22098,23 +21984,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="D6" gate="G$1" x="76.2" y="218.44"/>
 <instance part="P_UART" gate="A" x="-58.42" y="152.4" rot="R180"/>
 <instance part="GND78" gate="1" x="-48.26" y="147.32"/>
-<instance part="JP16" gate="A" x="-233.68" y="-83.82"/>
-<instance part="GND79" gate="1" x="-220.98" y="-83.82" rot="R90"/>
-<instance part="GND80" gate="1" x="-243.84" y="-83.82" rot="R270"/>
 <instance part="JP17" gate="A" x="-68.58" y="-353.06"/>
 <instance part="JP18" gate="A" x="320.04" y="48.26"/>
 <instance part="GND81" gate="1" x="312.42" y="38.1" rot="R270"/>
 <instance part="GND82" gate="1" x="-55.88" y="-353.06" rot="R90"/>
 <instance part="JP24" gate="A" x="7.62" y="-353.06"/>
 <instance part="GND83" gate="1" x="20.32" y="-353.06" rot="R90"/>
-<instance part="JP25" gate="A" x="81.28" y="-353.06"/>
-<instance part="JP26" gate="A" x="-121.92" y="-419.1"/>
-<instance part="JP27" gate="A" x="-40.64" y="-419.1"/>
-<instance part="GND84" gate="1" x="-132.08" y="-419.1" rot="R270"/>
-<instance part="GND85" gate="1" x="-50.8" y="-419.1" rot="R270"/>
-<instance part="JP28" gate="A" x="33.02" y="-419.1"/>
-<instance part="GND86" gate="1" x="22.86" y="-419.1" rot="R270"/>
-<instance part="GND87" gate="1" x="93.98" y="-353.06" rot="R90"/>
+<instance part="GND84" gate="1" x="-55.88" y="-419.1" rot="MR270"/>
+<instance part="GND85" gate="1" x="20.32" y="-419.1" rot="MR270"/>
 <instance part="IC12" gate="P" x="266.7" y="15.24"/>
 <instance part="P_ANALOG" gate="A" x="-149.86" y="-22.86" rot="R180"/>
 <instance part="GND88" gate="1" x="-139.7" y="-27.94"/>
@@ -22142,6 +22019,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </instance>
 <instance part="C9" gate="G$1" x="114.3" y="154.94"/>
 <instance part="GND92" gate="1" x="114.3" y="147.32"/>
+<instance part="JP10" gate="A" x="-68.58" y="-419.1"/>
+<instance part="JP11" gate="A" x="7.62" y="-419.1"/>
 </instances>
 <busses>
 </busses>
@@ -22165,10 +22044,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="5.08" y1="63.5" x2="5.08" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R_RST" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
@@ -22275,14 +22150,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="T7" gate="G$1" pin="E"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="T8" gate="G$1" pin="E"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="Z1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
@@ -22303,52 +22170,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="A" pin="X1"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="A" pin="Z1"/>
-<pinref part="GND25" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="Y0"/>
-<pinref part="IC6" gate="A" pin="Y1"/>
-<wire x1="248.92" y1="-246.38" x2="251.46" y2="-246.38" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-248.92" x2="248.92" y2="-248.92" width="0.1524" layer="91"/>
-<pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="248.92" y1="-248.92" x2="246.38" y2="-248.92" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="-246.38" x2="248.92" y2="-248.92" width="0.1524" layer="91"/>
-<junction x="248.92" y="-248.92"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="Z0"/>
-<wire x1="251.46" y1="-254" x2="248.92" y2="-254" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="-254" x2="248.92" y2="-256.54" width="0.1524" layer="91"/>
-<pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="248.92" y1="-256.54" x2="246.38" y2="-256.54" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="Z1"/>
-<wire x1="251.46" y1="-256.54" x2="248.92" y2="-256.54" width="0.1524" layer="91"/>
-<junction x="248.92" y="-256.54"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="B"/>
-<wire x1="251.46" y1="-266.7" x2="248.92" y2="-266.7" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="-266.7" x2="248.92" y2="-269.24" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="C"/>
-<wire x1="248.92" y1="-269.24" x2="251.46" y2="-269.24" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="-269.24" x2="246.38" y2="-269.24" width="0.1524" layer="91"/>
-<junction x="248.92" y="-269.24"/>
-<pinref part="GND27" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="Y"/>
-<pinref part="GND29" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="Z"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="INH"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 </segment>
@@ -22363,14 +22184,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="IC4" gate="A" pin="INH"/>
 <pinref part="GND34" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="A" pin="INH"/>
-<pinref part="GND35" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="INH"/>
-<pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="VEE"/>
@@ -22403,22 +22216,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="IC4" gate="P" pin="GND"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="VEE"/>
-<pinref part="GND45" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="GND"/>
-<pinref part="GND46" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="P" pin="VEE"/>
-<pinref part="GND47" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="P" pin="GND"/>
-<pinref part="GND48" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC9" gate="P" pin="V-"/>
@@ -22563,16 +22360,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-48.26" y1="149.86" x2="-55.88" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP16" gate="A" pin="4"/>
-<pinref part="GND79" gate="1" pin="GND"/>
-<wire x1="-223.52" y1="-83.82" x2="-228.6" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP16" gate="A" pin="3"/>
-<pinref part="GND80" gate="1" pin="GND"/>
-<wire x1="-241.3" y1="-83.82" x2="-236.22" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP18" gate="A" pin="9"/>
 <pinref part="GND81" gate="1" pin="GND"/>
 <wire x1="314.96" y1="38.1" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
@@ -22604,56 +22391,30 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="15.24" y1="-355.6" x2="15.24" y2="-353.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP26" gate="A" pin="3"/>
 <pinref part="GND84" gate="1" pin="GND"/>
-<wire x1="-129.54" y1="-419.1" x2="-127" y2="-419.1" width="0.1524" layer="91"/>
-<pinref part="JP26" gate="A" pin="1"/>
-<wire x1="-127" y1="-419.1" x2="-124.46" y2="-419.1" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="-416.56" x2="-127" y2="-416.56" width="0.1524" layer="91"/>
-<wire x1="-127" y1="-416.56" x2="-127" y2="-419.1" width="0.1524" layer="91"/>
-<junction x="-127" y="-419.1"/>
-<pinref part="JP26" gate="A" pin="5"/>
-<wire x1="-124.46" y1="-421.64" x2="-127" y2="-421.64" width="0.1524" layer="91"/>
-<wire x1="-127" y1="-421.64" x2="-127" y2="-419.1" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-419.1" x2="-60.96" y2="-419.1" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-419.1" x2="-63.5" y2="-419.1" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-416.56" x2="-60.96" y2="-416.56" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-416.56" x2="-60.96" y2="-419.1" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-419.1"/>
+<wire x1="-63.5" y1="-421.64" x2="-60.96" y2="-421.64" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-421.64" x2="-60.96" y2="-419.1" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="A" pin="2"/>
+<pinref part="JP10" gate="A" pin="4"/>
+<pinref part="JP10" gate="A" pin="6"/>
 </segment>
 <segment>
-<pinref part="JP27" gate="A" pin="3"/>
 <pinref part="GND85" gate="1" pin="GND"/>
-<wire x1="-48.26" y1="-419.1" x2="-45.72" y2="-419.1" width="0.1524" layer="91"/>
-<pinref part="JP27" gate="A" pin="1"/>
-<wire x1="-45.72" y1="-419.1" x2="-43.18" y2="-419.1" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-416.56" x2="-45.72" y2="-416.56" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-416.56" x2="-45.72" y2="-419.1" width="0.1524" layer="91"/>
-<junction x="-45.72" y="-419.1"/>
-<pinref part="JP27" gate="A" pin="5"/>
-<wire x1="-43.18" y1="-421.64" x2="-45.72" y2="-421.64" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-421.64" x2="-45.72" y2="-419.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP28" gate="A" pin="3"/>
-<pinref part="GND86" gate="1" pin="GND"/>
-<wire x1="25.4" y1="-419.1" x2="27.94" y2="-419.1" width="0.1524" layer="91"/>
-<pinref part="JP28" gate="A" pin="1"/>
-<wire x1="27.94" y1="-419.1" x2="30.48" y2="-419.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-416.56" x2="27.94" y2="-416.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-416.56" x2="27.94" y2="-419.1" width="0.1524" layer="91"/>
-<junction x="27.94" y="-419.1"/>
-<pinref part="JP28" gate="A" pin="5"/>
-<wire x1="30.48" y1="-421.64" x2="27.94" y2="-421.64" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-421.64" x2="27.94" y2="-419.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP25" gate="A" pin="4"/>
-<pinref part="GND87" gate="1" pin="GND"/>
-<wire x1="91.44" y1="-353.06" x2="88.9" y2="-353.06" width="0.1524" layer="91"/>
-<pinref part="JP25" gate="A" pin="2"/>
-<wire x1="88.9" y1="-353.06" x2="86.36" y2="-353.06" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-350.52" x2="88.9" y2="-350.52" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-350.52" x2="88.9" y2="-353.06" width="0.1524" layer="91"/>
-<junction x="88.9" y="-353.06"/>
-<pinref part="JP25" gate="A" pin="6"/>
-<wire x1="86.36" y1="-355.6" x2="88.9" y2="-355.6" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-355.6" x2="88.9" y2="-353.06" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-419.1" x2="15.24" y2="-419.1" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-419.1" x2="12.7" y2="-419.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-416.56" x2="15.24" y2="-416.56" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-416.56" x2="15.24" y2="-419.1" width="0.1524" layer="91"/>
+<junction x="15.24" y="-419.1"/>
+<wire x1="12.7" y1="-421.64" x2="15.24" y2="-421.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-421.64" x2="15.24" y2="-419.1" width="0.1524" layer="91"/>
+<pinref part="JP11" gate="A" pin="2"/>
+<pinref part="JP11" gate="A" pin="4"/>
+<pinref part="JP11" gate="A" pin="6"/>
 </segment>
 <segment>
 <pinref part="IC12" gate="P" pin="GND"/>
@@ -22715,15 +22476,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </segment>
 </net>
 <net name="XP_RST" class="0">
-<segment>
-<wire x1="166.37" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="27.94" x2="154.94" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
-<junction x="154.94" y="27.94"/>
-<label x="142.24" y="29.21" size="1.778" layer="95"/>
-<pinref part="MNT1" gate="1" pin="2"/>
-<pinref part="R_RST" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <pinref part="MICRO_XP" gate="G$1" pin="!RESET_/PD0"/>
 <wire x1="116.84" y1="2.54" x2="124.46" y2="2.54" width="0.1524" layer="91"/>
@@ -22829,14 +22581,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="P+24" gate="G$1" pin="VCC/2"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="P+25" gate="G$1" pin="VCC/2"/>
-</segment>
-<segment>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="P+26" gate="G$1" pin="VCC/2"/>
-</segment>
-<segment>
 <pinref part="R36" gate="G$1" pin="2"/>
 <pinref part="P+35" gate="G$1" pin="VCC/2"/>
 </segment>
@@ -22861,14 +22605,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="P+40" gate="G$1" pin="VCC/2"/>
 </segment>
 <segment>
-<pinref part="R42" gate="G$1" pin="2"/>
-<pinref part="P+41" gate="G$1" pin="VCC/2"/>
-</segment>
-<segment>
-<pinref part="R43" gate="G$1" pin="2"/>
-<pinref part="P+42" gate="G$1" pin="VCC/2"/>
-</segment>
-<segment>
 <pinref part="R44" gate="G$1" pin="2"/>
 <pinref part="P+43" gate="G$1" pin="VCC/2"/>
 </segment>
@@ -22891,14 +22627,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="R49" gate="G$1" pin="2"/>
 <pinref part="P+48" gate="G$1" pin="VCC/2"/>
-</segment>
-<segment>
-<pinref part="R50" gate="G$1" pin="2"/>
-<pinref part="P+49" gate="G$1" pin="VCC/2"/>
-</segment>
-<segment>
-<pinref part="R51" gate="G$1" pin="2"/>
-<pinref part="P+50" gate="G$1" pin="VCC/2"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -23060,14 +22788,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="P+9" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="P+10" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="P" pin="VCC"/>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
 </segment>
@@ -23082,14 +22802,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="IC4" gate="P" pin="VCC"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="VCC"/>
-<pinref part="P+16" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="P" pin="VCC"/>
-<pinref part="P+17" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="IC9" gate="P" pin="V+"/>
@@ -23159,16 +22871,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-236.22" y1="-106.68" x2="-254" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="-254" y="-106.68"/>
 <pinref part="P+55" gate="VCC" pin="VCC"/>
-<wire x1="-254" y1="-93.98" x2="-254" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="-254" y1="-93.98" x2="-254" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="-254" y="-93.98"/>
-<pinref part="JP16" gate="A" pin="1"/>
-<wire x1="-254" y1="-81.28" x2="-254" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="-236.22" y1="-81.28" x2="-254" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="-254" y="-81.28"/>
-<pinref part="JP16" gate="A" pin="2"/>
-<wire x1="-228.6" y1="-81.28" x2="-215.9" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="-215.9" y1="-81.28" x2="-215.9" y2="-93.98" width="0.1524" layer="91"/>
-<junction x="-215.9" y="-93.98"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -23308,54 +23012,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="U$1" gate="G$1" pin="PC5/LED/SCK"/>
 </segment>
 </net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="T7" gate="G$1" pin="B"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="-398.78" x2="213.36" y2="-398.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="T8" gate="G$1" pin="B"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="-398.78" x2="248.92" y2="-398.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MCU_SW7" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="-398.78" x2="195.58" y2="-398.78" width="0.1524" layer="91"/>
-<label x="190.5" y="-401.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MICRO_XP" gate="G$1" pin="PC6/LED"/>
-<wire x1="116.84" y1="-2.54" x2="124.46" y2="-2.54" width="0.1524" layer="91"/>
-<label x="124.46" y="-2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<label x="124.46" y="45.72" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PC6/LED/T2IN/!T2OUT!"/>
-</segment>
-</net>
-<net name="MCU_SW8" class="0">
-<segment>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="-398.78" x2="231.14" y2="-398.78" width="0.1524" layer="91"/>
-<label x="226.06" y="-401.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MICRO_XP" gate="G$1" pin="PC7/LED"/>
-<wire x1="116.84" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
-<label x="124.46" y="0" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
-<label x="124.46" y="48.26" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PC7/LED/T2OUT"/>
-</segment>
-</net>
 <net name="SW_E_IN1" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="X"/>
@@ -23378,12 +23034,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="-124.46" y="-246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-76.2" y1="-398.78" x2="-83.82" y2="-398.78" width="0.1524" layer="91"/>
-<label x="-66.04" y="-398.78" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-111.76" y1="-398.78" x2="-104.14" y2="-398.78" width="0.1524" layer="91"/>
+<label x="-121.92" y="-398.78" size="1.778" layer="95"/>
 <pinref part="R44" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="+"/>
-<wire x1="-88.9" y1="-398.78" x2="-83.82" y2="-398.78" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-398.78"/>
+<wire x1="-99.06" y1="-398.78" x2="-104.14" y2="-398.78" width="0.1524" layer="91"/>
+<junction x="-104.14" y="-398.78"/>
 </segment>
 </net>
 <net name="SW_E_IN2" class="0">
@@ -23408,12 +23064,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="-50.8" y="-238.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-76.2" y1="-419.1" x2="-83.82" y2="-419.1" width="0.1524" layer="91"/>
-<label x="-66.04" y="-419.1" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-111.76" y1="-419.1" x2="-104.14" y2="-419.1" width="0.1524" layer="91"/>
+<label x="-121.92" y="-419.1" size="1.778" layer="95"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 <pinref part="C19" gate="G$1" pin="+"/>
-<wire x1="-88.9" y1="-419.1" x2="-83.82" y2="-419.1" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-419.1"/>
+<wire x1="-99.06" y1="-419.1" x2="-104.14" y2="-419.1" width="0.1524" layer="91"/>
+<junction x="-104.14" y="-419.1"/>
 </segment>
 </net>
 <net name="SW_E_OUT3" class="0">
@@ -23423,12 +23079,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="-50.8" y="-254" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-76.2" y1="-439.42" x2="-83.82" y2="-439.42" width="0.1524" layer="91"/>
-<label x="-66.04" y="-439.42" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-111.76" y1="-439.42" x2="-104.14" y2="-439.42" width="0.1524" layer="91"/>
+<label x="-121.92" y="-439.42" size="1.778" layer="95"/>
 <pinref part="R46" gate="G$1" pin="1"/>
 <pinref part="C20" gate="G$1" pin="+"/>
-<wire x1="-88.9" y1="-439.42" x2="-83.82" y2="-439.42" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-439.42"/>
+<wire x1="-99.06" y1="-439.42" x2="-104.14" y2="-439.42" width="0.1524" layer="91"/>
+<junction x="-104.14" y="-439.42"/>
 </segment>
 </net>
 <net name="SW_E_IN3" class="0">
@@ -23520,7 +23176,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="210.82" y="-208.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW6-7" class="0">
+<net name="SW6" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="Z"/>
 <wire x1="134.62" y1="-254" x2="137.16" y2="-254" width="0.1524" layer="91"/>
@@ -23530,23 +23186,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="137.16" y="-254"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="A" pin="X0"/>
-<wire x1="177.8" y1="-238.76" x2="172.72" y2="-238.76" width="0.1524" layer="91"/>
-<label x="167.64" y="-238.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="A" pin="Y1"/>
-<wire x1="172.72" y1="-248.92" x2="177.8" y2="-248.92" width="0.1524" layer="91"/>
-<label x="167.64" y="-248.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="243.84" y1="-200.66" x2="241.3" y2="-200.66" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="241.3" y1="-200.66" x2="238.76" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="-200.66" x2="241.3" y2="-205.74" width="0.1524" layer="91"/>
-<junction x="241.3" y="-200.66"/>
-<label x="241.3" y="-208.28" size="1.778" layer="95"/>
+<wire x1="243.84" y1="-200.66" x2="238.76" y2="-200.66" width="0.1524" layer="91"/>
+<label x="243.84" y="-200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="B" pin="+IN"/>
+<wire x1="106.68" y1="-134.62" x2="93.98" y2="-134.62" width="0.1524" layer="91"/>
+<label x="91.44" y="-134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW5-6" class="0">
@@ -23578,55 +23225,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="226.06" y="-208.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW7-8" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="Y"/>
-<wire x1="203.2" y1="-246.38" x2="220.98" y2="-246.38" width="0.1524" layer="91"/>
-<label x="226.06" y="-246.38" size="1.778" layer="95"/>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="-246.38" x2="226.06" y2="-246.38" width="0.1524" layer="91"/>
-<junction x="220.98" y="-246.38"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="A" pin="Z0"/>
-<wire x1="177.8" y1="-254" x2="172.72" y2="-254" width="0.1524" layer="91"/>
-<label x="167.64" y="-254" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="X1"/>
-<wire x1="251.46" y1="-241.3" x2="246.38" y2="-241.3" width="0.1524" layer="91"/>
-<label x="241.3" y="-241.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SJ1" gate="1" pin="1"/>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="259.08" y1="-200.66" x2="256.54" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="-200.66" x2="254" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="-200.66" x2="256.54" y2="-205.74" width="0.1524" layer="91"/>
-<junction x="256.54" y="-200.66"/>
-<label x="256.54" y="-208.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SW8" class="0">
-<segment>
-<pinref part="IC6" gate="A" pin="X"/>
-<wire x1="276.86" y1="-238.76" x2="279.4" y2="-238.76" width="0.1524" layer="91"/>
-<label x="284.48" y="-238.76" size="1.778" layer="95"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="-238.76" x2="284.48" y2="-238.76" width="0.1524" layer="91"/>
-<junction x="279.4" y="-238.76"/>
-</segment>
-<segment>
-<pinref part="IC9" gate="B" pin="+IN"/>
-<wire x1="106.68" y1="-134.62" x2="93.98" y2="-134.62" width="0.1524" layer="91"/>
-<label x="91.44" y="-134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="269.24" y1="-200.66" x2="274.32" y2="-200.66" width="0.1524" layer="91"/>
-<label x="274.32" y="-200.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SW_E_OUT4" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="Y0"/>
@@ -23634,12 +23232,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="12.7" y="-246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="5.08" y1="-398.78" x2="-2.54" y2="-398.78" width="0.1524" layer="91"/>
-<label x="15.24" y="-398.78" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-35.56" y1="-398.78" x2="-27.94" y2="-398.78" width="0.1524" layer="91"/>
+<label x="-45.72" y="-398.78" size="1.778" layer="95"/>
 <pinref part="R47" gate="G$1" pin="1"/>
 <pinref part="C21" gate="G$1" pin="+"/>
-<wire x1="-7.62" y1="-398.78" x2="-2.54" y2="-398.78" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-398.78"/>
+<wire x1="-22.86" y1="-398.78" x2="-27.94" y2="-398.78" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-398.78"/>
 </segment>
 </net>
 <net name="SW_E_IN4" class="0">
@@ -23679,12 +23277,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="93.98" y="-238.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="5.08" y1="-419.1" x2="-2.54" y2="-419.1" width="0.1524" layer="91"/>
-<label x="15.24" y="-419.1" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-35.56" y1="-419.1" x2="-27.94" y2="-419.1" width="0.1524" layer="91"/>
+<label x="-45.72" y="-419.1" size="1.778" layer="95"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 <pinref part="C22" gate="G$1" pin="+"/>
-<wire x1="-7.62" y1="-419.1" x2="-2.54" y2="-419.1" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-419.1"/>
+<wire x1="-22.86" y1="-419.1" x2="-27.94" y2="-419.1" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-419.1"/>
 </segment>
 </net>
 <net name="SW_E_IN6" class="0">
@@ -23709,72 +23307,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="93.98" y="-254" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="5.08" y1="-439.42" x2="-2.54" y2="-439.42" width="0.1524" layer="91"/>
-<label x="15.24" y="-439.42" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-35.56" y1="-439.42" x2="-27.94" y2="-439.42" width="0.1524" layer="91"/>
+<label x="-45.72" y="-439.42" size="1.778" layer="95"/>
 <pinref part="R49" gate="G$1" pin="1"/>
 <pinref part="C23" gate="G$1" pin="+"/>
-<wire x1="-7.62" y1="-439.42" x2="-2.54" y2="-439.42" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-439.42"/>
-</segment>
-</net>
-<net name="SW_E_IN7" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="X"/>
-<wire x1="203.2" y1="-238.76" x2="208.28" y2="-238.76" width="0.1524" layer="91"/>
-<label x="205.74" y="-238.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="-332.74" x2="45.72" y2="-332.74" width="0.1524" layer="91"/>
-<label x="27.94" y="-332.74" size="1.778" layer="95"/>
-<pinref part="R42" gate="G$1" pin="1"/>
-<pinref part="C16" gate="G$1" pin="+"/>
-<wire x1="50.8" y1="-332.74" x2="45.72" y2="-332.74" width="0.1524" layer="91"/>
-<junction x="45.72" y="-332.74"/>
-</segment>
-</net>
-<net name="SW_E_OUT7" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="Y0"/>
-<wire x1="177.8" y1="-246.38" x2="172.72" y2="-246.38" width="0.1524" layer="91"/>
-<label x="162.56" y="-246.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="78.74" y1="-398.78" x2="71.12" y2="-398.78" width="0.1524" layer="91"/>
-<label x="88.9" y="-398.78" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="66.04" y1="-398.78" x2="71.12" y2="-398.78" width="0.1524" layer="91"/>
-<junction x="71.12" y="-398.78"/>
-</segment>
-</net>
-<net name="SW_E_IN8" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="Z"/>
-<wire x1="203.2" y1="-254" x2="208.28" y2="-254" width="0.1524" layer="91"/>
-<label x="205.74" y="-254" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="-353.06" x2="45.72" y2="-353.06" width="0.1524" layer="91"/>
-<label x="27.94" y="-353.06" size="1.778" layer="95"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<pinref part="C17" gate="G$1" pin="+"/>
-<wire x1="50.8" y1="-353.06" x2="45.72" y2="-353.06" width="0.1524" layer="91"/>
-<junction x="45.72" y="-353.06"/>
-</segment>
-</net>
-<net name="SW_E_OUT8" class="0">
-<segment>
-<pinref part="IC6" gate="A" pin="X0"/>
-<wire x1="251.46" y1="-238.76" x2="246.38" y2="-238.76" width="0.1524" layer="91"/>
-<label x="236.22" y="-238.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="78.74" y1="-419.1" x2="71.12" y2="-419.1" width="0.1524" layer="91"/>
-<label x="88.9" y="-419.1" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="C25" gate="G$1" pin="+"/>
-<wire x1="66.04" y1="-419.1" x2="71.12" y2="-419.1" width="0.1524" layer="91"/>
-<junction x="71.12" y="-419.1"/>
+<wire x1="-22.86" y1="-439.42" x2="-27.94" y2="-439.42" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-439.42"/>
 </segment>
 </net>
 <net name="C_SW1" class="0">
@@ -23901,48 +23439,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="182.88" y1="-391.16" x2="190.5" y2="-391.16" width="0.1524" layer="91"/>
 <junction x="182.88" y="-391.16"/>
 <label x="190.5" y="-391.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="C_SW7" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="A"/>
-<wire x1="177.8" y1="-264.16" x2="175.26" y2="-264.16" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-264.16" x2="175.26" y2="-266.7" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="B"/>
-<wire x1="175.26" y1="-266.7" x2="177.8" y2="-266.7" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-266.7" x2="170.18" y2="-266.7" width="0.1524" layer="91"/>
-<junction x="175.26" y="-266.7"/>
-<label x="165.1" y="-266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="T7" gate="G$1" pin="C"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="-388.62" x2="218.44" y2="-391.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-391.16" x2="218.44" y2="-393.7" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-391.16" x2="226.06" y2="-391.16" width="0.1524" layer="91"/>
-<junction x="218.44" y="-391.16"/>
-<label x="226.06" y="-391.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="C_SW8" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="C"/>
-<wire x1="177.8" y1="-269.24" x2="170.18" y2="-269.24" width="0.1524" layer="91"/>
-<label x="165.1" y="-269.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="A" pin="A"/>
-<wire x1="251.46" y1="-264.16" x2="243.84" y2="-264.16" width="0.1524" layer="91"/>
-<label x="236.22" y="-264.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="T8" gate="G$1" pin="C"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="254" y1="-388.62" x2="254" y2="-391.16" width="0.1524" layer="91"/>
-<wire x1="254" y1="-391.16" x2="254" y2="-393.7" width="0.1524" layer="91"/>
-<wire x1="254" y1="-391.16" x2="261.62" y2="-391.16" width="0.1524" layer="91"/>
-<junction x="254" y="-391.16"/>
-<label x="261.62" y="-391.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -24126,9 +23622,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="JP12" gate="A" pin="6"/>
 <pinref part="P+54" gate="1" pin="+18V"/>
 <wire x1="-228.6" y1="-99.06" x2="-210.82" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="-210.82" y1="-99.06" x2="-210.82" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="6"/>
-<wire x1="-210.82" y1="-86.36" x2="-210.82" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-99.06" x2="-210.82" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="-111.76" x2="-210.82" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="-111.76" x2="-210.82" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="-210.82" y="-99.06"/>
@@ -24150,13 +23645,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="JP13" gate="A" pin="5"/>
 <wire x1="-236.22" y1="-111.76" x2="-248.92" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="-248.92" y="-111.76"/>
-<pinref part="JP16" gate="A" pin="5"/>
-<wire x1="-236.22" y1="-86.36" x2="-248.92" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="-248.92" y1="-86.36" x2="-248.92" y2="-99.06" width="0.1524" layer="91"/>
-<junction x="-248.92" y="-99.06"/>
-<pinref part="JP16" gate="A" pin="6"/>
-<wire x1="-228.6" y1="-86.36" x2="-210.82" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="-210.82" y="-86.36"/>
 </segment>
 </net>
 <net name="DATA" class="0">
@@ -24217,22 +23705,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="U$1" gate="G$1" pin="PA6/T1IN/!T1OUT!/SCL"/>
 </segment>
 </net>
-<net name="E_IN8" class="0">
-<segment>
-<pinref part="C17" gate="G$1" pin="-"/>
-<label x="63.5" y="-353.06" size="1.778" layer="95"/>
-<pinref part="JP25" gate="A" pin="3"/>
-<wire x1="58.42" y1="-353.06" x2="78.74" y2="-353.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="E_OUT8" class="0">
-<segment>
-<pinref part="C25" gate="G$1" pin="-"/>
-<label x="53.34" y="-419.1" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP28" gate="A" pin="4"/>
-<wire x1="58.42" y1="-419.1" x2="38.1" y2="-419.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="E_IN1" class="0">
 <segment>
 <pinref part="C10" gate="G$1" pin="-"/>
@@ -24289,80 +23761,60 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="0" y1="-373.38" x2="-15.24" y2="-373.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="E_IN7" class="0">
-<segment>
-<pinref part="C16" gate="G$1" pin="-"/>
-<label x="63.5" y="-332.74" size="1.778" layer="95"/>
-<wire x1="58.42" y1="-332.74" x2="73.66" y2="-332.74" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-332.74" x2="73.66" y2="-350.52" width="0.1524" layer="91"/>
-<pinref part="JP25" gate="A" pin="1"/>
-<wire x1="73.66" y1="-350.52" x2="78.74" y2="-350.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="E_OUT1" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="-"/>
-<label x="-101.6" y="-398.78" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP26" gate="A" pin="2"/>
-<wire x1="-116.84" y1="-416.56" x2="-111.76" y2="-416.56" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-416.56" x2="-111.76" y2="-398.78" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-398.78" x2="-96.52" y2="-398.78" width="0.1524" layer="91"/>
+<label x="-86.36" y="-398.78" size="1.778" layer="95"/>
+<wire x1="-71.12" y1="-416.56" x2="-76.2" y2="-416.56" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-416.56" x2="-76.2" y2="-398.78" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-398.78" x2="-91.44" y2="-398.78" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="E_OUT2" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="-"/>
-<label x="-101.6" y="-419.1" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP26" gate="A" pin="4"/>
-<wire x1="-96.52" y1="-419.1" x2="-116.84" y2="-419.1" width="0.1524" layer="91"/>
+<label x="-86.36" y="-419.1" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="-419.1" x2="-71.12" y2="-419.1" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="E_OUT3" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="-"/>
-<label x="-101.6" y="-439.42" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP26" gate="A" pin="6"/>
-<wire x1="-116.84" y1="-421.64" x2="-111.76" y2="-421.64" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-421.64" x2="-111.76" y2="-439.42" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-439.42" x2="-96.52" y2="-439.42" width="0.1524" layer="91"/>
+<label x="-86.36" y="-439.42" size="1.778" layer="95"/>
+<wire x1="-71.12" y1="-421.64" x2="-76.2" y2="-421.64" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-421.64" x2="-76.2" y2="-439.42" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-439.42" x2="-91.44" y2="-439.42" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="E_OUT4" class="0">
 <segment>
 <pinref part="C21" gate="G$1" pin="-"/>
-<label x="-20.32" y="-398.78" size="1.778" layer="95" rot="MR0"/>
-<wire x1="-15.24" y1="-398.78" x2="-30.48" y2="-398.78" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-398.78" x2="-30.48" y2="-416.56" width="0.1524" layer="91"/>
-<pinref part="JP27" gate="A" pin="2"/>
-<wire x1="-30.48" y1="-416.56" x2="-35.56" y2="-416.56" width="0.1524" layer="91"/>
+<label x="-10.16" y="-398.78" size="1.778" layer="95"/>
+<wire x1="-15.24" y1="-398.78" x2="0" y2="-398.78" width="0.1524" layer="91"/>
+<wire x1="0" y1="-398.78" x2="0" y2="-416.56" width="0.1524" layer="91"/>
+<wire x1="0" y1="-416.56" x2="5.08" y2="-416.56" width="0.1524" layer="91"/>
+<pinref part="JP11" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="E_OUT5" class="0">
 <segment>
 <pinref part="C22" gate="G$1" pin="-"/>
-<label x="-20.32" y="-419.1" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP27" gate="A" pin="4"/>
-<wire x1="-35.56" y1="-419.1" x2="-15.24" y2="-419.1" width="0.1524" layer="91"/>
+<label x="-10.16" y="-419.1" size="1.778" layer="95"/>
+<wire x1="5.08" y1="-419.1" x2="-15.24" y2="-419.1" width="0.1524" layer="91"/>
+<pinref part="JP11" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="E_OUT6" class="0">
 <segment>
 <pinref part="C23" gate="G$1" pin="-"/>
-<label x="-20.32" y="-439.42" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP27" gate="A" pin="6"/>
-<wire x1="-35.56" y1="-421.64" x2="-30.48" y2="-421.64" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-421.64" x2="-30.48" y2="-439.42" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-439.42" x2="-15.24" y2="-439.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="E_OUT7" class="0">
-<segment>
-<pinref part="C24" gate="G$1" pin="-"/>
-<label x="53.34" y="-398.78" size="1.778" layer="95" rot="MR0"/>
-<wire x1="58.42" y1="-398.78" x2="43.18" y2="-398.78" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-398.78" x2="43.18" y2="-416.56" width="0.1524" layer="91"/>
-<pinref part="JP28" gate="A" pin="2"/>
-<wire x1="43.18" y1="-416.56" x2="38.1" y2="-416.56" width="0.1524" layer="91"/>
+<label x="-10.16" y="-439.42" size="1.778" layer="95"/>
+<wire x1="5.08" y1="-421.64" x2="0" y2="-421.64" width="0.1524" layer="91"/>
+<wire x1="0" y1="-421.64" x2="0" y2="-439.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="-439.42" x2="-15.24" y2="-439.42" width="0.1524" layer="91"/>
+<pinref part="JP11" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="N$11" class="0">
