@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21411,7 +21411,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="1k SMD"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP"/>
@@ -21659,6 +21658,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
 <part name="JP10" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="JP11" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21702,7 +21702,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="D3" gate="G$1" x="-101.6" y="170.18" rot="R90"/>
 <instance part="R6" gate="G$1" x="-71.12" y="180.34" rot="R270"/>
 <instance part="GND7" gate="1" x="-73.66" y="165.1"/>
-<instance part="P+2" gate="1" x="-71.12" y="190.5"/>
 <instance part="R7" gate="G$1" x="58.42" y="-142.24" rot="R90"/>
 <instance part="GND8" gate="1" x="-111.76" y="-241.3" rot="R270"/>
 <instance part="Q1" gate="G$1" x="12.7" y="2.54"/>
@@ -22021,6 +22020,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND92" gate="1" x="114.3" y="147.32"/>
 <instance part="JP10" gate="A" x="-68.58" y="-419.1"/>
 <instance part="JP11" gate="A" x="7.62" y="-419.1"/>
+<instance part="+3V8" gate="G$1" x="-71.12" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -22078,6 +22078,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="P_ANALOG" gate="A" pin="3"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="-139.7" y1="-20.32" x2="-147.32" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-71.12" y1="187.96" x2="-71.12" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -22686,11 +22691,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </segment>
 </net>
 <net name="+5V" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="-71.12" y1="187.96" x2="-71.12" y2="185.42" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="P+27" gate="1" pin="+5V"/>
