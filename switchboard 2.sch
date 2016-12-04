@@ -20626,6 +20626,12 @@ Source: www.cypressindustries.com</description>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="P-4" library="supply1" deviceset="-5V" device=""/>
+<part name="P+17" library="supply1" deviceset="+5V" device=""/>
+<part name="GND38" library="supply1" deviceset="GND" device=""/>
+<part name="GND39" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20637,7 +20643,8 @@ Source: www.cypressindustries.com</description>
 FT232 (and its regulator) is not mounted.</text>
 <text x="-403.86" y="86.36" size="1.27" layer="97">USB connector pin 4 is to be left unconnected</text>
 <text x="-358.14" y="104.14" size="1.27" layer="97">USB Mini B</text>
-<text x="-137.16" y="-12.7" size="1.27" layer="97">Generic analog input</text>
+<text x="-137.16" y="-12.7" size="1.778" layer="97">Generic analog input</text>
+<text x="-233.68" y="185.42" size="1.778" layer="97">MIDI Thru/MIDI Out jumper</text>
 </plain>
 <instances>
 <instance part="IC18" gate="G$1" x="86.36" y="53.34"/>
@@ -20664,12 +20671,12 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="R4" gate="G$1" x="-10.16" y="-132.08" rot="R180"/>
 <instance part="GND5" gate="1" x="5.08" y="-147.32"/>
 <instance part="GND6" gate="1" x="-2.54" y="-147.32"/>
-<instance part="R5" gate="G$1" x="-322.58" y="213.36" rot="R180"/>
-<instance part="R6" gate="G$1" x="-276.86" y="223.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="-275.59" y="225.0186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-275.59" y="220.218" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="-320.04" y="226.06" rot="R180"/>
+<instance part="R6" gate="G$1" x="-274.32" y="236.22" smashed="yes" rot="R270">
+<attribute name="NAME" x="-273.05" y="237.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-273.05" y="232.918" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-279.4" y="205.74"/>
+<instance part="GND7" gate="1" x="-276.86" y="218.44"/>
 <instance part="R7" gate="G$1" x="58.42" y="-142.24" rot="R90"/>
 <instance part="R9" gate="G$1" x="147.32" y="-342.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="148.59" y="-341.4014" size="1.778" layer="95"/>
@@ -20681,15 +20688,15 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="GND50" gate="1" x="137.16" y="-149.86"/>
 <instance part="R25" gate="G$1" x="147.32" y="-137.16" rot="R180"/>
 <instance part="C7" gate="G$1" x="86.36" y="-182.88"/>
-<instance part="R34" gate="G$1" x="-320.04" y="172.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="-321.31" y="170.9674" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-318.77" y="169.418" size="1.778" layer="96"/>
+<instance part="R34" gate="G$1" x="-317.5" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-318.77" y="183.6674" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-316.23" y="182.118" size="1.778" layer="96"/>
 </instance>
-<instance part="R35" gate="G$1" x="-320.04" y="177.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="-321.31" y="176.3014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-318.77" y="174.498" size="1.778" layer="96"/>
+<instance part="R35" gate="G$1" x="-317.5" y="190.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="-318.77" y="189.0014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-316.23" y="187.198" size="1.778" layer="96"/>
 </instance>
-<instance part="GND51" gate="1" x="-261.62" y="261.62"/>
+<instance part="GND51" gate="1" x="-259.08" y="274.32"/>
 <instance part="GND52" gate="1" x="340.36" y="-2.54"/>
 <instance part="IC19" gate="G$1" x="86.36" y="5.08"/>
 <instance part="+3V5" gate="G$1" x="48.26" y="10.16" rot="R90"/>
@@ -20818,10 +20825,10 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="P_ANALOG" gate="A" x="-165.1" y="-33.02" rot="R180"/>
 <instance part="GND88" gate="1" x="-154.94" y="-38.1"/>
 <instance part="+3V7" gate="G$1" x="-152.4" y="-30.48" rot="R270"/>
-<instance part="P_MIDI_IN" gate="A" x="-350.52" y="210.82" rot="R180"/>
-<instance part="P_MIDI_OUT" gate="A" x="-350.52" y="175.26" rot="R180"/>
-<instance part="GND89" gate="1" x="-342.9" y="210.82" rot="R90"/>
-<instance part="GND90" gate="1" x="-342.9" y="175.26" rot="R90"/>
+<instance part="P_MIDI_IN" gate="A" x="-347.98" y="223.52" rot="R180"/>
+<instance part="P_MIDI_OUT" gate="A" x="-347.98" y="187.96" rot="R180"/>
+<instance part="GND89" gate="1" x="-340.36" y="223.52" rot="R90"/>
+<instance part="GND90" gate="1" x="-340.36" y="187.96" rot="R90"/>
 <instance part="P_POWER_IN" gate="G$1" x="10.16" y="218.44" rot="R180"/>
 <instance part="GND91" gate="1" x="20.32" y="213.36"/>
 <instance part="H1" gate="G$1" x="-81.28" y="233.68"/>
@@ -20830,8 +20837,8 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="H4" gate="G$1" x="-81.28" y="210.82"/>
 <instance part="JP10" gate="A" x="-68.58" y="-370.84"/>
 <instance part="JP11" gate="A" x="7.62" y="-370.84"/>
-<instance part="+3V8" gate="G$1" x="-276.86" y="241.3" smashed="yes">
-<attribute name="VALUE" x="-269.24" y="241.3" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V8" gate="G$1" x="-274.32" y="254" smashed="yes">
+<attribute name="VALUE" x="-266.7" y="254" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC16" gate="G$1" x="60.96" y="218.44"/>
 <instance part="GND17" gate="1" x="86.36" y="205.74"/>
@@ -20867,7 +20874,7 @@ FT232 (and its regulator) is not mounted.</text>
 <attribute name="VALUE" x="-199.39" y="87.122" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LED2" gate="G$1" x="-190.5" y="93.98"/>
-<instance part="GND36" gate="1" x="-281.94" y="261.62"/>
+<instance part="GND36" gate="1" x="-279.4" y="274.32"/>
 <instance part="P+10" gate="1" x="147.32" y="-335.28" smashed="yes">
 <attribute name="VALUE" x="144.78" y="-335.28" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -20940,14 +20947,14 @@ FT232 (and its regulator) is not mounted.</text>
 <attribute name="VALUE" x="342.9" y="20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C12" gate="G$1" x="350.52" y="7.62"/>
-<instance part="+3V15" gate="G$1" x="-281.94" y="281.94"/>
-<instance part="IC14" gate="A" x="-259.08" y="213.36" rot="MR180"/>
-<instance part="IC15" gate="A" x="-256.54" y="172.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="-259.08" y="169.545" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-248.92" y="182.88" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V15" gate="G$1" x="-279.4" y="294.64"/>
+<instance part="IC14" gate="A" x="-256.54" y="226.06" rot="MR180"/>
+<instance part="IC15" gate="A" x="-264.16" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-266.7" y="182.245" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-256.54" y="195.58" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC14" gate="P" x="-281.94" y="271.78"/>
-<instance part="IC15" gate="P" x="-261.62" y="271.78"/>
+<instance part="IC14" gate="P" x="-279.4" y="284.48"/>
+<instance part="IC15" gate="P" x="-259.08" y="284.48"/>
 <instance part="D1" gate="G$1" x="-2.54" y="-139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="-5.08" y="-137.6426" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-5.08" y="-139.9286" size="1.778" layer="96" rot="R180"/>
@@ -20959,12 +20966,12 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="P+7" gate="1" x="-2.54" y="-116.84" smashed="yes">
 <attribute name="VALUE" x="-5.08" y="-116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D3" gate="G$1" x="-304.8" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="-307.34" y="212.8774" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-307.34" y="210.5914" size="1.778" layer="96" rot="R180"/>
+<instance part="D3" gate="G$1" x="-302.26" y="223.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="-304.8" y="225.5774" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-304.8" y="223.2914" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC6" gate="G$1" x="167.64" y="218.44"/>
-<instance part="C13" gate="G$1" x="-254" y="271.78"/>
+<instance part="C13" gate="G$1" x="-251.46" y="284.48"/>
 <instance part="IC11" gate="G$1" x="-99.06" y="-35.56"/>
 <instance part="GND3" gate="1" x="-99.06" y="-45.72"/>
 <instance part="+3V16" gate="G$1" x="-137.16" y="-20.32" smashed="yes">
@@ -20984,7 +20991,7 @@ FT232 (and its regulator) is not mounted.</text>
 <attribute name="VALUE" x="71.12" y="-198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="322.58" y="-35.56"/>
-<instance part="+3V18" gate="G$1" x="-312.42" y="185.42"/>
+<instance part="+3V18" gate="G$1" x="-309.88" y="198.12"/>
 <instance part="D7" gate="G$1" x="294.64" y="205.74" smashed="yes" rot="MR90">
 <attribute name="NAME" x="291.338" y="207.645" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="291.338" y="204.851" size="1.778" layer="96" rot="MR0"/>
@@ -20995,11 +21002,11 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="P+11" gate="1" x="274.32" y="228.6" smashed="yes">
 <attribute name="VALUE" x="276.86" y="231.14" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC17" gate="G$1" x="-289.56" y="210.82" smashed="yes">
-<attribute name="NAME" x="-296.545" y="216.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-301.625" y="203.2" size="1.778" layer="96"/>
+<instance part="IC17" gate="G$1" x="-287.02" y="223.52" smashed="yes">
+<attribute name="NAME" x="-294.005" y="229.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-299.085" y="215.9" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V19" gate="G$1" x="-261.62" y="281.94"/>
+<instance part="+3V19" gate="G$1" x="-259.08" y="294.64"/>
 <instance part="R39" gate="G$1" x="30.48" y="-152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.13" y="-150.9014" size="1.778" layer="95"/>
 </instance>
@@ -21110,8 +21117,8 @@ FT232 (and its regulator) is not mounted.</text>
 <attribute name="NAME" x="97.79" y="-249.9614" size="1.778" layer="95"/>
 </instance>
 <instance part="GND33" gate="1" x="104.14" y="-259.08"/>
-<instance part="C18" gate="G$1" x="-289.56" y="231.14"/>
-<instance part="GND34" gate="1" x="-289.56" y="223.52"/>
+<instance part="C18" gate="G$1" x="-287.02" y="243.84"/>
+<instance part="GND34" gate="1" x="-287.02" y="236.22"/>
 <instance part="L1" gate="G$1" x="-330.2" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="-326.39" y="95.0214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-321.31" y="99.822" size="1.778" layer="96" rot="R180"/>
@@ -21128,7 +21135,7 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="C9" gate="G$1" x="86.36" y="213.36"/>
 <instance part="C16" gate="G$1" x="30.48" y="213.36"/>
 <instance part="C17" gate="G$1" x="195.58" y="213.36"/>
-<instance part="SJ3" gate="G$1" x="-233.68" y="213.36"/>
+<instance part="SJ3" gate="G$1" x="-243.84" y="185.42"/>
 <instance part="C22" gate="G$1" x="180.34" y="167.64"/>
 <instance part="C23" gate="G$1" x="185.42" y="213.36"/>
 <instance part="GND13" gate="1" x="185.42" y="205.74"/>
@@ -21136,6 +21143,16 @@ FT232 (and its regulator) is not mounted.</text>
 <instance part="C27" gate="G$1" x="304.8" y="205.74"/>
 <instance part="GND18" gate="1" x="330.2" y="162.56" rot="MR0"/>
 <instance part="GND37" gate="1" x="304.8" y="198.12"/>
+<instance part="C28" gate="G$1" x="271.78" y="-193.04"/>
+<instance part="C31" gate="G$1" x="271.78" y="-200.66"/>
+<instance part="P-4" gate="1" x="271.78" y="-210.82" smashed="yes">
+<attribute name="VALUE" x="276.86" y="-210.82" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+17" gate="1" x="271.78" y="-185.42" smashed="yes">
+<attribute name="VALUE" x="274.32" y="-185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="GND38" gate="1" x="261.62" y="-200.66"/>
+<instance part="GND39" gate="1" x="365.76" y="-215.9" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -21187,13 +21204,13 @@ FT232 (and its regulator) is not mounted.</text>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-276.86" y1="238.76" x2="-276.86" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="251.46" x2="-274.32" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="-276.86" y1="236.22" x2="-276.86" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="236.22" x2="-289.56" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="-289.56" y1="236.22" x2="-289.56" y2="233.68" width="0.1524" layer="91"/>
-<junction x="-276.86" y="236.22"/>
+<wire x1="-274.32" y1="248.92" x2="-274.32" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="248.92" x2="-287.02" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="248.92" x2="-287.02" y2="246.38" width="0.1524" layer="91"/>
+<junction x="-274.32" y="248.92"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="1" pin="3V3OUT"/>
@@ -21258,8 +21275,8 @@ FT232 (and its regulator) is not mounted.</text>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="+3V18" gate="G$1" pin="+3V3"/>
-<wire x1="-314.96" y1="177.8" x2="-312.42" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="-312.42" y1="177.8" x2="-312.42" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-312.42" y1="190.5" x2="-309.88" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="-309.88" y1="190.5" x2="-309.88" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
@@ -21280,10 +21297,10 @@ FT232 (and its regulator) is not mounted.</text>
 <segment>
 <pinref part="IC15" gate="P" pin="VCC"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="-261.62" y1="279.4" x2="-254" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="-254" y1="279.4" x2="-254" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="-259.08" y1="292.1" x2="-251.46" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="292.1" x2="-251.46" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
-<junction x="-261.62" y="279.4"/>
+<junction x="-259.08" y="292.1"/>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="C"/>
@@ -21317,7 +21334,7 @@ FT232 (and its regulator) is not mounted.</text>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-279.4" y1="208.28" x2="-281.94" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="-276.86" y1="220.98" x2="-279.4" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="IC17" gate="G$1" pin="EMIT"/>
 </segment>
 <segment>
@@ -21478,12 +21495,12 @@ FT232 (and its regulator) is not mounted.</text>
 <segment>
 <pinref part="P_MIDI_IN" gate="A" pin="2"/>
 <pinref part="GND89" gate="1" pin="GND"/>
-<wire x1="-345.44" y1="210.82" x2="-347.98" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="223.52" x2="-345.44" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P_MIDI_OUT" gate="A" pin="2"/>
 <pinref part="GND90" gate="1" pin="GND"/>
-<wire x1="-345.44" y1="175.26" x2="-347.98" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="187.96" x2="-345.44" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P_POWER_IN" gate="G$1" pin="1"/>
@@ -21562,9 +21579,9 @@ FT232 (and its regulator) is not mounted.</text>
 <pinref part="GND51" gate="1" pin="GND"/>
 <pinref part="IC15" gate="P" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="-261.62" y1="264.16" x2="-254" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="-254" y1="264.16" x2="-254" y2="266.7" width="0.1524" layer="91"/>
-<junction x="-261.62" y="264.16"/>
+<wire x1="-259.08" y1="276.86" x2="-251.46" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="276.86" x2="-251.46" y2="279.4" width="0.1524" layer="91"/>
+<junction x="-259.08" y="276.86"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -21720,6 +21737,18 @@ FT232 (and its regulator) is not mounted.</text>
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND38" gate="1" pin="GND"/>
+<pinref part="C31" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="-198.12" x2="271.78" y2="-198.12" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<junction x="271.78" y="-198.12"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="X15"/>
+<wire x1="358.14" y1="-215.9" x2="363.22" y2="-215.9" width="0.1524" layer="91"/>
+<pinref part="GND39" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="XP_DBG" class="0">
 <segment>
@@ -21770,20 +21799,6 @@ FT232 (and its regulator) is not mounted.</text>
 <wire x1="358.14" y1="-254" x2="363.22" y2="-254" width="0.1524" layer="91"/>
 <label x="363.22" y="-254" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="50.8" y1="-241.3" x2="50.8" y2="-231.14" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="OUT"/>
-<wire x1="50.8" y1="-231.14" x2="48.26" y2="-231.14" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="-231.14" x2="58.42" y2="-231.14" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-231.14" x2="58.42" y2="-233.68" width="0.1524" layer="91"/>
-<junction x="50.8" y="-231.14"/>
-<wire x1="58.42" y1="-231.14" x2="66.04" y2="-231.14" width="0.1524" layer="91"/>
-<junction x="58.42" y="-231.14"/>
-<label x="66.04" y="-231.14" size="1.778" layer="95"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-241.3" x2="50.8" y2="-241.3" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -21816,30 +21831,30 @@ FT232 (and its regulator) is not mounted.</text>
 <net name="N$28" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-317.5" y1="213.36" x2="-304.8" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-314.96" y1="226.06" x2="-302.26" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="-304.8" y1="213.36" x2="-299.72" y2="213.36" width="0.1524" layer="91"/>
-<junction x="-304.8" y="213.36"/>
+<wire x1="-302.26" y1="226.06" x2="-297.18" y2="226.06" width="0.1524" layer="91"/>
+<junction x="-302.26" y="226.06"/>
 <pinref part="IC17" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="MIDI_IN2" class="0">
 <segment>
-<wire x1="-299.72" y1="208.28" x2="-304.8" y2="208.28" width="0.1524" layer="91"/>
-<label x="-337.82" y="208.28" size="1.778" layer="95"/>
+<wire x1="-297.18" y1="220.98" x2="-302.26" y2="220.98" width="0.1524" layer="91"/>
+<label x="-335.28" y="220.98" size="1.778" layer="95"/>
 <pinref part="P_MIDI_IN" gate="A" pin="1"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="-304.8" y1="208.28" x2="-347.98" y2="208.28" width="0.1524" layer="91"/>
-<junction x="-304.8" y="208.28"/>
+<wire x1="-302.26" y1="220.98" x2="-345.44" y2="220.98" width="0.1524" layer="91"/>
+<junction x="-302.26" y="220.98"/>
 <pinref part="IC17" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="MIDI_IN1" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<label x="-337.82" y="213.36" size="1.778" layer="95"/>
+<label x="-335.28" y="226.06" size="1.778" layer="95"/>
 <pinref part="P_MIDI_IN" gate="A" pin="3"/>
-<wire x1="-327.66" y1="213.36" x2="-347.98" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-325.12" y1="226.06" x2="-345.44" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -21865,10 +21880,13 @@ FT232 (and its regulator) is not mounted.</text>
 <label x="-205.74" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
+<wire x1="-248.92" y1="226.06" x2="-243.84" y2="226.06" width="0.1524" layer="91"/>
+<label x="-231.14" y="226.06" size="1.778" layer="95"/>
+<pinref part="IC14" gate="A" pin="O"/>
 <pinref part="SJ3" gate="G$1" pin="1"/>
-<wire x1="-233.68" y1="218.44" x2="-233.68" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="220.98" x2="-220.98" y2="220.98" width="0.1524" layer="91"/>
-<label x="-220.98" y="220.98" size="1.778" layer="95"/>
+<wire x1="-243.84" y1="226.06" x2="-231.14" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="190.5" x2="-243.84" y2="226.06" width="0.1524" layer="91"/>
+<junction x="-243.84" y="226.06"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -21974,6 +21992,11 @@ FT232 (and its regulator) is not mounted.</text>
 <wire x1="330.2" y1="172.72" x2="320.04" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <junction x="330.2" y="172.72"/>
+</segment>
+<segment>
+<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="P+17" gate="1" pin="+5V"/>
+<wire x1="271.78" y1="-187.96" x2="271.78" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -22094,18 +22117,6 @@ FT232 (and its regulator) is not mounted.</text>
 <label x="124.46" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW6" class="0">
-<segment>
-<pinref part="IC9" gate="B" pin="+IN"/>
-<wire x1="106.68" y1="-134.62" x2="93.98" y2="-134.62" width="0.1524" layer="91"/>
-<label x="91.44" y="-134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="B" pin="+IN"/>
-<wire x1="106.68" y1="-231.14" x2="93.98" y2="-231.14" width="0.1524" layer="91"/>
-<label x="91.44" y="-231.14" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="C_SW1" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -22166,22 +22177,11 @@ FT232 (and its regulator) is not mounted.</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="-264.16" y1="172.72" x2="-276.86" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="IC15" gate="A" pin="O"/>
-<pinref part="SJ3" gate="G$1" pin="3"/>
-<wire x1="-276.86" y1="172.72" x2="-314.96" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="208.28" x2="-233.68" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="190.5" x2="-276.86" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="190.5" x2="-276.86" y2="172.72" width="0.1524" layer="91"/>
-<junction x="-276.86" y="172.72"/>
+<wire x1="-271.78" y1="185.42" x2="-312.42" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_TX" class="0">
-<segment>
-<wire x1="-251.46" y1="172.72" x2="-243.84" y2="172.72" width="0.1524" layer="91"/>
-<label x="-243.84" y="172.72" size="1.778" layer="95"/>
-<pinref part="IC15" gate="A" pin="I"/>
-</segment>
 <segment>
 <pinref part="IC19" gate="G$1" pin="PA5/TXD0"/>
 <wire x1="58.42" y1="-12.7" x2="50.8" y2="-12.7" width="0.1524" layer="91"/>
@@ -22201,6 +22201,12 @@ FT232 (and its regulator) is not mounted.</text>
 <pinref part="IC5" gate="1" pin="RXD"/>
 <wire x1="-210.82" y1="109.22" x2="-205.74" y2="109.22" width="0.1524" layer="91"/>
 <label x="-205.74" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="G$1" pin="3"/>
+<wire x1="-243.84" y1="180.34" x2="-243.84" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="177.8" x2="-231.14" y2="177.8" width="0.1524" layer="91"/>
+<label x="-231.14" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -22244,17 +22250,17 @@ FT232 (and its regulator) is not mounted.</text>
 <net name="MIDI_OUT2" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
-<label x="-337.82" y="177.8" size="1.778" layer="95"/>
+<label x="-335.28" y="190.5" size="1.778" layer="95"/>
 <pinref part="P_MIDI_OUT" gate="A" pin="3"/>
-<wire x1="-325.12" y1="177.8" x2="-347.98" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-322.58" y1="190.5" x2="-345.44" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDI_OUT1" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
-<label x="-337.82" y="172.72" size="1.778" layer="95"/>
+<label x="-335.28" y="185.42" size="1.778" layer="95"/>
 <pinref part="P_MIDI_OUT" gate="A" pin="1"/>
-<wire x1="-325.12" y1="172.72" x2="-347.98" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-322.58" y1="185.42" x2="-345.44" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XIN" class="0">
@@ -22342,88 +22348,103 @@ FT232 (and its regulator) is not mounted.</text>
 <label x="124.46" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="E_IN1" class="0">
+<net name="SWIN_2-EIN_1" class="0">
 <segment>
-<label x="-86.36" y="-350.52" size="1.778" layer="95"/>
+<label x="-96.52" y="-350.52" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="-350.52" x2="-71.12" y2="-350.52" width="0.1524" layer="91"/>
 <pinref part="JP17" gate="A" pin="1"/>
 </segment>
-</net>
-<net name="E_IN2" class="0">
 <segment>
-<label x="-86.36" y="-353.06" size="1.778" layer="95"/>
-<pinref part="JP17" gate="A" pin="3"/>
-<wire x1="-71.12" y1="-353.06" x2="-86.36" y2="-353.06" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-241.3" x2="50.8" y2="-231.14" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="OUT"/>
+<wire x1="50.8" y1="-231.14" x2="48.26" y2="-231.14" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="-231.14" x2="58.42" y2="-231.14" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-231.14" x2="58.42" y2="-233.68" width="0.1524" layer="91"/>
+<junction x="50.8" y="-231.14"/>
+<wire x1="58.42" y1="-231.14" x2="66.04" y2="-231.14" width="0.1524" layer="91"/>
+<junction x="58.42" y="-231.14"/>
+<label x="66.04" y="-231.14" size="1.778" layer="95"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-241.3" x2="50.8" y2="-241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="X1"/>
+<wire x1="358.14" y1="-251.46" x2="363.22" y2="-251.46" width="0.1524" layer="91"/>
+<label x="363.22" y="-251.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="E_IN3" class="0">
-<segment>
-<label x="-86.36" y="-355.6" size="1.778" layer="95"/>
-<pinref part="JP17" gate="A" pin="5"/>
-<wire x1="-71.12" y1="-355.6" x2="-86.36" y2="-355.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="E_IN4" class="0">
-<segment>
-<label x="-10.16" y="-350.52" size="1.778" layer="95"/>
-<wire x1="-10.16" y1="-350.52" x2="5.08" y2="-350.52" width="0.1524" layer="91"/>
-<pinref part="JP24" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="E_IN5" class="0">
-<segment>
-<label x="-10.16" y="-353.06" size="1.778" layer="95"/>
-<pinref part="JP24" gate="A" pin="3"/>
-<wire x1="-10.16" y1="-353.06" x2="5.08" y2="-353.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="E_IN6" class="0">
-<segment>
-<label x="-10.16" y="-355.6" size="1.778" layer="95"/>
-<pinref part="JP24" gate="A" pin="5"/>
-<wire x1="5.08" y1="-355.6" x2="-10.16" y2="-355.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="E_OUT1" class="0">
+<net name="EOUT_1" class="0">
 <segment>
 <label x="-86.36" y="-368.3" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-368.3" x2="-86.36" y2="-368.3" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="A" pin="1"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y1"/>
+<wire x1="358.14" y1="-205.74" x2="363.22" y2="-205.74" width="0.1524" layer="91"/>
+<label x="363.22" y="-205.74" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="E_OUT2" class="0">
+<net name="EOUT_2" class="0">
 <segment>
 <label x="-86.36" y="-370.84" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="-370.84" x2="-71.12" y2="-370.84" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="A" pin="3"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y2"/>
+<wire x1="358.14" y1="-203.2" x2="363.22" y2="-203.2" width="0.1524" layer="91"/>
+<label x="363.22" y="-203.2" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="E_OUT3" class="0">
+<net name="EOUT_3" class="0">
 <segment>
 <label x="-86.36" y="-373.38" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-373.38" x2="-86.36" y2="-373.38" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="A" pin="5"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y3"/>
+<wire x1="358.14" y1="-200.66" x2="363.22" y2="-200.66" width="0.1524" layer="91"/>
+<label x="363.22" y="-200.66" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="E_OUT4" class="0">
+<net name="EOUT_4" class="0">
 <segment>
 <label x="-10.16" y="-368.3" size="1.778" layer="95"/>
 <wire x1="-10.16" y1="-368.3" x2="5.08" y2="-368.3" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="1"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y4"/>
+<wire x1="358.14" y1="-198.12" x2="363.22" y2="-198.12" width="0.1524" layer="91"/>
+<label x="363.22" y="-198.12" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="E_OUT5" class="0">
+<net name="EOUT_5" class="0">
 <segment>
 <label x="-10.16" y="-370.84" size="1.778" layer="95"/>
 <wire x1="5.08" y1="-370.84" x2="-10.16" y2="-370.84" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="3"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y5"/>
+<wire x1="358.14" y1="-195.58" x2="363.22" y2="-195.58" width="0.1524" layer="91"/>
+<label x="363.22" y="-195.58" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="E_OUT6" class="0">
+<net name="EOUT_6" class="0">
 <segment>
 <label x="-10.16" y="-373.38" size="1.778" layer="95"/>
 <wire x1="5.08" y1="-373.38" x2="-10.16" y2="-373.38" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="5"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y6"/>
+<wire x1="358.14" y1="-193.04" x2="363.22" y2="-193.04" width="0.1524" layer="91"/>
+<label x="363.22" y="-193.04" size="1.778" layer="95"/>
+<label x="363.22" y="-193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN5" class="0">
@@ -22841,15 +22862,15 @@ FT232 (and its regulator) is not mounted.</text>
 <label x="-261.62" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-256.54" y1="165.1" x2="-256.54" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="-256.54" y1="162.56" x2="-269.24" y2="162.56" width="0.1524" layer="91"/>
-<label x="-269.24" y="160.02" size="1.778" layer="95"/>
+<wire x1="-264.16" y1="177.8" x2="-264.16" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-264.16" y1="175.26" x2="-276.86" y2="175.26" width="0.1524" layer="91"/>
+<label x="-276.86" y="172.72" size="1.778" layer="95"/>
 <pinref part="IC15" gate="A" pin="OE"/>
 </segment>
 <segment>
-<wire x1="-259.08" y1="205.74" x2="-259.08" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-259.08" y1="203.2" x2="-269.24" y2="203.2" width="0.1524" layer="91"/>
-<label x="-271.78" y="200.66" size="1.778" layer="95"/>
+<wire x1="-256.54" y1="218.44" x2="-256.54" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-256.54" y1="215.9" x2="-266.7" y2="215.9" width="0.1524" layer="91"/>
+<label x="-269.24" y="213.36" size="1.778" layer="95"/>
 <pinref part="IC14" gate="A" pin="OE"/>
 </segment>
 <segment>
@@ -22875,10 +22896,10 @@ FT232 (and its regulator) is not mounted.</text>
 <net name="N$100" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-281.94" y1="213.36" x2="-276.86" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="213.36" x2="-276.86" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="213.36" x2="-264.16" y2="213.36" width="0.1524" layer="91"/>
-<junction x="-276.86" y="213.36"/>
+<wire x1="-279.4" y1="226.06" x2="-274.32" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="226.06" x2="-274.32" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="226.06" x2="-261.62" y2="226.06" width="0.1524" layer="91"/>
+<junction x="-274.32" y="226.06"/>
 <pinref part="IC14" gate="A" pin="I"/>
 <pinref part="IC17" gate="G$1" pin="COL"/>
 </segment>
@@ -23010,6 +23031,11 @@ FT232 (and its regulator) is not mounted.</text>
 <pinref part="P-3" gate="1" pin="-5V"/>
 <wire x1="78.74" y1="-292.1" x2="78.74" y2="-289.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="-289.56"/>
+</segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="P-4" gate="1" pin="-5V"/>
+<wire x1="271.78" y1="-208.28" x2="271.78" y2="-205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C_SW4" class="0">
@@ -23151,113 +23177,86 @@ FT232 (and its regulator) is not mounted.</text>
 <junction x="302.26" y="-177.8"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y0"/>
-<wire x1="358.14" y1="-208.28" x2="363.22" y2="-208.28" width="0.1524" layer="91"/>
-<label x="363.22" y="-208.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y1"/>
-<wire x1="358.14" y1="-205.74" x2="363.22" y2="-205.74" width="0.1524" layer="91"/>
-<label x="363.22" y="-205.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y2"/>
-<wire x1="358.14" y1="-203.2" x2="363.22" y2="-203.2" width="0.1524" layer="91"/>
-<label x="363.22" y="-203.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y3"/>
-<wire x1="358.14" y1="-200.66" x2="363.22" y2="-200.66" width="0.1524" layer="91"/>
-<label x="363.22" y="-200.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y4"/>
-<wire x1="358.14" y1="-198.12" x2="363.22" y2="-198.12" width="0.1524" layer="91"/>
-<label x="363.22" y="-198.12" size="1.778" layer="95"/>
-<label x="363.22" y="-195.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y5"/>
-<wire x1="358.14" y1="-195.58" x2="363.22" y2="-195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="Y6"/>
-<wire x1="358.14" y1="-193.04" x2="363.22" y2="-193.04" width="0.1524" layer="91"/>
-<label x="363.22" y="-193.04" size="1.778" layer="95"/>
-<label x="363.22" y="-193.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$21" class="0">
+<net name="SWOUT_2-EOUT_7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y7"/>
 <wire x1="358.14" y1="-190.5" x2="363.22" y2="-190.5" width="0.1524" layer="91"/>
 <label x="363.22" y="-190.5" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$32" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X1"/>
-<wire x1="358.14" y1="-251.46" x2="363.22" y2="-251.46" width="0.1524" layer="91"/>
-<label x="363.22" y="-251.46" size="1.778" layer="95"/>
+<pinref part="IC2" gate="B" pin="+IN"/>
+<wire x1="106.68" y1="-231.14" x2="93.98" y2="-231.14" width="0.1524" layer="91"/>
+<label x="83.82" y="-231.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="EIN_2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X2"/>
 <wire x1="358.14" y1="-248.92" x2="363.22" y2="-248.92" width="0.1524" layer="91"/>
 <label x="363.22" y="-248.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="-86.36" y="-353.06" size="1.778" layer="95"/>
+<pinref part="JP17" gate="A" pin="3"/>
+<wire x1="-71.12" y1="-353.06" x2="-86.36" y2="-353.06" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="N$48" class="0">
+<net name="EIN_3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X3"/>
 <wire x1="358.14" y1="-246.38" x2="363.22" y2="-246.38" width="0.1524" layer="91"/>
 <label x="363.22" y="-246.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="-86.36" y="-355.6" size="1.778" layer="95"/>
+<pinref part="JP17" gate="A" pin="5"/>
+<wire x1="-71.12" y1="-355.6" x2="-86.36" y2="-355.6" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="N$49" class="0">
+<net name="EIN_4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X4"/>
 <wire x1="358.14" y1="-243.84" x2="363.22" y2="-243.84" width="0.1524" layer="91"/>
 <label x="363.22" y="-243.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="-10.16" y="-350.52" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="-350.52" x2="5.08" y2="-350.52" width="0.1524" layer="91"/>
+<pinref part="JP24" gate="A" pin="1"/>
+</segment>
 </net>
-<net name="N$50" class="0">
+<net name="EIN_5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X5"/>
 <wire x1="358.14" y1="-241.3" x2="363.22" y2="-241.3" width="0.1524" layer="91"/>
 <label x="363.22" y="-241.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="-10.16" y="-353.06" size="1.778" layer="95"/>
+<pinref part="JP24" gate="A" pin="3"/>
+<wire x1="-10.16" y1="-353.06" x2="5.08" y2="-353.06" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="N$51" class="0">
+<net name="EIN_6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X6"/>
 <wire x1="358.14" y1="-238.76" x2="363.22" y2="-238.76" width="0.1524" layer="91"/>
 <label x="363.22" y="-238.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="-10.16" y="-355.6" size="1.778" layer="95"/>
+<pinref part="JP24" gate="A" pin="5"/>
+<wire x1="5.08" y1="-355.6" x2="-10.16" y2="-355.6" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="N$52" class="0">
+<net name="EIN_7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X7"/>
 <wire x1="358.14" y1="-236.22" x2="363.22" y2="-236.22" width="0.1524" layer="91"/>
 <label x="363.22" y="-236.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="EIN_8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="X8"/>
 <wire x1="358.14" y1="-233.68" x2="363.22" y2="-233.68" width="0.1524" layer="91"/>
@@ -23385,11 +23384,66 @@ FT232 (and its regulator) is not mounted.</text>
 <wire x1="193.04" y1="144.78" x2="193.04" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="SJ3" gate="G$1" pin="2"/>
+<pinref part="IC15" gate="A" pin="I"/>
+<wire x1="-248.92" y1="185.42" x2="-259.08" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="IC14" gate="A" pin="O"/>
-<pinref part="SJ3" gate="G$1" pin="2"/>
-<wire x1="-238.76" y1="213.36" x2="-251.46" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="A" pin="QH*"/>
+<pinref part="JP18" gate="A" pin="10"/>
+<wire x1="353.06" y1="33.02" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EIN_9" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="X9"/>
+<wire x1="358.14" y1="-231.14" x2="363.22" y2="-231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="X14"/>
+<wire x1="358.14" y1="-218.44" x2="363.22" y2="-218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="X13"/>
+<wire x1="358.14" y1="-220.98" x2="363.22" y2="-220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="X12"/>
+<wire x1="358.14" y1="-223.52" x2="363.22" y2="-223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="X11"/>
+<wire x1="358.14" y1="-226.06" x2="363.22" y2="-226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="X10"/>
+<wire x1="358.14" y1="-228.6" x2="363.22" y2="-228.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWOUT_1" class="0">
+<segment>
+<pinref part="IC9" gate="B" pin="+IN"/>
+<wire x1="106.68" y1="-134.62" x2="93.98" y2="-134.62" width="0.1524" layer="91"/>
+<label x="91.44" y="-134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="Y0"/>
+<wire x1="358.14" y1="-208.28" x2="363.22" y2="-208.28" width="0.1524" layer="91"/>
+<label x="363.22" y="-208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
