@@ -2444,42 +2444,42 @@ design rules under a new name.</description>
 <wire x1="29.845" y1="77.47" x2="32.385" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="27.305" y1="77.47" x2="29.845" y2="77.47" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EOUT_1">
+<signal name="TO_EFF_1">
 <contactref element="IC1" pad="41"/>
 <contactref element="C41" pad="1"/>
 <contactref element="R40" pad="1"/>
 <wire x1="-244.69" y1="-647.065" x2="-253.58" y2="-641.985" width="0" layer="19" extent="1-1"/>
 <wire x1="67.31" y1="20.8" x2="-253.58" y2="-641.985" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EOUT_2">
+<signal name="TO_EFF_2">
 <contactref element="IC1" pad="43"/>
 <contactref element="C42" pad="1"/>
 <contactref element="R45" pad="1"/>
 <wire x1="-240.245" y1="-647.065" x2="-249.135" y2="-641.985" width="0" layer="19" extent="1-1"/>
 <wire x1="64.77" y1="20.8" x2="-249.135" y2="-641.985" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EOUT_3">
+<signal name="TO_EFF_3">
 <contactref element="IC1" pad="1"/>
 <contactref element="C43" pad="1"/>
 <contactref element="R46" pad="1"/>
 <wire x1="-244.69" y1="-641.985" x2="-253.58" y2="-652.145" width="0" layer="19" extent="1-1"/>
 <wire x1="62.23" y1="20.8" x2="-244.69" y2="-641.985" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EOUT_4">
+<signal name="TO_EFF_4">
 <contactref element="IC1" pad="23"/>
 <contactref element="C44" pad="1"/>
 <contactref element="R47" pad="1"/>
 <wire x1="-240.245" y1="-641.985" x2="-249.135" y2="-652.145" width="0" layer="19" extent="1-1"/>
 <wire x1="62.23" y1="4.6" x2="-240.245" y2="-641.985" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EOUT_5">
+<signal name="TO_EFF_5">
 <contactref element="IC1" pad="21"/>
 <contactref element="C45" pad="1"/>
 <contactref element="R48" pad="1"/>
 <wire x1="-244.69" y1="-652.145" x2="-253.58" y2="-647.065" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="4.6" x2="-253.58" y2="-647.065" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EOUT_6">
+<signal name="TO_EFF_6">
 <contactref element="IC1" pad="19"/>
 <contactref element="C46" pad="1"/>
 <contactref element="R49" pad="1"/>
@@ -2867,7 +2867,7 @@ design rules under a new name.</description>
 <wire x1="-151.98" y1="-427.99" x2="59.69" y2="20.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-151.445" y1="-438.785" x2="-151.98" y2="-427.99" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SWOUT_2-EOUT_7">
+<signal name="SWOUT_2-TO_EFF_7">
 <contactref element="IC1" pad="17"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="C52" pad="1"/>
@@ -2876,35 +2876,35 @@ design rules under a new name.</description>
 <wire x1="54.13" y1="6.35" x2="-249.135" y2="-682.625" width="0" layer="19" extent="1-1"/>
 <wire x1="83.185" y1="21.65" x2="54.13" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_2">
+<signal name="FROM_EFF_2">
 <contactref element="C36" pad="1"/>
 <contactref element="R30" pad="1"/>
 <contactref element="IC1" pad="34"/>
 <wire x1="-245.325" y1="-573.405" x2="70.33" y2="12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-245.325" y1="-583.565" x2="-245.325" y2="-573.405" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_3">
+<signal name="FROM_EFF_3">
 <contactref element="C37" pad="1"/>
 <contactref element="R31" pad="1"/>
 <contactref element="IC1" pad="33"/>
 <wire x1="-245.325" y1="-578.485" x2="70.33" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="-245.325" y1="-588.645" x2="-245.325" y2="-578.485" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_4">
+<signal name="FROM_EFF_4">
 <contactref element="C38" pad="1"/>
 <contactref element="R36" pad="1"/>
 <contactref element="IC1" pad="32"/>
 <wire x1="-245.325" y1="-603.885" x2="-245.325" y2="-619.125" width="0" layer="19" extent="1-1"/>
 <wire x1="70.33" y1="10.16" x2="-245.325" y2="-603.885" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_5">
+<signal name="FROM_EFF_5">
 <contactref element="C39" pad="1"/>
 <contactref element="R37" pad="1"/>
 <contactref element="IC1" pad="9"/>
 <wire x1="-245.325" y1="-608.965" x2="-245.325" y2="-624.205" width="0" layer="19" extent="1-1"/>
 <wire x1="54.13" y1="16.51" x2="-245.325" y2="-608.965" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_6">
+<signal name="FROM_EFF_6">
 <contactref element="C40" pad="1"/>
 <contactref element="R38" pad="1"/>
 <contactref element="IC1" pad="10"/>
@@ -3102,7 +3102,7 @@ design rules under a new name.</description>
 <contactref element="C46" pad="2"/>
 <wire x1="76.835" y1="3.81" x2="-238.545" y2="-652.145" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SWIN_2">
+<signal name="SW_IN_2">
 <contactref element="IC2" pad="1"/>
 <contactref element="R18" pad="2"/>
 <contactref element="R27" pad="1"/>
@@ -3111,7 +3111,7 @@ design rules under a new name.</description>
 <wire x1="70.33" y1="15.24" x2="-150.28" y2="-466.725" width="0" layer="19" extent="1-1"/>
 <wire x1="79.375" y1="16.45" x2="70.33" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_1">
+<signal name="FROM_EFF_1">
 <contactref element="C35" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="IC1" pad="35"/>
@@ -3133,21 +3133,21 @@ design rules under a new name.</description>
 <contactref element="C49" pad="2"/>
 <wire x1="45.085" y1="32.385" x2="-247.435" y2="-669.925" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_7">
+<signal name="FROM_EFF_7">
 <contactref element="C47" pad="1"/>
 <contactref element="R32" pad="1"/>
 <contactref element="IC1" pad="11"/>
 <wire x1="-245.325" y1="-657.225" x2="-244.69" y2="-664.845" width="0" layer="19" extent="1-1"/>
 <wire x1="54.13" y1="13.97" x2="-245.325" y2="-657.225" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_8">
+<signal name="FROM_EFF_8">
 <contactref element="C48" pad="1"/>
 <contactref element="R33" pad="1"/>
 <contactref element="IC1" pad="12"/>
 <wire x1="-253.58" y1="-664.845" x2="-253.58" y2="-669.925" width="0" layer="19" extent="1-1"/>
 <wire x1="54.13" y1="12.7" x2="-253.58" y2="-664.845" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_9">
+<signal name="FROM_EFF_9">
 <contactref element="C49" pad="1"/>
 <contactref element="R50" pad="1"/>
 <contactref element="IC1" pad="13"/>
@@ -3169,14 +3169,14 @@ design rules under a new name.</description>
 <contactref element="C52" pad="2"/>
 <wire x1="53.975" y1="33.655" x2="-247.435" y2="-687.705" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_10">
+<signal name="FROM_EFF_10">
 <contactref element="C50" pad="1"/>
 <contactref element="R51" pad="1"/>
 <contactref element="IC1" pad="14"/>
 <wire x1="-245.325" y1="-675.005" x2="-244.69" y2="-682.625" width="0" layer="19" extent="1-1"/>
 <wire x1="54.13" y1="10.16" x2="-245.325" y2="-675.005" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EIN_11">
+<signal name="FROM_EFF_11">
 <contactref element="C51" pad="1"/>
 <contactref element="R52" pad="1"/>
 <contactref element="IC1" pad="31"/>

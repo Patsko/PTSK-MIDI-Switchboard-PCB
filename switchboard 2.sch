@@ -21441,7 +21441,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="109.22" y="-386.08"/>
 </segment>
 </net>
-<net name="EOUT_1" class="0">
+<net name="TO_EFF_1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y1"/>
 <wire x1="401.32" y1="-175.26" x2="406.4" y2="-175.26" width="0.1524" layer="91"/>
@@ -21457,7 +21457,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="7.62" y="-350.52"/>
 </segment>
 </net>
-<net name="EOUT_2" class="0">
+<net name="TO_EFF_2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y2"/>
 <wire x1="401.32" y1="-172.72" x2="406.4" y2="-172.72" width="0.1524" layer="91"/>
@@ -21473,7 +21473,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="7.62" y="-360.68"/>
 </segment>
 </net>
-<net name="EOUT_3" class="0">
+<net name="TO_EFF_3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y3"/>
 <wire x1="401.32" y1="-170.18" x2="406.4" y2="-170.18" width="0.1524" layer="91"/>
@@ -21489,7 +21489,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="7.62" y="-370.84"/>
 </segment>
 </net>
-<net name="EOUT_4" class="0">
+<net name="TO_EFF_4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y4"/>
 <wire x1="401.32" y1="-167.64" x2="406.4" y2="-167.64" width="0.1524" layer="91"/>
@@ -21505,7 +21505,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="7.62" y="-381"/>
 </segment>
 </net>
-<net name="EOUT_5" class="0">
+<net name="TO_EFF_5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y5"/>
 <wire x1="401.32" y1="-165.1" x2="406.4" y2="-165.1" width="0.1524" layer="91"/>
@@ -21521,7 +21521,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="7.62" y="-391.16"/>
 </segment>
 </net>
-<net name="EOUT_6" class="0">
+<net name="TO_EFF_6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y6"/>
 <wire x1="401.32" y1="-162.56" x2="406.4" y2="-162.56" width="0.1524" layer="91"/>
@@ -22249,7 +22249,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="345.44" y="-147.32"/>
 </segment>
 </net>
-<net name="SWOUT_2-EOUT_7" class="0">
+<net name="SWOUT_2-TO_EFF_7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y7"/>
 <wire x1="401.32" y1="-160.02" x2="406.4" y2="-160.02" width="0.1524" layer="91"/>
@@ -22270,7 +22270,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="-73.66" y="-472.44"/>
 </segment>
 </net>
-<net name="EIN_2" class="0">
+<net name="FROM_EFF_2" class="0">
 <segment>
 <label x="-86.36" y="-360.68" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-360.68" x2="-73.66" y2="-360.68" width="0.1524" layer="91"/>
@@ -22286,7 +22286,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="X3"/>
 </segment>
 </net>
-<net name="EIN_3" class="0">
+<net name="FROM_EFF_3" class="0">
 <segment>
 <label x="-86.36" y="-370.84" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-370.84" x2="-73.66" y2="-370.84" width="0.1524" layer="91"/>
@@ -22302,7 +22302,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="X4"/>
 </segment>
 </net>
-<net name="EIN_4" class="0">
+<net name="FROM_EFF_4" class="0">
 <segment>
 <label x="-86.36" y="-381" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="-381" x2="-73.66" y2="-381" width="0.1524" layer="91"/>
@@ -22318,7 +22318,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="X5"/>
 </segment>
 </net>
-<net name="EIN_5" class="0">
+<net name="FROM_EFF_5" class="0">
 <segment>
 <label x="-86.36" y="-391.16" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="-391.16" x2="-73.66" y2="-391.16" width="0.1524" layer="91"/>
@@ -22334,7 +22334,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="X6"/>
 </segment>
 </net>
-<net name="EIN_6" class="0">
+<net name="FROM_EFF_6" class="0">
 <segment>
 <label x="-86.36" y="-401.32" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-401.32" x2="-73.66" y2="-401.32" width="0.1524" layer="91"/>
@@ -22350,7 +22350,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="X7"/>
 </segment>
 </net>
-<net name="EIN_7" class="0">
+<net name="FROM_EFF_7" class="0">
 <segment>
 <wire x1="401.32" y1="-203.2" x2="406.4" y2="-203.2" width="0.1524" layer="91"/>
 <label x="406.4" y="-203.2" size="1.778" layer="95"/>
@@ -22366,7 +22366,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="-73.66" y="-421.64"/>
 </segment>
 </net>
-<net name="EIN_8" class="0">
+<net name="FROM_EFF_8" class="0">
 <segment>
 <wire x1="401.32" y1="-200.66" x2="406.4" y2="-200.66" width="0.1524" layer="91"/>
 <label x="406.4" y="-200.66" size="1.778" layer="95"/>
@@ -22689,7 +22689,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="22.86" y1="-401.32" x2="17.78" y2="-401.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SWIN_2" class="0">
+<net name="SW_IN_2" class="0">
 <segment>
 <wire x1="50.8" y1="-241.3" x2="50.8" y2="-231.14" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="OUT"/>
@@ -22710,7 +22710,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <label x="406.4" y="-220.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EIN_1" class="0">
+<net name="FROM_EFF_1" class="0">
 <segment>
 <label x="-86.36" y="-350.52" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="-350.52" x2="-73.66" y2="-350.52" width="0.1524" layer="91"/>
@@ -22751,7 +22751,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="-58.42" y1="-441.96" x2="-63.5" y2="-441.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EIN_9" class="0">
+<net name="FROM_EFF_9" class="0">
 <segment>
 <label x="-86.36" y="-441.96" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-441.96" x2="-73.66" y2="-441.96" width="0.1524" layer="91"/>
@@ -22792,7 +22792,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="-58.42" y1="-472.44" x2="-63.5" y2="-472.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EIN_10" class="0">
+<net name="FROM_EFF_10" class="0">
 <segment>
 <label x="-86.36" y="-452.12" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="-452.12" x2="-73.66" y2="-452.12" width="0.1524" layer="91"/>
@@ -22808,7 +22808,7 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <label x="406.4" y="-195.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EIN_11" class="0">
+<net name="FROM_EFF_11" class="0">
 <segment>
 <label x="-86.36" y="-462.28" size="1.778" layer="95"/>
 <wire x1="-71.12" y1="-462.28" x2="-73.66" y2="-462.28" width="0.1524" layer="91"/>
