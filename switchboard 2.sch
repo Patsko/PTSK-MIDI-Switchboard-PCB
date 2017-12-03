@@ -17211,21 +17211,6 @@ Footprint compatible with SMB, SMA, 0805 and 0603 packages.</description>
 <wire x1="2.032" y1="0" x2="2.032" y2="0.254" width="0.127" layer="51"/>
 <wire x1="2.032" y1="0" x2="2.032" y2="-0.254" width="0.127" layer="51"/>
 </package>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
 <package name="SPARK-GAP-8">
 <description>Electrostatic Spark Gap</description>
 <text x="-0.508" y="0.508" size="0.4064" layer="51">&gt;NAME</text>
@@ -17508,47 +17493,6 @@ Footprint compatible with SMB, SMA, 0805 and 0603 packages.</description>
 <pin name="VOUT" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
 <pin name="OSC" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
 <pin name="BST/NC" x="-12.7" y="7.62" length="short" direction="pas"/>
-</symbol>
-<symbol name="N-MOS">
-<wire x1="-1.27" y1="0" x2="-0.254" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.381" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="3.048" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.794" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.778" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.381" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-0.254" x2="-0.381" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="0.254" x2="-0.889" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.016" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0.127" x2="1.524" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.127" x2="1.27" y2="0.508" width="0.254" layer="94"/>
-<circle x="0" y="-2.794" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="-2.032" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="3.048" radius="0.3592" width="0" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
-<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="SPARK-GAP">
 <wire x1="-1.27" y1="1.905" x2="0" y2="0.635" width="0.254" layer="94"/>
@@ -17894,25 +17838,6 @@ LT1054 - NC &lt;br&gt;</description>
 <connect gate="G$1" pin="OSC" pad="7"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VOUT" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2N7002" prefix="Q">
-<description>&lt;b&gt;2N7002&lt;/b&gt;&lt;p&gt;
-60 V, 300 mA N-channel Trench MOSFET</description>
-<gates>
-<gate name="G$1" symbol="N-MOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19358,7 +19283,6 @@ www.irf.com&lt;p&gt;
 <part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="1k SMD"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
 <part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -19462,11 +19386,6 @@ www.irf.com&lt;p&gt;
 <part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC8" library="PATSKO" deviceset="SPI_MEMORY" device="-SOIC"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
@@ -19646,21 +19565,6 @@ www.irf.com&lt;p&gt;
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP25" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="PATSKO" deviceset="2N7002" device=""/>
-<part name="Q2" library="PATSKO" deviceset="2N7002" device=""/>
-<part name="R57" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R58" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="P+10" library="supply1" deviceset="+5V" device=""/>
-<part name="U$2" library="supply1" deviceset="+3V3" device=""/>
-<part name="R56" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="P+19" library="supply1" deviceset="+5V" device=""/>
-<part name="P+21" library="supply1" deviceset="+5V" device=""/>
-<part name="R59" library="rcl" deviceset="R-US_" device="R0603" value="10k SMD"/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="R60" library="rcl" deviceset="R-US_" device="R0805" value="1k SMD"/>
 <part name="R71" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
@@ -19719,8 +19623,6 @@ with pull-ups</text>
 <text x="-106.68" y="-325.12" size="1.778" layer="97">The DC blocking caps are optional and may be changed to 0R jumpers if it is guaranteed that the effects inputs and outputs doesn't have DC voltages.</text>
 <text x="203.2" y="66.04" size="1.778" layer="91">Reset button</text>
 <text x="-279.4" y="99.06" size="1.778" layer="97">TX/RX LED</text>
-<text x="246.38" y="-190.5" size="1.778" layer="97">SCK and MOSI are translated from 3.3 to 5V
-CS_SWITCH doesn't need voltage translation but needs pull-up</text>
 <text x="-116.84" y="81.28" size="1.778" layer="97">Buttons</text>
 <text x="10.16" y="241.3" size="1.778" layer="97">Diode as protection against damage if Vout &gt; Vin, providing a safe path to discharge the output caps.
 If LM2940 is not mounted, it should be mounted in opposite direction or replaced by a jumper.</text>
@@ -19745,10 +19647,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 </instance>
 <instance part="GND7" gate="1" x="-375.92" y="226.06"/>
 <instance part="R7" gate="G$1" x="58.42" y="-142.24" rot="R90"/>
-<instance part="R9" gate="G$1" x="386.08" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="387.35" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="387.35" y="-252.222" size="1.778" layer="96"/>
-</instance>
 <instance part="IC9" gate="P" x="78.74" y="-185.42"/>
 <instance part="C6" gate="G$1" x="129.54" y="-137.16" rot="R90"/>
 <instance part="R24" gate="G$1" x="137.16" y="-142.24" rot="R90"/>
@@ -19916,26 +19814,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 </instance>
 <instance part="LED2" gate="G$1" x="-289.56" y="101.6"/>
 <instance part="GND36" gate="1" x="-378.46" y="281.94"/>
-<instance part="R8" gate="G$1" x="259.08" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="260.35" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="260.35" y="-252.222" size="1.778" layer="96"/>
-</instance>
-<instance part="R10" gate="G$1" x="284.48" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="285.75" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="285.75" y="-252.222" size="1.778" layer="96"/>
-</instance>
-<instance part="R11" gate="G$1" x="309.88" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="311.15" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="311.15" y="-252.222" size="1.778" layer="96"/>
-</instance>
-<instance part="R12" gate="G$1" x="335.28" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="336.55" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="336.55" y="-252.222" size="1.778" layer="96"/>
-</instance>
-<instance part="R13" gate="G$1" x="360.68" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="361.95" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="361.95" y="-252.222" size="1.778" layer="96"/>
-</instance>
 <instance part="+3V11" gate="G$1" x="-289.56" y="106.68" smashed="yes">
 <attribute name="VALUE" x="-287.02" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -20214,57 +20092,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <instance part="GND4" gate="1" x="180.34" y="60.96"/>
 <instance part="JP25" gate="G$1" x="198.12" y="66.04"/>
 <instance part="GND39" gate="1" x="190.5" y="60.96"/>
-<instance part="Q1" gate="G$1" x="256.54" y="-165.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="248.92" y="-170.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="254" y="-170.18" size="1.778" layer="96"/>
-</instance>
-<instance part="Q2" gate="G$1" x="266.7" y="-172.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="259.08" y="-177.8" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="-177.8" size="1.778" layer="96"/>
-</instance>
-<instance part="R57" gate="G$1" x="274.32" y="-157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="276.86" y="-157.2514" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="-159.512" size="1.778" layer="96"/>
-</instance>
-<instance part="R58" gate="G$1" x="284.48" y="-157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="287.02" y="-157.2514" size="1.778" layer="95"/>
-<attribute name="VALUE" x="287.02" y="-159.512" size="1.778" layer="96"/>
-</instance>
-<instance part="P+10" gate="1" x="284.48" y="-144.78" smashed="yes">
-<attribute name="VALUE" x="287.02" y="-142.24" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="U$2" gate="G$1" x="254" y="-144.78" smashed="yes">
-<attribute name="VALUE" x="256.54" y="-142.24" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R56" gate="G$1" x="294.64" y="-157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="297.18" y="-157.2514" size="1.778" layer="95"/>
-<attribute name="VALUE" x="297.18" y="-159.512" size="1.778" layer="96"/>
-</instance>
-<instance part="P+4" gate="1" x="259.08" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="261.62" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+5" gate="1" x="284.48" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="287.02" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+8" gate="1" x="309.88" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="312.42" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+16" gate="1" x="335.28" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="337.82" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+19" gate="1" x="360.68" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="363.22" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+21" gate="1" x="386.08" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="388.62" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R59" gate="G$1" x="233.68" y="-248.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="234.95" y="-247.4214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.95" y="-252.222" size="1.778" layer="96"/>
-</instance>
-<instance part="P+3" gate="1" x="233.68" y="-241.3" smashed="yes">
-<attribute name="VALUE" x="236.22" y="-238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R60" gate="G$1" x="-330.2" y="233.68" smashed="yes">
 <attribute name="NAME" x="-328.93" y="237.2614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-326.39" y="231.902" size="1.778" layer="96" rot="R180"/>
@@ -20445,16 +20272,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="198.12" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
 <junction x="198.12" y="38.1"/>
 <pinref part="U$1" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="+3V3"/>
-<wire x1="254" y1="-147.32" x2="254" y2="-149.86" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="254" y1="-149.86" x2="254" y2="-160.02" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="254" y1="-149.86" x2="264.16" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="-149.86" x2="264.16" y2="-167.64" width="0.1524" layer="91"/>
-<junction x="254" y="-149.86"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="OUT"/>
@@ -21214,56 +21031,8 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="-340.36" y1="139.7" x2="-340.36" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-340.36" y="137.16"/>
 </segment>
-<segment>
-<pinref part="R57" gate="G$1" pin="2"/>
-<pinref part="R58" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-149.86" x2="274.32" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="-149.86" x2="284.48" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="-149.86" x2="284.48" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="P+10" gate="1" pin="+5V"/>
-<wire x1="284.48" y1="-147.32" x2="284.48" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="284.48" y="-149.86"/>
-<pinref part="R56" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="-149.86" x2="294.64" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-149.86" x2="294.64" y2="-152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="P+4" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="P+8" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="P+16" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="P+19" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="P+21" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R59" gate="G$1" pin="1"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-</segment>
 </net>
 <net name="C_SW2" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="-254" x2="251.46" y2="-254" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="-254" x2="269.24" y2="-254" width="0.1524" layer="91"/>
-<junction x="259.08" y="-254"/>
-<label x="248.92" y="-254" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="AX1"/>
 <wire x1="360.68" y1="-220.98" x2="355.6" y2="-220.98" width="0.1524" layer="91"/>
@@ -21276,13 +21045,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 </segment>
 </net>
 <net name="C_SW3/SCL" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="-254" x2="276.86" y2="-254" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="-254" x2="294.64" y2="-254" width="0.1524" layer="91"/>
-<junction x="284.48" y="-254"/>
-<label x="274.32" y="-254" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="AX2"/>
 <wire x1="360.68" y1="-218.44" x2="355.6" y2="-218.44" width="0.1524" layer="91"/>
@@ -21976,14 +21738,14 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC10" gate="G$1" pin="PC4/LED/MOSI"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="261.62" y1="-172.72" x2="241.3" y2="-172.72" width="0.1524" layer="91"/>
-<label x="238.76" y="-172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="P_SPI" gate="A" pin="2"/>
 <wire x1="71.12" y1="-43.18" x2="63.5" y2="-43.18" width="0.1524" layer="91"/>
 <label x="58.42" y="-43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="DATA"/>
+<wire x1="360.68" y1="-182.88" x2="355.6" y2="-182.88" width="0.1524" layer="91"/>
+<label x="345.44" y="-182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -22020,14 +21782,14 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC10" gate="G$1" pin="PC5/LED/SCK"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="251.46" y1="-165.1" x2="241.3" y2="-165.1" width="0.1524" layer="91"/>
-<label x="238.76" y="-165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="P_SPI" gate="A" pin="3"/>
 <wire x1="71.12" y1="-45.72" x2="63.5" y2="-45.72" width="0.1524" layer="91"/>
 <label x="58.42" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="STROBE"/>
+<wire x1="360.68" y1="-175.26" x2="355.6" y2="-175.26" width="0.1524" layer="91"/>
+<label x="345.44" y="-175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_MEM" class="0">
@@ -22120,13 +21882,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 </net>
 <net name="C_SW4/SDA" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="309.88" y1="-254" x2="302.26" y2="-254" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="-254" x2="320.04" y2="-254" width="0.1524" layer="91"/>
-<junction x="309.88" y="-254"/>
-<label x="299.72" y="-254" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="AX3"/>
 <wire x1="360.68" y1="-215.9" x2="355.6" y2="-215.9" width="0.1524" layer="91"/>
 <label x="347.98" y="-215.9" size="1.778" layer="95"/>
@@ -22144,13 +21899,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 </net>
 <net name="C_SW5" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="-254" x2="327.66" y2="-254" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="-254" x2="345.44" y2="-254" width="0.1524" layer="91"/>
-<junction x="335.28" y="-254"/>
-<label x="325.12" y="-254" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="AY0"/>
 <wire x1="360.68" y1="-205.74" x2="355.6" y2="-205.74" width="0.1524" layer="91"/>
 <label x="347.98" y="-205.74" size="1.778" layer="95"/>
@@ -22167,13 +21915,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 </segment>
 </net>
 <net name="C_SW6" class="0">
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="-254" x2="353.06" y2="-254" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="-254" x2="370.84" y2="-254" width="0.1524" layer="91"/>
-<junction x="360.68" y="-254"/>
-<label x="350.52" y="-254" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="AY1"/>
 <wire x1="360.68" y1="-203.2" x2="355.6" y2="-203.2" width="0.1524" layer="91"/>
@@ -22200,13 +21941,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="AY2"/>
 <wire x1="360.68" y1="-200.66" x2="355.6" y2="-200.66" width="0.1524" layer="91"/>
 <label x="347.98" y="-200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="386.08" y1="-254" x2="378.46" y2="-254" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="-254" x2="396.24" y2="-254" width="0.1524" layer="91"/>
-<junction x="386.08" y="-254"/>
-<label x="375.92" y="-254" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="P_EXTRA" gate="A" pin="4"/>
@@ -22884,14 +22618,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="360.68" y1="-185.42" x2="355.6" y2="-185.42" width="0.1524" layer="91"/>
 <label x="335.28" y="-185.42" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="R56" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="-162.56" x2="294.64" y2="-180.34" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-180.34" x2="304.8" y2="-180.34" width="0.1524" layer="91"/>
-<label x="304.8" y="-180.34" size="1.778" layer="95"/>
-<wire x1="294.64" y1="-180.34" x2="238.76" y2="-180.34" width="0.1524" layer="91"/>
-<junction x="294.64" y="-180.34"/>
-</segment>
 </net>
 <net name="BTN6/C_SW1" class="0">
 <segment>
@@ -22920,45 +22646,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC1" gate="G$1" pin="AX0"/>
 <wire x1="360.68" y1="-223.52" x2="355.6" y2="-223.52" width="0.1524" layer="91"/>
 <label x="347.98" y="-223.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R59" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="-254" x2="226.06" y2="-254" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="-254" x2="243.84" y2="-254" width="0.1524" layer="91"/>
-<junction x="233.68" y="-254"/>
-<label x="215.9" y="-254" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SCK_5V" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="261.62" y1="-165.1" x2="274.32" y2="-165.1" width="0.1524" layer="91"/>
-<pinref part="R57" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-165.1" x2="304.8" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="-162.56" x2="274.32" y2="-165.1" width="0.1524" layer="91"/>
-<junction x="274.32" y="-165.1"/>
-<label x="304.8" y="-165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="STROBE"/>
-<wire x1="360.68" y1="-175.26" x2="355.6" y2="-175.26" width="0.1524" layer="91"/>
-<label x="345.44" y="-175.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MOSI_5V" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="271.78" y1="-172.72" x2="284.48" y2="-172.72" width="0.1524" layer="91"/>
-<pinref part="R58" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="-172.72" x2="304.8" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="-162.56" x2="284.48" y2="-172.72" width="0.1524" layer="91"/>
-<junction x="284.48" y="-172.72"/>
-<label x="304.8" y="-172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="DATA"/>
-<wire x1="360.68" y1="-182.88" x2="355.6" y2="-182.88" width="0.1524" layer="91"/>
-<label x="345.44" y="-182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$35" class="0">
