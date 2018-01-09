@@ -20144,6 +20144,41 @@ DDEController.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2" urn="urn:adsk.eagle:library:372">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND1" urn="urn:adsk.eagle:symbol:26991/1" library_version="2">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-2.159" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND1" urn="urn:adsk.eagle:component:27039/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="GND1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20230,14 +20265,12 @@ DDEController.pdf</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="P_MIDI_IN" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P_MIDI_OUT" library="pinhead" deviceset="PINHD-1X3" device=""/>
-<part name="GND89" library="supply1" deviceset="GND" device=""/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
 <part name="P_POWER_IN" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND91" library="supply1" deviceset="GND" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
 <part name="H3" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
-<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC16" library="PATSKO" deviceset="LM2940" device="" value="LM2940-9"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
@@ -20276,7 +20309,6 @@ DDEController.pdf</description>
 <part name="U$3" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$4" library="supply1" deviceset="+3V3" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC14" library="74xx-little-de" deviceset="74*1G125" device="DBV" technology="LVC"/>
 <part name="IC15" library="74xx-little-de" deviceset="74*1G125" device="DBV" technology="LVC"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF" value="LL4148"/>
@@ -20291,10 +20323,8 @@ DDEController.pdf</description>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="P-6" library="supply1" deviceset="-5V" device=""/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="IC17" library="PATSKO" deviceset="OPTOCOUPLER" device="" value="PC817S OPTO"/>
-<part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
 <part name="R39" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="R41" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
@@ -20474,6 +20504,11 @@ DDEController.pdf</description>
 <part name="JP1" library="pinhead-2" deviceset="PINHD-2X03" device="_2.54-SMD"/>
 <part name="JP2" library="pinhead-2" deviceset="PINHD-2X03" device="_2.54-SMD"/>
 <part name="JP3" library="pinhead-2" deviceset="PINHD-2X03" device="_2.54-SMD"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
+<part name="C53" library="PATSKO" deviceset="CAP_POL" device="ALUM-TANT" value="47u/25V"/>
+<part name="GND44" library="supply1" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20497,6 +20532,12 @@ Configure as inputs with pull-ups</text>
 <text x="-96.52" y="71.12" size="1.778" layer="97">Buttons</text>
 <text x="10.16" y="241.3" size="1.778" layer="97">Diode as protection against damage if Vout &gt; Vin, providing a safe path to discharge the output caps.
 If LM2940 is not mounted, it should be mounted in opposite direction or replaced by a jumper.</text>
+<text x="-495.3" y="246.38" size="1.778" layer="97">MIDI In must be completely isolated from the rest of the circuit. 
+So, its GND pin must be connected to a different ground.</text>
+<wire x1="-457.2" y1="243.84" x2="-388.62" y2="243.84" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-388.62" y1="243.84" x2="-388.62" y2="218.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-388.62" y1="218.44" x2="-457.2" y2="218.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-457.2" y1="218.44" x2="-457.2" y2="243.84" width="0.1524" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="86.36" y="88.9"/>
@@ -20631,16 +20672,12 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <instance part="+3V7" gate="G$1" x="-160.02" y="-48.26" rot="R270"/>
 <instance part="P_MIDI_IN" gate="A" x="-447.04" y="231.14" rot="R180"/>
 <instance part="P_MIDI_OUT" gate="A" x="-447.04" y="195.58" rot="R180"/>
-<instance part="GND89" gate="1" x="-439.42" y="231.14" rot="R90"/>
 <instance part="GND90" gate="1" x="-439.42" y="195.58" rot="R90"/>
 <instance part="P_POWER_IN" gate="G$1" x="-12.7" y="218.44" rot="R180"/>
 <instance part="GND91" gate="1" x="-2.54" y="213.36"/>
 <instance part="H1" gate="G$1" x="-81.28" y="233.68"/>
 <instance part="H2" gate="G$1" x="-81.28" y="226.06"/>
 <instance part="H3" gate="G$1" x="-81.28" y="218.44"/>
-<instance part="+3V8" gate="G$1" x="-373.38" y="261.62" smashed="yes">
-<attribute name="VALUE" x="-365.76" y="261.62" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="IC16" gate="G$1" x="60.96" y="218.44"/>
 <instance part="GND17" gate="1" x="86.36" y="205.74"/>
 <instance part="GND24" gate="1" x="60.96" y="205.74"/>
@@ -20699,7 +20736,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <attribute name="VALUE" x="342.9" y="20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C12" gate="G$1" x="350.52" y="7.62"/>
-<instance part="+3V15" gate="G$1" x="-378.46" y="302.26"/>
 <instance part="IC14" gate="A" x="-355.6" y="233.68" rot="MR180"/>
 <instance part="IC15" gate="A" x="-363.22" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="-365.76" y="189.865" size="1.778" layer="95" rot="R180"/>
@@ -20734,13 +20770,11 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <attribute name="VALUE" x="71.12" y="-198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="322.58" y="-35.56"/>
-<instance part="+3V18" gate="G$1" x="-408.94" y="205.74"/>
 <instance part="GND49" gate="1" x="165.1" y="261.62"/>
 <instance part="IC17" gate="G$1" x="-386.08" y="231.14" smashed="yes">
 <attribute name="NAME" x="-393.065" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-398.145" y="223.52" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V19" gate="G$1" x="-358.14" y="302.26"/>
 <instance part="R39" gate="G$1" x="30.48" y="-152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.13" y="-150.9014" size="1.778" layer="95"/>
 </instance>
@@ -20834,8 +20868,8 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <attribute name="NAME" x="97.79" y="-249.9614" size="1.778" layer="95"/>
 </instance>
 <instance part="GND33" gate="1" x="104.14" y="-259.08"/>
-<instance part="C18" gate="G$1" x="-386.08" y="251.46"/>
-<instance part="GND34" gate="1" x="-386.08" y="243.84"/>
+<instance part="C18" gate="G$1" x="-360.68" y="254"/>
+<instance part="GND34" gate="1" x="-360.68" y="246.38"/>
 <instance part="L1" gate="G$1" x="-434.34" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="-430.53" y="102.6414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-425.45" y="107.442" size="1.778" layer="96" rot="R180"/>
@@ -21016,6 +21050,11 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <instance part="JP1" gate="A" x="124.46" y="-370.84"/>
 <instance part="JP2" gate="A" x="124.46" y="-383.54"/>
 <instance part="JP3" gate="A" x="124.46" y="-396.24"/>
+<instance part="R8" gate="G$1" x="-297.18" y="292.1" rot="R180"/>
+<instance part="C53" gate="G$1" x="-287.02" y="287.02"/>
+<instance part="GND44" gate="1" x="-287.02" y="279.4"/>
+<instance part="+3V5" gate="G$1" x="-309.88" y="292.1" rot="R90"/>
+<instance part="SUPPLY7" gate="G$1" x="-439.42" y="231.14" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -21040,16 +21079,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="P_ANALOG" gate="A" pin="3"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="-162.56" y1="-48.26" x2="-170.18" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-373.38" y1="259.08" x2="-373.38" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="-373.38" y1="256.54" x2="-373.38" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="-373.38" y1="256.54" x2="-386.08" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="-386.08" y1="256.54" x2="-386.08" y2="254" width="0.1524" layer="91"/>
-<junction x="-373.38" y="256.54"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
@@ -21086,10 +21115,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <junction x="340.36" y="15.24"/>
 </segment>
 <segment>
-<pinref part="+3V15" gate="G$1" pin="+3V3"/>
-<pinref part="IC14" gate="P" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <pinref part="R44" gate="G$1" pin="2"/>
 </segment>
@@ -21097,20 +21122,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC11" gate="G$1" pin="V+"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
 <wire x1="-99.06" y1="-43.18" x2="-99.06" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="+3V18" gate="G$1" pin="+3V3"/>
-<wire x1="-411.48" y1="198.12" x2="-408.94" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="-408.94" y1="198.12" x2="-408.94" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC15" gate="P" pin="VCC"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="-358.14" y1="299.72" x2="-350.52" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="-350.52" y1="299.72" x2="-350.52" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="+3V19" gate="G$1" pin="+3V3"/>
-<junction x="-358.14" y="299.72"/>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="C"/>
@@ -21149,6 +21160,11 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="IC5" gate="1" pin="VCCIO"/>
 <wire x1="-353.06" y1="116.84" x2="-337.82" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="-302.26" y1="292.1" x2="-307.34" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -21267,11 +21283,6 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="P_ANALOG" gate="A" pin="1"/>
 <pinref part="GND88" gate="1" pin="GND"/>
 <wire x1="-162.56" y1="-53.34" x2="-170.18" y2="-53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P_MIDI_IN" gate="A" pin="2"/>
-<pinref part="GND89" gate="1" pin="GND"/>
-<wire x1="-441.96" y1="231.14" x2="-444.5" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P_MIDI_OUT" gate="A" pin="2"/>
@@ -21745,6 +21756,10 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <pinref part="JP26" gate="A" pin="12"/>
 <wire x1="35.56" y1="-383.54" x2="43.18" y2="-383.54" width="0.1524" layer="91"/>
 <junction x="43.18" y="-383.54"/>
+</segment>
+<segment>
+<pinref part="C53" gate="G$1" pin="-"/>
+<pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SW_IN_1" class="0">
@@ -23681,6 +23696,54 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <wire x1="25.4" y1="-383.54" x2="27.94" y2="-383.54" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="3V3_MIDI" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="C53" gate="G$1" pin="+"/>
+<wire x1="-292.1" y1="292.1" x2="-287.02" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="292.1" x2="-287.02" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="292.1" x2="-274.32" y2="292.1" width="0.1524" layer="91"/>
+<junction x="-287.02" y="292.1"/>
+<label x="-274.32" y="292.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC15" gate="P" pin="VCC"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="-358.14" y1="299.72" x2="-350.52" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="-350.52" y1="299.72" x2="-350.52" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="-358.14" y1="299.72" x2="-358.14" y2="304.8" width="0.1524" layer="91"/>
+<junction x="-358.14" y="299.72"/>
+<label x="-358.14" y="304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC14" gate="P" pin="VCC"/>
+<wire x1="-378.46" y1="299.72" x2="-378.46" y2="304.8" width="0.1524" layer="91"/>
+<label x="-378.46" y="304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="-373.38" y1="259.08" x2="-373.38" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="259.08" x2="-360.68" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="259.08" x2="-360.68" y2="256.54" width="0.1524" layer="91"/>
+<junction x="-373.38" y="259.08"/>
+<wire x1="-373.38" y1="259.08" x2="-373.38" y2="264.16" width="0.1524" layer="91"/>
+<label x="-373.38" y="264.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="-411.48" y1="198.12" x2="-408.94" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="-408.94" y1="198.12" x2="-408.94" y2="203.2" width="0.1524" layer="91"/>
+<label x="-408.94" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND1" class="0">
+<segment>
+<pinref part="P_MIDI_IN" gate="A" pin="2"/>
+<wire x1="-441.96" y1="231.14" x2="-444.5" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="GND1"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -23690,6 +23753,16 @@ If LM2940 is not mounted, it should be mounted in opposite direction or replaced
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
