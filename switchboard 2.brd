@@ -1200,6 +1200,23 @@ Footprint compatible with SMB, SMA, 0805 and 0603 packages.</description>
 <text x="-7.239" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-9.144" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
+<package name="SOT143B">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-1.4478" y1="0.635" x2="1.4478" y2="0.635" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-0.635" x2="1.4478" y2="-0.635" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-0.635" x2="-1.4478" y2="0.635" width="0.1016" layer="51"/>
+<wire x1="1.4478" y1="-0.635" x2="1.4478" y2="0.635" width="0.1016" layer="51"/>
+<smd name="4" x="-0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="3" x="0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="1" x="-0.75" y="-1.1" dx="1.2" dy="1.44" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.7366" y1="-1.3208" x2="1.1938" y2="-0.635" layer="51"/>
+<rectangle x1="0.7112" y1="0.635" x2="1.1684" y2="1.3208" layer="51"/>
+<rectangle x1="-1.143" y1="0.635" x2="-0.6858" y2="1.3208" layer="51"/>
+<rectangle x1="-1.1938" y1="-1.3208" x2="-0.3048" y2="-0.635" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="ftdichip">
@@ -2053,6 +2070,7 @@ design rules under a new name.</description>
 <element name="GAP9" library="PATSKO" package="SPARK-GAP-8" value="SPARK_GAP" x="-305" y="-971"/>
 <element name="GAP10" library="PATSKO" package="SPARK-GAP-8" value="SPARK_GAP" x="-308" y="-971"/>
 <element name="P_UART" library="pinhead" package="1X04" value="" x="-297" y="-981"/>
+<element name="D19" library="PATSKO" package="SOT143B" value="" x="-306" y="-993"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2197,6 +2215,7 @@ design rules under a new name.</description>
 <contactref element="GAP7" pad="P$2"/>
 <contactref element="GAP8" pad="P$1"/>
 <contactref element="P_UART" pad="4"/>
+<contactref element="D19" pad="1"/>
 <wire x1="-220.56" y1="-529.59" x2="-236.13" y2="-526.415" width="0" layer="19" extent="1-1"/>
 <wire x1="-218.86" y1="-524.51" x2="-220.56" y2="-529.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-218.125" y1="-518.795" x2="-218.86" y2="-524.51" width="0" layer="19" extent="1-1"/>
@@ -2270,6 +2289,7 @@ design rules under a new name.</description>
 <wire x1="-289.508" y1="-971" x2="-295.3" y2="-966" width="0" layer="19" extent="1-1"/>
 <wire x1="-301.492" y1="-971" x2="-295.3" y2="-966" width="0" layer="19" extent="1-1"/>
 <wire x1="-293.19" y1="-981" x2="-289.508" y2="-971" width="0" layer="19" extent="1-1"/>
+<wire x1="-306.75" y1="-994.1" x2="-293.19" y2="-981" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.945" y1="-48.895" x2="-71.54" y2="-280.035" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.425" y1="-43.18" x2="-47.945" y2="-48.895" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.325" y1="-30.48" x2="-40.425" y2="-43.18" width="0" layer="19" extent="1-1"/>
@@ -2838,15 +2858,19 @@ design rules under a new name.</description>
 <contactref element="X1" pad="2"/>
 <contactref element="IC5" pad="16"/>
 <contactref element="JP11" pad="4"/>
+<contactref element="D19" pad="3"/>
 <wire x1="11.43" y1="31.75" x2="4.63" y2="40.24" width="0" layer="19" extent="16-16"/>
 <wire x1="7.445" y1="28.41" x2="11.43" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-305.05" y1="-991.9" x2="4.63" y2="40.24" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D+">
 <contactref element="X1" pad="3"/>
 <contactref element="IC5" pad="15"/>
 <contactref element="JP11" pad="3"/>
+<contactref element="D19" pad="2"/>
 <wire x1="7.445" y1="29.21" x2="4.63" y2="39.59" width="0" layer="19" extent="16-16"/>
 <wire x1="11.43" y1="29.21" x2="7.445" y2="29.21" width="0" layer="19" extent="16-16"/>
+<wire x1="-305.05" y1="-994.1" x2="4.63" y2="39.59" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V_USB">
 <contactref element="D11" pad="A"/>
@@ -3123,6 +3147,8 @@ design rules under a new name.</description>
 <contactref element="X1" pad="1"/>
 <contactref element="L1" pad="1"/>
 <contactref element="JP11" pad="5"/>
+<contactref element="D19" pad="4"/>
+<wire x1="-306.95" y1="-991.9" x2="-151.445" y2="-488.95" width="0" layer="19" extent="1-1"/>
 <wire x1="7.445" y1="27.61" x2="-151.445" y2="-488.95" width="0" layer="19" extent="1-16"/>
 <wire x1="11.43" y1="34.29" x2="7.445" y2="27.61" width="0" layer="19" extent="16-16"/>
 </signal>

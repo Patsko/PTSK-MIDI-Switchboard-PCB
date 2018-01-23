@@ -17342,6 +17342,23 @@ Footprint compatible with SMB, SMA, 0805 and 0603 packages.</description>
 <text x="-7.239" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-9.144" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
+<package name="SOT143B">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-1.4478" y1="0.635" x2="1.4478" y2="0.635" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-0.635" x2="1.4478" y2="-0.635" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-0.635" x2="-1.4478" y2="0.635" width="0.1016" layer="51"/>
+<wire x1="1.4478" y1="-0.635" x2="1.4478" y2="0.635" width="0.1016" layer="51"/>
+<smd name="4" x="-0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="3" x="0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="1" x="-0.75" y="-1.1" dx="1.2" dy="1.44" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.7366" y1="-1.3208" x2="1.1938" y2="-0.635" layer="51"/>
+<rectangle x1="0.7112" y1="0.635" x2="1.1684" y2="1.3208" layer="51"/>
+<rectangle x1="-1.143" y1="0.635" x2="-0.6858" y2="1.3208" layer="51"/>
+<rectangle x1="-1.1938" y1="-1.3208" x2="-0.3048" y2="-0.635" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2940">
@@ -17555,6 +17572,51 @@ Footprint compatible with SMB, SMA, 0805 and 0603 packages.</description>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V_AN" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="TPD2E001">
+<wire x1="1.905" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.397" x2="1.905" y2="1.397" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96" rot="R180">TPD2E001</text>
+<pin name="IO2" x="6.35" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="IO1" x="-6.35" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="5.715" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.715" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="5.207" x2="5.715" y2="5.207" width="0.254" layer="94"/>
+<wire x1="5.715" y1="-5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="1.905" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.715" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.413" x2="5.715" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-5.715" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="5.207" x2="-1.905" y2="5.207" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.715" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="-5.08" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="-1.905" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="-2.413" x2="-1.905" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="6.35" x2="-3.81" y2="5.334" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="3.81" y1="6.35" x2="3.81" y2="5.334" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="-3.81" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="3.81" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-6.35" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-8.89" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="VCC" x="0" y="8.89" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -17915,6 +17977,24 @@ Zilog Z8F2480, 28 pin package</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPD2E001" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TPD2E001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT143B">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IO1" pad="2"/>
+<connect gate="G$1" pin="IO2" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20546,6 +20626,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
 <part name="P_UART" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="D19" library="PATSKO" deviceset="TPD2E001" device=""/>
+<part name="GND97" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21154,6 +21236,8 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="SUPPLY8" gate="G$1" x="-434.34" y="215.9"/>
 <instance part="SUPPLY9" gate="G$1" x="-434.34" y="246.38" rot="R180"/>
 <instance part="P_UART" gate="A" x="111.76" y="-43.18"/>
+<instance part="D19" gate="G$1" x="-419.1" y="124.46"/>
+<instance part="GND97" gate="1" x="-419.1" y="113.03"/>
 </instances>
 <busses>
 </busses>
@@ -21880,6 +21964,10 @@ So, its GND pin must be connected to a different ground.</text>
 <segment>
 <pinref part="GAP8" gate="G$1" pin="1"/>
 <pinref part="GND89" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D19" gate="G$1" pin="GND"/>
+<pinref part="GND97" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SW_IN_1" class="0">
@@ -22631,6 +22719,11 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="JP11" gate="A" pin="4"/>
 <label x="-444.5" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D19" gate="G$1" pin="IO2"/>
+<wire x1="-412.75" y1="124.46" x2="-410.21" y2="124.46" width="0.1524" layer="91"/>
+<label x="-410.21" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D+" class="0">
 <segment>
@@ -22647,6 +22740,11 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-454.66" y1="40.64" x2="-444.5" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="3"/>
 <label x="-444.5" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D19" gate="G$1" pin="IO1"/>
+<wire x1="-425.45" y1="124.46" x2="-427.99" y2="124.46" width="0.1524" layer="91"/>
+<label x="-430.53" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_USB" class="0">
@@ -23249,6 +23347,11 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-454.66" y1="45.72" x2="-444.5" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="5"/>
 <label x="-444.5" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D19" gate="G$1" pin="VCC"/>
+<wire x1="-419.1" y1="133.35" x2="-419.1" y2="135.89" width="0.1524" layer="91"/>
+<label x="-419.1" y="135.89" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
