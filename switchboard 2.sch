@@ -11066,7 +11066,7 @@ Footprint compatible with SMB, SMA, 0805 and 0603 packages.</description>
 <pin name="VCC" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="LV" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
 <pin name="VOUT" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
-<pin name="OSC" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="OSC" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="BST/NC" x="-12.7" y="7.62" length="short" direction="pas"/>
 </symbol>
 <symbol name="SPARK-GAP">
@@ -13831,18 +13831,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="IC9" library="linear" deviceset="NE5532" device="D" value="NE5532D"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="1k SMD"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R34" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
 <part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
@@ -13980,15 +13980,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="IC2" library="linear" deviceset="NE5532" device="D" value="NE5532D"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="P_INPUT2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -15621,15 +15621,6 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="109.22" y1="-43.18" x2="99.06" y2="-43.18" width="0.1524" layer="91"/>
 <label x="99.06" y="-43.18" size="1.778" layer="95" rot="MR0"/>
 <pinref part="P_UART" gate="A" pin="3"/>
-</segment>
-<segment>
-<wire x1="-347.98" y1="233.68" x2="-342.9" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="O"/>
-<pinref part="SJ3" gate="G$1" pin="1"/>
-<wire x1="-342.9" y1="193.04" x2="-342.9" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R60" gate="G$1" pin="1"/>
-<wire x1="-335.28" y1="233.68" x2="-342.9" y2="233.68" width="0.1524" layer="91"/>
-<junction x="-342.9" y="233.68"/>
 </segment>
 <segment>
 <pinref part="R60" gate="G$1" pin="2"/>
@@ -17688,6 +17679,17 @@ So, its GND pin must be connected to a different ground.</text>
 <segment>
 <pinref part="C46" gate="G$1" pin="2"/>
 <pinref part="R80" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="IC14" gate="A" pin="O"/>
+<pinref part="R60" gate="G$1" pin="1"/>
+<wire x1="-347.98" y1="233.68" x2="-342.9" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<wire x1="-342.9" y1="233.68" x2="-335.28" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="193.04" x2="-342.9" y2="233.68" width="0.1524" layer="91"/>
+<junction x="-342.9" y="233.68"/>
 </segment>
 </net>
 </nets>
