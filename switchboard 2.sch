@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,16 +54,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -13837,14 +13837,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="1k SMD"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R34" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R34" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
@@ -13978,7 +13978,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="IC2" library="linear" deviceset="NE5532" device="D" value="NE5532D"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
@@ -14072,11 +14072,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R33" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R50" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
-<part name="R51" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="C50" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C51" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="C52" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="R52" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R53" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
@@ -14088,7 +14084,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP25" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="R60" library="rcl" deviceset="R-US_" device="R0805" value="1k SMD"/>
+<part name="R60" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
 <part name="R71" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -14128,7 +14124,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="transistor-small-signal" deviceset="BSS84" device="" value="FDN352AP"/>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
-<part name="JP_AUDIOEFF1" library="pinhead-2" deviceset="PINHD-2X06" device="_2.54-SMD"/>
 <part name="JP_AUDIOEFF2" library="pinhead-2" deviceset="PINHD-2X06" device="_2.54-SMD"/>
 <part name="JP_BTNS1" library="pinhead-2" deviceset="PINHD-2X06" device="_2.54-SMD"/>
 <part name="JP_BTNS2" library="pinhead-2" deviceset="PINHD-2X06" device="_2.54-SMD"/>
@@ -14149,8 +14144,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R57" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R58" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R59" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
-<part name="R72" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
-<part name="R73" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R74" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R75" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R76" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
@@ -14185,6 +14178,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C10" library="PATSKO" deviceset="CAP_POL" device=""/>
 <part name="C11" library="PATSKO" deviceset="CAP_POL" device=""/>
 <part name="JP_AUDIOEFF3" library="pinhead-2" deviceset="PINHD-2X06" device="_2.54-SMD"/>
+<part name="GND98" library="supply1" deviceset="GND" device=""/>
+<part name="JP_AUDIOEFF1" library="pinhead-2" deviceset="PINHD-2X03" device="_2.54-SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -14338,7 +14333,7 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="GND78" gate="1" x="101.6" y="-48.26" rot="MR0"/>
 <instance part="JP_OUTS1" gate="A" x="393.7" y="45.72"/>
 <instance part="GND81" gate="1" x="386.08" y="35.56" rot="R270"/>
-<instance part="GND82" gate="1" x="-38.1" y="-391.16"/>
+<instance part="GND82" gate="1" x="-38.1" y="-370.84"/>
 <instance part="IC12" gate="P" x="340.36" y="7.62"/>
 <instance part="P_ANALOG" gate="A" x="-172.72" y="-50.8" rot="R180"/>
 <instance part="GND88" gate="1" x="-162.56" y="-55.88"/>
@@ -14591,13 +14586,13 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="C37" gate="G$1" x="-78.74" y="-370.84" rot="R90"/>
 <instance part="R30" gate="G$1" x="-88.9" y="-365.76" rot="R180"/>
 <instance part="R31" gate="G$1" x="-88.9" y="-375.92" rot="R180"/>
-<instance part="C38" gate="G$1" x="-78.74" y="-381" rot="R90"/>
-<instance part="C39" gate="G$1" x="-78.74" y="-391.16" rot="R90"/>
-<instance part="C40" gate="G$1" x="-78.74" y="-401.32" rot="R90"/>
-<instance part="R36" gate="G$1" x="-88.9" y="-386.08" rot="R180"/>
-<instance part="R37" gate="G$1" x="-88.9" y="-396.24" rot="R180"/>
-<instance part="R38" gate="G$1" x="-88.9" y="-406.4" rot="R180"/>
-<instance part="GND43" gate="1" x="-106.68" y="-411.48" rot="MR0"/>
+<instance part="C38" gate="G$1" x="-78.74" y="-421.64" rot="R90"/>
+<instance part="C39" gate="G$1" x="-78.74" y="-431.8" rot="R90"/>
+<instance part="C40" gate="G$1" x="-78.74" y="-441.96" rot="R90"/>
+<instance part="R36" gate="G$1" x="-88.9" y="-426.72" rot="R180"/>
+<instance part="R37" gate="G$1" x="-88.9" y="-436.88" rot="R180"/>
+<instance part="R38" gate="G$1" x="-88.9" y="-447.04" rot="R180"/>
+<instance part="GND43" gate="1" x="-203.2" y="-462.28" rot="MR0"/>
 <instance part="GND46" gate="1" x="50.8" y="-388.62" rot="MR0"/>
 <instance part="R40" gate="G$1" x="0" y="-406.4" rot="MR0"/>
 <instance part="C41" gate="G$1" x="10.16" y="-401.32" rot="MR270"/>
@@ -14612,18 +14607,14 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="R48" gate="G$1" x="0" y="-365.76" rot="MR0"/>
 <instance part="R49" gate="G$1" x="0" y="-355.6" rot="MR0"/>
 <instance part="GND47" gate="1" x="-15.24" y="-411.48"/>
-<instance part="R32" gate="G$1" x="-88.9" y="-426.72" rot="R180"/>
-<instance part="C47" gate="G$1" x="-78.74" y="-421.64" rot="R90"/>
-<instance part="C48" gate="G$1" x="-78.74" y="-431.8" rot="R90"/>
-<instance part="C49" gate="G$1" x="-78.74" y="-441.96" rot="R90"/>
-<instance part="R33" gate="G$1" x="-88.9" y="-436.88" rot="R180"/>
-<instance part="R50" gate="G$1" x="-88.9" y="-447.04" rot="R180"/>
+<instance part="R32" gate="G$1" x="-88.9" y="-457.2" rot="R180"/>
+<instance part="C47" gate="G$1" x="-78.74" y="-452.12" rot="R90"/>
+<instance part="C48" gate="G$1" x="-78.74" y="-462.28" rot="R90"/>
+<instance part="C49" gate="G$1" x="-175.26" y="-452.12" rot="R90"/>
+<instance part="R33" gate="G$1" x="-88.9" y="-467.36" rot="R180"/>
+<instance part="R50" gate="G$1" x="-185.42" y="-457.2" rot="R180"/>
 <instance part="GND63" gate="1" x="-38.1" y="-462.28"/>
-<instance part="R51" gate="G$1" x="-88.9" y="-457.2" rot="R180"/>
-<instance part="C50" gate="G$1" x="-78.74" y="-452.12" rot="R90"/>
-<instance part="C51" gate="G$1" x="-78.74" y="-462.28" rot="R90"/>
 <instance part="C52" gate="G$1" x="-78.74" y="-472.44" rot="R90"/>
-<instance part="R52" gate="G$1" x="-88.9" y="-467.36" rot="R180"/>
 <instance part="R53" gate="G$1" x="-88.9" y="-477.52" rot="R180"/>
 <instance part="GND64" gate="1" x="-106.68" y="-482.6" rot="MR0"/>
 <instance part="GND65" gate="1" x="408.94" y="-187.96" rot="R90"/>
@@ -14716,7 +14707,6 @@ So, its GND pin must be connected to a different ground.</text>
 <attribute name="VALUE" x="20.32" y="223.52" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND87" gate="1" x="20.32" y="205.74"/>
-<instance part="JP_AUDIOEFF1" gate="A" x="-50.8" y="-375.92"/>
 <instance part="JP_AUDIOEFF2" gate="A" x="-50.8" y="-447.04"/>
 <instance part="JP_BTNS1" gate="A" x="-93.98" y="53.34"/>
 <instance part="JP_BTNS2" gate="A" x="-93.98" y="30.48"/>
@@ -14731,14 +14721,12 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="R9" gate="G$1" x="-68.58" y="-350.52" rot="R180"/>
 <instance part="R10" gate="G$1" x="-68.58" y="-360.68" rot="R180"/>
 <instance part="R11" gate="G$1" x="-68.58" y="-370.84" rot="R180"/>
-<instance part="R12" gate="G$1" x="-68.58" y="-381" rot="R180"/>
-<instance part="R13" gate="G$1" x="-68.58" y="-391.16" rot="R180"/>
-<instance part="R56" gate="G$1" x="-68.58" y="-401.32" rot="R180"/>
-<instance part="R57" gate="G$1" x="-68.58" y="-421.64" rot="R180"/>
-<instance part="R58" gate="G$1" x="-68.58" y="-431.8" rot="R180"/>
-<instance part="R59" gate="G$1" x="-68.58" y="-441.96" rot="R180"/>
-<instance part="R72" gate="G$1" x="-68.58" y="-452.12" rot="R180"/>
-<instance part="R73" gate="G$1" x="-68.58" y="-462.28" rot="R180"/>
+<instance part="R12" gate="G$1" x="-68.58" y="-421.64" rot="R180"/>
+<instance part="R13" gate="G$1" x="-68.58" y="-431.8" rot="R180"/>
+<instance part="R56" gate="G$1" x="-68.58" y="-441.96" rot="R180"/>
+<instance part="R57" gate="G$1" x="-68.58" y="-452.12" rot="R180"/>
+<instance part="R58" gate="G$1" x="-68.58" y="-462.28" rot="R180"/>
+<instance part="R59" gate="G$1" x="-165.1" y="-452.12" rot="R180"/>
 <instance part="R74" gate="G$1" x="-68.58" y="-472.44" rot="R180"/>
 <instance part="R75" gate="G$1" x="20.32" y="-401.32" rot="MR0"/>
 <instance part="R76" gate="G$1" x="20.32" y="-391.16" rot="MR0"/>
@@ -14795,6 +14783,8 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="C10" gate="G$1" x="129.54" y="-137.16" rot="R90"/>
 <instance part="C11" gate="G$1" x="129.54" y="-233.68" rot="R90"/>
 <instance part="JP_AUDIOEFF3" gate="A" x="38.1" y="-373.38"/>
+<instance part="GND98" gate="1" x="-106.68" y="-381"/>
+<instance part="JP_AUDIOEFF1" gate="A" x="-50.8" y="-360.68"/>
 </instances>
 <busses>
 </busses>
@@ -15280,56 +15270,10 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="GND42" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-355.6" x2="-106.68" y2="-355.6" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-355.6" x2="-106.68" y2="-365.76" width="0.1524" layer="91"/>
-<pinref part="GND43" gate="1" pin="GND"/>
-<pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="-106.68" y1="-365.76" x2="-106.68" y2="-375.92" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-375.92" x2="-106.68" y2="-386.08" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-386.08" x2="-106.68" y2="-396.24" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-396.24" x2="-106.68" y2="-406.4" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-406.4" x2="-106.68" y2="-408.94" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-406.4" x2="-106.68" y2="-406.4" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-406.4"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-396.24" x2="-106.68" y2="-396.24" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-396.24"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-386.08" x2="-106.68" y2="-386.08" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-386.08"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-375.92" x2="-106.68" y2="-375.92" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-375.92"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-365.76" x2="-106.68" y2="-365.76" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-365.76"/>
-</segment>
-<segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-426.72" x2="-106.68" y2="-426.72" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-426.72" x2="-106.68" y2="-436.88" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-436.88" x2="-106.68" y2="-447.04" width="0.1524" layer="91"/>
-<pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-447.04" x2="-106.68" y2="-447.04" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-436.88" x2="-106.68" y2="-436.88" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-436.88"/>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-457.2" x2="-106.68" y2="-457.2" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-457.2" x2="-106.68" y2="-467.36" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-467.36" x2="-106.68" y2="-477.52" width="0.1524" layer="91"/>
+<pinref part="GND64" gate="1" pin="GND"/>
 <wire x1="-106.68" y1="-477.52" x2="-106.68" y2="-480.06" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="-93.98" y1="-477.52" x2="-106.68" y2="-477.52" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-477.52"/>
-<pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-467.36" x2="-106.68" y2="-467.36" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-467.36"/>
-<wire x1="-106.68" y1="-447.04" x2="-106.68" y2="-457.2" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-447.04"/>
-<junction x="-106.68" y="-457.2"/>
-<pinref part="GND64" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="X14"/>
@@ -15394,30 +15338,18 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="20.32" y1="208.28" x2="20.32" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="2"/>
 <pinref part="GND82" gate="1" pin="GND"/>
-<wire x1="-45.72" y1="-370.84" x2="-38.1" y2="-370.84" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-370.84" x2="-38.1" y2="-373.38" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-358.14" x2="-38.1" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-360.68" x2="-38.1" y2="-363.22" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-363.22" x2="-38.1" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-358.14" x2="-38.1" y2="-358.14" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-360.68" x2="-38.1" y2="-360.68" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-360.68"/>
+<wire x1="-45.72" y1="-363.22" x2="-38.1" y2="-363.22" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-363.22"/>
+<pinref part="JP_AUDIOEFF1" gate="A" pin="2"/>
 <pinref part="JP_AUDIOEFF1" gate="A" pin="4"/>
-<wire x1="-38.1" y1="-373.38" x2="-38.1" y2="-375.92" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-375.92" x2="-38.1" y2="-378.46" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-378.46" x2="-38.1" y2="-381" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-381" x2="-38.1" y2="-383.54" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-383.54" x2="-38.1" y2="-388.62" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-373.38" x2="-38.1" y2="-373.38" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-373.38"/>
 <pinref part="JP_AUDIOEFF1" gate="A" pin="6"/>
-<wire x1="-45.72" y1="-375.92" x2="-38.1" y2="-375.92" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-375.92"/>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="8"/>
-<wire x1="-45.72" y1="-378.46" x2="-38.1" y2="-378.46" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-378.46"/>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="10"/>
-<wire x1="-45.72" y1="-381" x2="-38.1" y2="-381" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-381"/>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="12"/>
-<wire x1="-45.72" y1="-383.54" x2="-38.1" y2="-383.54" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-383.54"/>
 </segment>
 <segment>
 <pinref part="JP_AUDIOEFF2" gate="A" pin="2"/>
@@ -15525,6 +15457,26 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="GND47" gate="1" pin="GND"/>
 <wire x1="-15.24" y1="-408.94" x2="-15.24" y2="-406.4" width="0.1524" layer="91"/>
 <junction x="-15.24" y="-406.4"/>
+</segment>
+<segment>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="-203.2" y1="-457.2" x2="-203.2" y2="-459.74" width="0.1524" layer="91"/>
+<pinref part="R50" gate="G$1" pin="2"/>
+<wire x1="-190.5" y1="-457.2" x2="-203.2" y2="-457.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-355.6" x2="-106.68" y2="-355.6" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-355.6" x2="-106.68" y2="-365.76" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-365.76" x2="-106.68" y2="-375.92" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-375.92" x2="-106.68" y2="-375.92" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-365.76" x2="-106.68" y2="-365.76" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-365.76"/>
+<pinref part="GND98" gate="1" pin="GND"/>
+<wire x1="-106.68" y1="-378.46" x2="-106.68" y2="-375.92" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-375.92"/>
 </segment>
 </net>
 <net name="SW_IN_1" class="0">
@@ -15675,11 +15627,11 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="IC10" gate="G$1" pin="PA2/DE0/XIN2"/>
 </segment>
 </net>
-<net name="C_SW3/SCL" class="0">
+<net name="C_SW1/SCL" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="AX2"/>
-<wire x1="360.68" y1="-218.44" x2="355.6" y2="-218.44" width="0.1524" layer="91"/>
-<label x="347.98" y="-218.44" size="1.778" layer="95"/>
+<label x="347.98" y="-223.52" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="AX0"/>
+<wire x1="360.68" y1="-223.52" x2="355.6" y2="-223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="116.84" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
@@ -16699,82 +16651,82 @@ So, its GND pin must be connected to a different ground.</text>
 </net>
 <net name="FROM_EFF_4" class="0">
 <segment>
-<label x="-96.52" y="-381" size="1.778" layer="95"/>
-<wire x1="-96.52" y1="-381" x2="-83.82" y2="-381" width="0.1524" layer="91"/>
-<pinref part="C38" gate="G$1" pin="1"/>
-<pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-381" x2="-81.28" y2="-381" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-386.08" x2="-83.82" y2="-381" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-381"/>
-</segment>
-<segment>
-<wire x1="401.32" y1="-210.82" x2="406.4" y2="-210.82" width="0.1524" layer="91"/>
-<label x="406.4" y="-210.82" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="X5"/>
-</segment>
-</net>
-<net name="FROM_EFF_5" class="0">
-<segment>
-<label x="-96.52" y="-391.16" size="1.778" layer="95"/>
-<wire x1="-96.52" y1="-391.16" x2="-83.82" y2="-391.16" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="1"/>
-<pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-391.16" x2="-81.28" y2="-391.16" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-396.24" x2="-83.82" y2="-391.16" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-391.16"/>
-</segment>
-<segment>
-<wire x1="401.32" y1="-208.28" x2="406.4" y2="-208.28" width="0.1524" layer="91"/>
-<label x="406.4" y="-208.28" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="X6"/>
-</segment>
-</net>
-<net name="FROM_EFF_6" class="0">
-<segment>
-<label x="-96.52" y="-401.32" size="1.778" layer="95"/>
-<wire x1="-81.28" y1="-401.32" x2="-83.82" y2="-401.32" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="1"/>
-<pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-401.32" x2="-96.52" y2="-401.32" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-406.4" x2="-83.82" y2="-401.32" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-401.32"/>
-</segment>
-<segment>
-<wire x1="401.32" y1="-205.74" x2="406.4" y2="-205.74" width="0.1524" layer="91"/>
-<label x="406.4" y="-205.74" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="X7"/>
-</segment>
-</net>
-<net name="FROM_EFF_7" class="0">
-<segment>
-<wire x1="401.32" y1="-203.2" x2="406.4" y2="-203.2" width="0.1524" layer="91"/>
-<label x="406.4" y="-203.2" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="X8"/>
-</segment>
-<segment>
 <label x="-96.52" y="-421.64" size="1.778" layer="95"/>
 <wire x1="-96.52" y1="-421.64" x2="-83.82" y2="-421.64" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="1"/>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="-83.82" y1="-421.64" x2="-81.28" y2="-421.64" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-426.72" x2="-83.82" y2="-421.64" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-421.64"/>
 </segment>
+<segment>
+<label x="406.4" y="-208.28" size="1.778" layer="95"/>
+<wire x1="401.32" y1="-208.28" x2="406.4" y2="-208.28" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="X6"/>
+</segment>
+</net>
+<net name="FROM_EFF_5" class="0">
+<segment>
+<label x="-96.52" y="-431.8" size="1.778" layer="95"/>
+<wire x1="-96.52" y1="-431.8" x2="-83.82" y2="-431.8" width="0.1524" layer="91"/>
+<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="-431.8" x2="-81.28" y2="-431.8" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-436.88" x2="-83.82" y2="-431.8" width="0.1524" layer="91"/>
+<junction x="-83.82" y="-431.8"/>
+</segment>
+<segment>
+<label x="406.4" y="-205.74" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="X7"/>
+<wire x1="406.4" y1="-205.74" x2="401.32" y2="-205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FROM_EFF_6" class="0">
+<segment>
+<label x="-96.52" y="-441.96" size="1.778" layer="95"/>
+<wire x1="-81.28" y1="-441.96" x2="-83.82" y2="-441.96" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="-441.96" x2="-96.52" y2="-441.96" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-447.04" x2="-83.82" y2="-441.96" width="0.1524" layer="91"/>
+<junction x="-83.82" y="-441.96"/>
+</segment>
+<segment>
+<label x="406.4" y="-203.2" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="X8"/>
+<wire x1="406.4" y1="-203.2" x2="401.32" y2="-203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FROM_EFF_7" class="0">
+<segment>
+<label x="406.4" y="-200.66" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="X9"/>
+<wire x1="406.4" y1="-200.66" x2="401.32" y2="-200.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="-96.52" y="-452.12" size="1.778" layer="95"/>
+<wire x1="-96.52" y1="-452.12" x2="-83.82" y2="-452.12" width="0.1524" layer="91"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="-452.12" x2="-81.28" y2="-452.12" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-457.2" x2="-83.82" y2="-452.12" width="0.1524" layer="91"/>
+<junction x="-83.82" y="-452.12"/>
+</segment>
 </net>
 <net name="FROM_EFF_8" class="0">
 <segment>
-<wire x1="401.32" y1="-200.66" x2="406.4" y2="-200.66" width="0.1524" layer="91"/>
-<label x="406.4" y="-200.66" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="X9"/>
+<label x="406.4" y="-198.12" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="X10"/>
+<wire x1="401.32" y1="-198.12" x2="406.4" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-96.52" y="-431.8" size="1.778" layer="95"/>
-<wire x1="-81.28" y1="-431.8" x2="-83.82" y2="-431.8" width="0.1524" layer="91"/>
+<label x="-96.52" y="-462.28" size="1.778" layer="95"/>
+<wire x1="-81.28" y1="-462.28" x2="-83.82" y2="-462.28" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-431.8" x2="-96.52" y2="-431.8" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-436.88" x2="-83.82" y2="-431.8" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-431.8"/>
+<wire x1="-83.82" y1="-462.28" x2="-96.52" y2="-462.28" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-467.36" x2="-83.82" y2="-462.28" width="0.1524" layer="91"/>
+<junction x="-83.82" y="-462.28"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -17034,50 +16986,18 @@ So, its GND pin must be connected to a different ground.</text>
 </net>
 <net name="FROM_EFF_9" class="0">
 <segment>
-<label x="-96.52" y="-441.96" size="1.778" layer="95"/>
-<wire x1="-81.28" y1="-441.96" x2="-83.82" y2="-441.96" width="0.1524" layer="91"/>
+<label x="-193.04" y="-452.12" size="1.778" layer="95"/>
+<wire x1="-177.8" y1="-452.12" x2="-180.34" y2="-452.12" width="0.1524" layer="91"/>
 <pinref part="C49" gate="G$1" pin="1"/>
 <pinref part="R50" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-441.96" x2="-96.52" y2="-441.96" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-447.04" x2="-83.82" y2="-441.96" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-441.96"/>
+<wire x1="-180.34" y1="-452.12" x2="-193.04" y2="-452.12" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="-457.2" x2="-180.34" y2="-452.12" width="0.1524" layer="91"/>
+<junction x="-180.34" y="-452.12"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="X10"/>
-<wire x1="401.32" y1="-198.12" x2="406.4" y2="-198.12" width="0.1524" layer="91"/>
-<label x="406.4" y="-198.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FROM_EFF_10" class="0">
-<segment>
-<label x="-96.52" y="-452.12" size="1.778" layer="95"/>
-<wire x1="-96.52" y1="-452.12" x2="-83.82" y2="-452.12" width="0.1524" layer="91"/>
-<pinref part="C50" gate="G$1" pin="1"/>
-<pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-452.12" x2="-81.28" y2="-452.12" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-457.2" x2="-83.82" y2="-452.12" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-452.12"/>
-</segment>
-<segment>
+<label x="406.4" y="-195.58" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="X11"/>
 <wire x1="401.32" y1="-195.58" x2="406.4" y2="-195.58" width="0.1524" layer="91"/>
-<label x="406.4" y="-195.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FROM_EFF_11" class="0">
-<segment>
-<label x="-96.52" y="-462.28" size="1.778" layer="95"/>
-<wire x1="-81.28" y1="-462.28" x2="-83.82" y2="-462.28" width="0.1524" layer="91"/>
-<pinref part="C51" gate="G$1" pin="1"/>
-<pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-462.28" x2="-96.52" y2="-462.28" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-467.36" x2="-83.82" y2="-462.28" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-462.28"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="X12"/>
-<wire x1="401.32" y1="-193.04" x2="406.4" y2="-193.04" width="0.1524" layer="91"/>
-<label x="406.4" y="-193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DBG" class="0">
@@ -17142,16 +17062,6 @@ So, its GND pin must be connected to a different ground.</text>
 </segment>
 </net>
 <net name="BTN6/C_SW1" class="0">
-<segment>
-<wire x1="58.42" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
-<label x="35.56" y="50.8" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PA1/T0OUT/XOUT"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="AX0"/>
-<wire x1="360.68" y1="-223.52" x2="355.6" y2="-223.52" width="0.1524" layer="91"/>
-<label x="347.98" y="-223.52" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="JP_BTNS2" gate="A" pin="8"/>
 <wire x1="-88.9" y1="27.94" x2="-78.74" y2="27.94" width="0.1524" layer="91"/>
@@ -17352,20 +17262,11 @@ So, its GND pin must be connected to a different ground.</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="-55.88" y1="-350.52" x2="-55.88" y2="-370.84" width="0.1524" layer="91"/>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="1"/>
-<wire x1="-55.88" y1="-370.84" x2="-53.34" y2="-370.84" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-350.52" x2="-60.96" y2="-358.14" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-358.14" x2="-53.34" y2="-358.14" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-350.52" x2="-55.88" y2="-350.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="11"/>
-<wire x1="-53.34" y1="-383.54" x2="-55.88" y2="-383.54" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-383.54" x2="-55.88" y2="-401.32" width="0.1524" layer="91"/>
-<pinref part="R56" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-401.32" x2="-55.88" y2="-401.32" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-350.52" x2="-60.96" y2="-350.52" width="0.1524" layer="91"/>
+<pinref part="JP_AUDIOEFF1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -17373,17 +17274,8 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-55.88" y1="-421.64" x2="-55.88" y2="-441.96" width="0.1524" layer="91"/>
 <pinref part="JP_AUDIOEFF2" gate="A" pin="1"/>
 <wire x1="-55.88" y1="-441.96" x2="-53.34" y2="-441.96" width="0.1524" layer="91"/>
-<pinref part="R57" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="-421.64" x2="-55.88" y2="-421.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<wire x1="-55.88" y1="-472.44" x2="-55.88" y2="-454.66" width="0.1524" layer="91"/>
-<pinref part="JP_AUDIOEFF2" gate="A" pin="11"/>
-<wire x1="-55.88" y1="-454.66" x2="-53.34" y2="-454.66" width="0.1524" layer="91"/>
-<pinref part="R74" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-472.44" x2="-55.88" y2="-472.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3_MIDI" class="0">
@@ -17501,18 +17393,6 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="R59" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="C50" gate="G$1" pin="2"/>
-<pinref part="R72" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="C51" gate="G$1" pin="2"/>
-<pinref part="R73" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$68" class="0">
 <segment>
 <pinref part="C52" gate="G$1" pin="2"/>
@@ -17521,47 +17401,27 @@ So, its GND pin must be connected to a different ground.</text>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="3"/>
-<wire x1="-53.34" y1="-373.38" x2="-58.42" y2="-373.38" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-373.38" x2="-58.42" y2="-360.68" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-360.68" x2="-63.5" y2="-360.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="9"/>
-<wire x1="-53.34" y1="-381" x2="-58.42" y2="-381" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-381" x2="-58.42" y2="-391.16" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-391.16" x2="-63.5" y2="-391.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="JP_AUDIOEFF1" gate="A" pin="7"/>
-<wire x1="-53.34" y1="-378.46" x2="-60.96" y2="-378.46" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-378.46" x2="-60.96" y2="-381" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-381" x2="-60.96" y2="-381" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-360.68" x2="-63.5" y2="-360.68" width="0.1524" layer="91"/>
+<pinref part="JP_AUDIOEFF1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$72" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="-370.84" x2="-60.96" y2="-370.84" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-370.84" x2="-60.96" y2="-375.92" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-370.84" x2="-60.96" y2="-363.22" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-363.22" x2="-53.34" y2="-363.22" width="0.1524" layer="91"/>
 <pinref part="JP_AUDIOEFF1" gate="A" pin="5"/>
-<wire x1="-60.96" y1="-375.92" x2="-53.34" y2="-375.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$73" class="0">
 <segment>
-<pinref part="R58" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-431.8" x2="-58.42" y2="-431.8" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-431.8" x2="-58.42" y2="-444.5" width="0.1524" layer="91"/>
 <pinref part="JP_AUDIOEFF2" gate="A" pin="3"/>
 <wire x1="-58.42" y1="-444.5" x2="-53.34" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="-431.8" x2="-58.42" y2="-431.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
@@ -17569,17 +17429,17 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="JP_AUDIOEFF2" gate="A" pin="9"/>
 <wire x1="-53.34" y1="-452.12" x2="-58.42" y2="-452.12" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-452.12" x2="-58.42" y2="-462.28" width="0.1524" layer="91"/>
-<pinref part="R73" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-462.28" x2="-63.5" y2="-462.28" width="0.1524" layer="91"/>
+<pinref part="R58" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="-462.28" x2="-58.42" y2="-462.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="R59" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-441.96" x2="-60.96" y2="-441.96" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-441.96" x2="-60.96" y2="-447.04" width="0.1524" layer="91"/>
 <pinref part="JP_AUDIOEFF2" gate="A" pin="5"/>
 <wire x1="-60.96" y1="-447.04" x2="-53.34" y2="-447.04" width="0.1524" layer="91"/>
+<pinref part="R56" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="-441.96" x2="-60.96" y2="-441.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$76" class="0">
@@ -17587,7 +17447,7 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="JP_AUDIOEFF2" gate="A" pin="7"/>
 <wire x1="-53.34" y1="-449.58" x2="-60.96" y2="-449.58" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-449.58" x2="-60.96" y2="-452.12" width="0.1524" layer="91"/>
-<pinref part="R72" gate="G$1" pin="1"/>
+<pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="-452.12" x2="-63.5" y2="-452.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17690,6 +17550,48 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-342.9" y1="233.68" x2="-335.28" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="-342.9" y1="193.04" x2="-342.9" y2="233.68" width="0.1524" layer="91"/>
 <junction x="-342.9" y="233.68"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="JP_AUDIOEFF2" gate="A" pin="11"/>
+<wire x1="-55.88" y1="-454.66" x2="-53.34" y2="-454.66" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-454.66" x2="-55.88" y2="-472.44" width="0.1524" layer="91"/>
+<pinref part="R74" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="-472.44" x2="-55.88" y2="-472.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-426.72" x2="-106.68" y2="-426.72" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-426.72" x2="-106.68" y2="-436.88" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-436.88" x2="-106.68" y2="-436.88" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-436.88"/>
+<wire x1="-106.68" y1="-436.88" x2="-106.68" y2="-447.04" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-447.04" x2="-106.68" y2="-447.04" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-457.2" x2="-106.68" y2="-457.2" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-457.2" x2="-106.68" y2="-467.36" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-467.36" x2="-106.68" y2="-467.36" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-447.04" x2="-106.68" y2="-457.2" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-447.04"/>
+<junction x="-106.68" y="-457.2"/>
+</segment>
+</net>
+<net name="BTN6/C_SW3" class="0">
+<segment>
+<label x="342.9" y="-218.44" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="AX2"/>
+<wire x1="355.6" y1="-218.44" x2="360.68" y2="-218.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<label x="35.56" y="50.8" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PA1/T0OUT/XOUT"/>
 </segment>
 </net>
 </nets>
