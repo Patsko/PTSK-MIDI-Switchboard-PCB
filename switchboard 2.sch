@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,16 +54,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -13916,13 +13916,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="D10" library="LUIS" deviceset="SS14" device=""/>
 <part name="D11" library="LUIS" deviceset="SS14" device=""/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R20" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R21" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="C33" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
@@ -14332,7 +14332,7 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="D6" gate="G$1" x="60.96" y="228.6" rot="MR0"/>
 <instance part="GND78" gate="1" x="101.6" y="-48.26" rot="MR0"/>
 <instance part="JP_OUTS1" gate="A" x="393.7" y="45.72"/>
-<instance part="GND81" gate="1" x="386.08" y="35.56" rot="R270"/>
+<instance part="GND81" gate="1" x="381" y="33.02" rot="R270"/>
 <instance part="GND82" gate="1" x="-38.1" y="-370.84"/>
 <instance part="IC12" gate="P" x="340.36" y="7.62"/>
 <instance part="P_ANALOG" gate="A" x="-172.72" y="-50.8" rot="R180"/>
@@ -14997,11 +14997,6 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="P_UART" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="JP_OUTS1" gate="A" pin="9"/>
-<pinref part="GND81" gate="1" pin="GND"/>
-<wire x1="388.62" y1="35.56" x2="391.16" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC12" gate="P" pin="GND"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
@@ -15478,6 +15473,11 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-106.68" y1="-378.46" x2="-106.68" y2="-375.92" width="0.1524" layer="91"/>
 <junction x="-106.68" y="-375.92"/>
 </segment>
+<segment>
+<pinref part="GND81" gate="1" pin="GND"/>
+<pinref part="JP_OUTS1" gate="A" pin="10"/>
+<wire x1="383.54" y1="33.02" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SW_IN_1" class="0">
 <segment>
@@ -15622,9 +15622,9 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="347.98" y="-220.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
-<label x="40.64" y="43.18" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PA2/DE0/XIN2"/>
+<wire x1="116.84" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
+<label x="124.46" y="48.26" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PC7/LED/T2OUT"/>
 </segment>
 </net>
 <net name="C_SW1/SCL" class="0">
@@ -15903,11 +15903,6 @@ So, its GND pin must be connected to a different ground.</text>
 </net>
 <net name="BTN5" class="0">
 <segment>
-<wire x1="58.42" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
-<label x="43.18" y="53.34" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PA0/T0IN/!T0OUT!/XIN"/>
-</segment>
-<segment>
 <pinref part="JP_BTNS2" gate="A" pin="2"/>
 <wire x1="-88.9" y1="35.56" x2="-78.74" y2="35.56" width="0.1524" layer="91"/>
 <label x="-78.74" y="35.56" size="1.778" layer="95"/>
@@ -15921,6 +15916,11 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="JP_BTNS2" gate="A" pin="6"/>
 <wire x1="-88.9" y1="30.48" x2="-78.74" y2="30.48" width="0.1524" layer="91"/>
 <label x="-78.74" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<label x="43.18" y="50.8" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PA1/T0OUT/XOUT"/>
 </segment>
 </net>
 <net name="AD0" class="0">
@@ -15942,29 +15942,29 @@ So, its GND pin must be connected to a different ground.</text>
 </net>
 <net name="BTN0" class="0">
 <segment>
-<wire x1="116.84" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
-<label x="124.46" y="68.58" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PB1/ANA1/AMPINN"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS1" gate="A" pin="1"/>
-<wire x1="-96.52" y1="58.42" x2="-106.68" y2="58.42" width="0.1524" layer="91"/>
-<label x="-111.76" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS1" gate="A" pin="7"/>
-<wire x1="-96.52" y1="50.8" x2="-106.68" y2="50.8" width="0.1524" layer="91"/>
-<label x="-111.76" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS2" gate="A" pin="1"/>
-<wire x1="-96.52" y1="35.56" x2="-106.68" y2="35.56" width="0.1524" layer="91"/>
-<label x="-111.76" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP_BTNS2" gate="A" pin="7"/>
 <wire x1="-96.52" y1="27.94" x2="-106.68" y2="27.94" width="0.1524" layer="91"/>
 <label x="-111.76" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-88.9" y1="50.8" x2="-78.74" y2="50.8" width="0.1524" layer="91"/>
+<label x="-73.66" y="50.8" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP_BTNS1" gate="A" pin="8"/>
+</segment>
+<segment>
+<wire x1="-88.9" y1="53.34" x2="-78.74" y2="53.34" width="0.1524" layer="91"/>
+<label x="-73.66" y="53.34" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP_BTNS1" gate="A" pin="6"/>
+</segment>
+<segment>
+<pinref part="JP_BTNS2" gate="A" pin="5"/>
+<wire x1="-96.52" y1="30.48" x2="-106.68" y2="30.48" width="0.1524" layer="91"/>
+<label x="-111.76" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
+<label x="43.18" y="66.04" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PB4/ANA7"/>
 </segment>
 </net>
 <net name="BTN4" class="0">
@@ -15974,48 +15974,26 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="IC10" gate="G$1" pin="PB5/VREF"/>
 </segment>
 <segment>
-<pinref part="JP_BTNS1" gate="A" pin="8"/>
-<wire x1="-88.9" y1="50.8" x2="-78.74" y2="50.8" width="0.1524" layer="91"/>
-<label x="-78.74" y="50.8" size="1.778" layer="95"/>
+<pinref part="JP_BTNS1" gate="A" pin="7"/>
+<wire x1="-96.52" y1="50.8" x2="-106.68" y2="50.8" width="0.1524" layer="91"/>
+<label x="-111.76" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP_BTNS1" gate="A" pin="10"/>
-<wire x1="-88.9" y1="48.26" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
-<label x="-78.74" y="48.26" size="1.778" layer="95"/>
+<pinref part="JP_BTNS1" gate="A" pin="9"/>
+<wire x1="-96.52" y1="48.26" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
+<label x="-111.76" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP_BTNS1" gate="A" pin="12"/>
-<wire x1="-88.9" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
-<label x="-78.74" y="45.72" size="1.778" layer="95"/>
+<pinref part="JP_BTNS1" gate="A" pin="11"/>
+<wire x1="-96.52" y1="45.72" x2="-106.68" y2="45.72" width="0.1524" layer="91"/>
+<label x="-111.76" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN3" class="0">
 <segment>
-<wire x1="58.42" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<label x="43.18" y="66.04" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PB4/ANA7"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS1" gate="A" pin="2"/>
-<wire x1="-88.9" y1="58.42" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
-<label x="-78.74" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS1" gate="A" pin="4"/>
-<wire x1="-88.9" y1="55.88" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
-<label x="-78.74" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS1" gate="A" pin="6"/>
-<wire x1="-88.9" y1="53.34" x2="-78.74" y2="53.34" width="0.1524" layer="91"/>
-<label x="-78.74" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BTN1" class="0">
-<segment>
-<wire x1="58.42" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
-<label x="43.18" y="68.58" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PB2/ANA2/AMPINP"/>
+<pinref part="JP_BTNS1" gate="A" pin="1"/>
+<wire x1="-96.52" y1="58.42" x2="-106.68" y2="58.42" width="0.1524" layer="91"/>
+<label x="-111.76" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP_BTNS1" gate="A" pin="3"/>
@@ -16023,9 +16001,21 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="-111.76" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP_BTNS1" gate="A" pin="9"/>
-<wire x1="-96.52" y1="48.26" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
-<label x="-111.76" y="48.26" size="1.778" layer="95"/>
+<pinref part="JP_BTNS1" gate="A" pin="5"/>
+<wire x1="-96.52" y1="53.34" x2="-106.68" y2="53.34" width="0.1524" layer="91"/>
+<label x="-111.76" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<label x="124.46" y="68.58" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PB1/ANA1/AMPINN"/>
+</segment>
+</net>
+<net name="BTN1" class="0">
+<segment>
+<wire x1="58.42" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<label x="43.18" y="68.58" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PB2/ANA2/AMPINP"/>
 </segment>
 <segment>
 <pinref part="JP_BTNS2" gate="A" pin="3"/>
@@ -16037,6 +16027,16 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-96.52" y1="25.4" x2="-106.68" y2="25.4" width="0.1524" layer="91"/>
 <label x="-111.76" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-88.9" y1="55.88" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
+<label x="-73.66" y="55.88" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP_BTNS1" gate="A" pin="4"/>
+</segment>
+<segment>
+<wire x1="-88.9" y1="48.26" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="-73.66" y="48.26" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP_BTNS1" gate="A" pin="10"/>
+</segment>
 </net>
 <net name="BTN2" class="0">
 <segment>
@@ -16045,24 +16045,24 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="IC10" gate="G$1" pin="PB3/CLKIN/ANA3"/>
 </segment>
 <segment>
-<pinref part="JP_BTNS1" gate="A" pin="5"/>
-<wire x1="-96.52" y1="53.34" x2="-106.68" y2="53.34" width="0.1524" layer="91"/>
-<label x="-111.76" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS1" gate="A" pin="11"/>
-<wire x1="-96.52" y1="45.72" x2="-106.68" y2="45.72" width="0.1524" layer="91"/>
-<label x="-111.76" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS2" gate="A" pin="5"/>
-<wire x1="-96.52" y1="30.48" x2="-106.68" y2="30.48" width="0.1524" layer="91"/>
-<label x="-111.76" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP_BTNS2" gate="A" pin="11"/>
 <wire x1="-96.52" y1="22.86" x2="-106.68" y2="22.86" width="0.1524" layer="91"/>
 <label x="-111.76" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-88.9" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
+<label x="-73.66" y="45.72" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP_BTNS1" gate="A" pin="12"/>
+</segment>
+<segment>
+<wire x1="-88.9" y1="58.42" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
+<label x="-73.66" y="58.42" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP_BTNS1" gate="A" pin="2"/>
+</segment>
+<segment>
+<pinref part="JP_BTNS2" gate="A" pin="1"/>
+<wire x1="-96.52" y1="35.56" x2="-106.68" y2="35.56" width="0.1524" layer="91"/>
+<label x="-111.76" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -16220,9 +16220,9 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="-444.5" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D19" gate="G$1" pin="IO2"/>
-<wire x1="-412.75" y1="124.46" x2="-410.21" y2="124.46" width="0.1524" layer="91"/>
-<label x="-410.21" y="124.46" size="1.778" layer="95"/>
+<pinref part="D19" gate="G$1" pin="IO1"/>
+<wire x1="-425.45" y1="124.46" x2="-427.99" y2="124.46" width="0.1524" layer="91"/>
+<label x="-430.53" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -16242,9 +16242,9 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="-444.5" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D19" gate="G$1" pin="IO1"/>
-<wire x1="-425.45" y1="124.46" x2="-427.99" y2="124.46" width="0.1524" layer="91"/>
-<label x="-430.53" y="124.46" size="1.778" layer="95"/>
+<pinref part="D19" gate="G$1" pin="IO2"/>
+<wire x1="-412.75" y1="124.46" x2="-410.21" y2="124.46" width="0.1524" layer="91"/>
+<label x="-410.21" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_USB" class="0">
@@ -16429,14 +16429,14 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="307.34" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
-<label x="124.46" y="63.5" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PC3/COUT/LED"/>
-</segment>
-<segment>
 <pinref part="P_EXTRA" gate="A" pin="1"/>
 <wire x1="71.12" y1="-20.32" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
 <label x="53.34" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<label x="40.64" y="43.18" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PA2/DE0/XIN2"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -16517,14 +16517,14 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="347.98" y="-205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
-<label x="124.46" y="55.88" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PC0/ANA4/CINP/LED"/>
-</segment>
-<segment>
 <pinref part="P_EXTRA" gate="A" pin="3"/>
 <wire x1="71.12" y1="-25.4" x2="63.5" y2="-25.4" width="0.1524" layer="91"/>
 <label x="53.34" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="124.46" y="55.88" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PC0/ANA4/CINP/LED"/>
 </segment>
 </net>
 <net name="C_SW6" class="0">
@@ -16534,22 +16534,17 @@ So, its GND pin must be connected to a different ground.</text>
 <label x="347.98" y="-203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<label x="124.46" y="45.72" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PC6/LED/T2IN/!T2OUT!"/>
-</segment>
-<segment>
 <pinref part="P_EXTRA" gate="A" pin="5"/>
 <wire x1="71.12" y1="-30.48" x2="63.5" y2="-30.48" width="0.1524" layer="91"/>
 <label x="53.34" y="-30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="116.84" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<label x="124.46" y="63.5" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PC3/COUT/LED"/>
+</segment>
 </net>
 <net name="C_SW7" class="0">
-<segment>
-<wire x1="116.84" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
-<label x="124.46" y="48.26" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PC7/LED/T2OUT"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="AY2"/>
 <wire x1="360.68" y1="-200.66" x2="355.6" y2="-200.66" width="0.1524" layer="91"/>
@@ -16559,6 +16554,11 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="P_EXTRA" gate="A" pin="4"/>
 <wire x1="71.12" y1="-27.94" x2="63.5" y2="-27.94" width="0.1524" layer="91"/>
 <label x="53.34" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="PC6/LED/T2IN/!T2OUT!"/>
+<wire x1="116.84" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<label x="124.46" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -16885,13 +16885,6 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="-347.98" y1="187.96" x2="-358.14" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="IC12" gate="A" pin="QH*"/>
-<pinref part="JP_OUTS1" gate="A" pin="10"/>
-<wire x1="353.06" y1="33.02" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SWOUT_1" class="0">
 <segment>
 <pinref part="IC9" gate="B" pin="+IN"/>
@@ -17059,23 +17052,6 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="IC1" gate="G$1" pin="CS"/>
 <wire x1="360.68" y1="-185.42" x2="355.6" y2="-185.42" width="0.1524" layer="91"/>
 <label x="335.28" y="-185.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BTN6/C_SW1" class="0">
-<segment>
-<pinref part="JP_BTNS2" gate="A" pin="8"/>
-<wire x1="-88.9" y1="27.94" x2="-78.74" y2="27.94" width="0.1524" layer="91"/>
-<label x="-78.74" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS2" gate="A" pin="12"/>
-<wire x1="-88.9" y1="22.86" x2="-78.74" y2="22.86" width="0.1524" layer="91"/>
-<label x="-78.74" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_BTNS2" gate="A" pin="10"/>
-<wire x1="-88.9" y1="25.4" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
-<label x="-78.74" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -17589,9 +17565,33 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="355.6" y1="-218.44" x2="360.68" y2="-218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
-<label x="35.56" y="50.8" size="1.778" layer="95"/>
-<pinref part="IC10" gate="G$1" pin="PA1/T0OUT/XOUT"/>
+<pinref part="JP_BTNS2" gate="A" pin="8"/>
+<wire x1="-88.9" y1="27.94" x2="-78.74" y2="27.94" width="0.1524" layer="91"/>
+<label x="-78.74" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP_BTNS2" gate="A" pin="12"/>
+<wire x1="-88.9" y1="22.86" x2="-78.74" y2="22.86" width="0.1524" layer="91"/>
+<label x="-78.74" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP_BTNS2" gate="A" pin="10"/>
+<wire x1="-88.9" y1="25.4" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
+<label x="-78.74" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="38.1" y="53.34" size="1.778" layer="95"/>
+<pinref part="IC10" gate="G$1" pin="PA0/T0IN/!T0OUT!/XIN"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="JP_OUTS1" gate="A" pin="9"/>
+<wire x1="391.16" y1="35.56" x2="368.3" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="35.56" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="A" pin="QH*"/>
+<wire x1="368.3" y1="33.02" x2="353.06" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
