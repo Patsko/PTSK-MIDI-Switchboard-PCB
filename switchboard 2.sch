@@ -13695,7 +13695,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R34" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
@@ -13839,7 +13839,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R18" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="P_INPUT2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P_OUT2" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -14053,6 +14053,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="D20" library="diode" deviceset="DIODE-" device="MINIMELF" value="LL4148"/>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="GND102" library="supply1" deviceset="GND" device=""/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND97" library="supply1" deviceset="GND" device=""/>
+<part name="C58" library="rcl" deviceset="C-EU" device="C0603" value="100p"/>
+<part name="C59" library="rcl" deviceset="C-EU" device="C0603" value="100p"/>
+<part name="GND103" library="supply1" deviceset="GND" device=""/>
+<part name="GND104" library="supply1" deviceset="GND" device=""/>
+<part name="R81" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R82" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="GND105" library="supply1" deviceset="GND" device=""/>
+<part name="GND106" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14060,7 +14071,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-154.94" y="38.1" size="1.778" layer="97">BTN0 to BTN2
 Configure as open-drain outputs
 with pull-ups</text>
-<text x="-63.5" y="40.64" size="1.778" layer="97">BTN3 to BTN6
+<text x="-154.94" y="30.48" size="1.778" layer="97">BTN3 to BTN6
 Configure as inputs with pull-ups</text>
 <text x="210.82" y="266.7" size="1.778" layer="97">3.3V regulator as a option when FT232
 (and its regulator) is not mounted or not used.</text>
@@ -14073,7 +14084,7 @@ Configure as inputs with pull-ups</text>
 <text x="-106.68" y="-325.12" size="1.778" layer="97">The DC blocking caps are optional and may be changed to 0R jumpers if it is guaranteed that the effects inputs and outputs doesn't have DC voltages.</text>
 <text x="203.2" y="66.04" size="1.778" layer="91">Reset button</text>
 <text x="-279.4" y="99.06" size="1.778" layer="97">TX/RX LED</text>
-<text x="-96.52" y="71.12" size="1.778" layer="97">Buttons</text>
+<text x="-154.94" y="58.42" size="1.778" layer="97">Buttons</text>
 <text x="10.16" y="241.3" size="1.778" layer="97">Diode as protection against damage if Vout &gt; Vin, providing a safe path to discharge the output caps.
 If LM2940 is not mounted, it should be mounted in opposite direction or replaced by a jumper.</text>
 <text x="-492.76" y="254" size="1.778" layer="97">MIDI In must be completely isolated from the rest of the circuit. 
@@ -14091,9 +14102,15 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="GND2" gate="1" x="86.36" y="78.74"/>
 <instance part="IC9" gate="A" x="40.64" y="-134.62"/>
 <instance part="IC9" gate="B" x="114.3" y="-137.16"/>
-<instance part="R2" gate="G$1" x="5.08" y="-139.7" rot="R90"/>
-<instance part="R3" gate="G$1" x="17.78" y="-139.7" rot="R90"/>
-<instance part="R4" gate="G$1" x="-10.16" y="-132.08" rot="R180"/>
+<instance part="R2" gate="G$1" x="5.08" y="-139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.35" y="-138.2014" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.35" y="-143.002" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="17.78" y="-139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.05" y="-138.2014" size="1.778" layer="95"/>
+<attribute name="VALUE" x="19.05" y="-143.002" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="-22.86" y="-132.08" rot="R180"/>
 <instance part="GND5" gate="1" x="5.08" y="-147.32"/>
 <instance part="R5" gate="G$1" x="-414.02" y="233.68" rot="R180"/>
 <instance part="R6" gate="G$1" x="-373.38" y="243.84" smashed="yes" rot="R270">
@@ -14187,8 +14204,8 @@ So, its GND pin must be connected to a different ground.</text>
 <attribute name="VALUE" x="-133.35" y="-55.118" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND67" gate="1" x="-137.16" y="-63.5"/>
-<instance part="P_INPUT" gate="G$1" x="-38.1" y="-132.08" rot="R180"/>
-<instance part="GND68" gate="1" x="-27.94" y="-137.16"/>
+<instance part="P_INPUT" gate="G$1" x="-50.8" y="-132.08" rot="R180"/>
+<instance part="GND68" gate="1" x="-40.64" y="-137.16"/>
 <instance part="P_OUT" gate="G$1" x="187.96" y="-139.7"/>
 <instance part="GND69" gate="1" x="177.8" y="-142.24"/>
 <instance part="C30" gate="G$1" x="101.6" y="213.36"/>
@@ -14286,13 +14303,13 @@ So, its GND pin must be connected to a different ground.</text>
 </instance>
 <instance part="IC14" gate="P" x="-378.46" y="292.1"/>
 <instance part="IC15" gate="P" x="-358.14" y="292.1"/>
-<instance part="D1" gate="G$1" x="-2.54" y="-139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.08" y="-137.6426" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-5.08" y="-139.9286" size="1.778" layer="96" rot="R180"/>
+<instance part="D1" gate="G$1" x="-15.24" y="-139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-17.78" y="-137.6426" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-17.78" y="-139.9286" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D2" gate="G$1" x="-2.54" y="-124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.08" y="-122.4026" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-5.08" y="-124.6886" size="1.778" layer="96" rot="R180"/>
+<instance part="D2" gate="G$1" x="-15.24" y="-124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="-17.78" y="-122.4026" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-17.78" y="-124.6886" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D3" gate="G$1" x="-401.32" y="231.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="-403.86" y="233.1974" size="1.778" layer="95" rot="R180"/>
@@ -14367,28 +14384,34 @@ So, its GND pin must be connected to a different ground.</text>
 </instance>
 <instance part="IC2" gate="A" x="40.64" y="-231.14"/>
 <instance part="IC2" gate="B" x="114.3" y="-233.68"/>
-<instance part="R14" gate="G$1" x="5.08" y="-236.22" rot="R90"/>
-<instance part="R16" gate="G$1" x="17.78" y="-236.22" rot="R90"/>
-<instance part="R17" gate="G$1" x="-10.16" y="-228.6" rot="R180"/>
+<instance part="R14" gate="G$1" x="5.08" y="-236.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.35" y="-234.7214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.35" y="-239.522" size="1.778" layer="96"/>
+</instance>
+<instance part="R16" gate="G$1" x="17.78" y="-236.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.05" y="-234.7214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="19.05" y="-239.522" size="1.778" layer="96"/>
+</instance>
+<instance part="R17" gate="G$1" x="-22.86" y="-228.6" rot="R180"/>
 <instance part="GND16" gate="1" x="5.08" y="-243.84"/>
 <instance part="R18" gate="G$1" x="58.42" y="-238.76" rot="R90"/>
 <instance part="IC2" gate="P" x="78.74" y="-281.94"/>
 <instance part="R19" gate="G$1" x="137.16" y="-238.76" rot="R90"/>
 <instance part="GND20" gate="1" x="137.16" y="-246.38"/>
 <instance part="R23" gate="G$1" x="157.48" y="-233.68" rot="R180"/>
-<instance part="P_INPUT2" gate="G$1" x="-38.1" y="-228.6" rot="R180"/>
-<instance part="GND21" gate="1" x="-27.94" y="-233.68"/>
+<instance part="P_INPUT2" gate="G$1" x="-50.8" y="-228.6" rot="R180"/>
+<instance part="GND21" gate="1" x="-40.64" y="-233.68"/>
 <instance part="P_OUT2" gate="G$1" x="187.96" y="-236.22"/>
 <instance part="GND22" gate="1" x="177.8" y="-238.76"/>
 <instance part="GND23" gate="1" x="17.78" y="-243.84"/>
 <instance part="GND31" gate="1" x="58.42" y="-246.38"/>
-<instance part="D13" gate="G$1" x="-2.54" y="-236.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.08" y="-234.1626" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-5.08" y="-236.4486" size="1.778" layer="96" rot="R180"/>
+<instance part="D13" gate="G$1" x="-15.24" y="-236.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="-17.78" y="-234.1626" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-17.78" y="-236.4486" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D14" gate="G$1" x="-2.54" y="-220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.08" y="-218.9226" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-5.08" y="-221.2086" size="1.778" layer="96" rot="R180"/>
+<instance part="D14" gate="G$1" x="-15.24" y="-220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="-17.78" y="-218.9226" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-17.78" y="-221.2086" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P-3" gate="1" x="78.74" y="-297.18" smashed="yes">
 <attribute name="VALUE" x="71.12" y="-297.18" size="1.778" layer="96"/>
@@ -14519,8 +14542,8 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="+3V4" gate="G$1" x="-355.6" y="116.84" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-363.22" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="GND53" gate="1" x="-20.32" y="-147.32"/>
-<instance part="GND66" gate="1" x="-20.32" y="-243.84"/>
+<instance part="GND53" gate="1" x="-33.02" y="-147.32"/>
+<instance part="GND66" gate="1" x="-33.02" y="-243.84"/>
 <instance part="GND70" gate="1" x="167.64" y="-152.4"/>
 <instance part="GND79" gate="1" x="167.64" y="-248.92"/>
 <instance part="IC10" gate="G$1" x="86.36" y="53.34"/>
@@ -14540,11 +14563,11 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="P+6" gate="1" x="383.54" y="-114.3" smashed="yes">
 <attribute name="VALUE" x="388.62" y="-111.76" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+1" gate="1" x="-2.54" y="-116.84" smashed="yes">
-<attribute name="VALUE" x="2.54" y="-114.3" size="1.778" layer="96" rot="R180"/>
+<instance part="P+1" gate="1" x="-15.24" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="-114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+7" gate="1" x="-2.54" y="-213.36" smashed="yes">
-<attribute name="VALUE" x="2.54" y="-210.82" size="1.778" layer="96" rot="R180"/>
+<instance part="P+7" gate="1" x="-15.24" y="-213.36" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="-210.82" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+9" gate="1" x="78.74" y="-167.64" smashed="yes">
 <attribute name="VALUE" x="83.82" y="-165.1" size="1.778" layer="96" rot="R180"/>
@@ -14562,9 +14585,9 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="SUPPLY5" gate="G$1" x="210.82" y="177.8"/>
 <instance part="SUPPLY6" gate="G$1" x="104.14" y="-358.14"/>
 <instance part="GAP1" gate="G$1" x="-152.4" y="-55.88"/>
-<instance part="GAP2" gate="G$1" x="-20.32" y="-139.7"/>
+<instance part="GAP2" gate="G$1" x="-33.02" y="-139.7"/>
 <instance part="GAP3" gate="G$1" x="167.64" y="-144.78"/>
-<instance part="GAP4" gate="G$1" x="-20.32" y="-236.22"/>
+<instance part="GAP4" gate="G$1" x="-33.02" y="-236.22"/>
 <instance part="GAP5" gate="G$1" x="167.64" y="-241.3"/>
 <instance part="P_I2C" gate="A" x="111.76" y="-22.86"/>
 <instance part="GND83" gate="1" x="101.6" y="-27.94"/>
@@ -14644,8 +14667,14 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="SUPPLY9" gate="G$1" x="-434.34" y="246.38" rot="R180"/>
 <instance part="P_UART" gate="A" x="111.76" y="-43.18"/>
 <instance part="D19" gate="G$1" x="-419.1" y="124.46"/>
-<instance part="C2" gate="G$1" x="12.7" y="-132.08" rot="R270"/>
-<instance part="C6" gate="G$1" x="12.7" y="-228.6" rot="R270"/>
+<instance part="C2" gate="G$1" x="12.7" y="-132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.763" y="-129.0574" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.1026" y="-133.223" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C6" gate="G$1" x="12.7" y="-228.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.763" y="-225.5774" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.1026" y="-229.743" size="1.778" layer="96" rot="R270"/>
+</instance>
 <instance part="C10" gate="G$1" x="129.54" y="-137.16" rot="R90"/>
 <instance part="C11" gate="G$1" x="129.54" y="-233.68" rot="R90"/>
 <instance part="JP_AUDIOEFF3" gate="A" x="38.1" y="-373.38"/>
@@ -14657,11 +14686,11 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="P-7" gate="1" x="147.32" y="-248.92" smashed="yes">
 <attribute name="VALUE" x="142.24" y="-248.92" size="1.778" layer="96"/>
 </instance>
-<instance part="P-8" gate="1" x="-2.54" y="-147.32" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-147.32" size="1.778" layer="96"/>
+<instance part="P-8" gate="1" x="-15.24" y="-147.32" smashed="yes">
+<attribute name="VALUE" x="-20.32" y="-147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="P-9" gate="1" x="-2.54" y="-243.84" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-243.84" size="1.778" layer="96"/>
+<instance part="P-9" gate="1" x="-15.24" y="-243.84" smashed="yes">
+<attribute name="VALUE" x="-20.32" y="-243.84" size="1.778" layer="96"/>
 </instance>
 <instance part="C50" gate="G$1" x="86.36" y="-195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.376" y="-190.881" size="1.778" layer="95" rot="R180"/>
@@ -14703,6 +14732,34 @@ So, its GND pin must be connected to a different ground.</text>
 </instance>
 <instance part="GND101" gate="1" x="363.22" y="203.2" rot="MR0"/>
 <instance part="GND102" gate="1" x="-88.9" y="213.36"/>
+<instance part="C14" gate="G$1" x="-76.2" y="-71.12" smashed="yes">
+<attribute name="NAME" x="-72.136" y="-70.739" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-72.136" y="-73.279" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="-76.2" y="-66.04" smashed="yes">
+<attribute name="VALUE" x="-78.74" y="-66.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND97" gate="1" x="-76.2" y="-78.74"/>
+<instance part="C58" gate="G$1" x="-5.08" y="-139.7" smashed="yes">
+<attribute name="NAME" x="-3.556" y="-139.319" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-3.556" y="-144.399" size="1.778" layer="96"/>
+</instance>
+<instance part="C59" gate="G$1" x="-5.08" y="-236.22" smashed="yes">
+<attribute name="NAME" x="-3.556" y="-235.839" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-3.556" y="-240.919" size="1.778" layer="96"/>
+</instance>
+<instance part="GND103" gate="1" x="-5.08" y="-243.84"/>
+<instance part="GND104" gate="1" x="-5.08" y="-147.32"/>
+<instance part="R81" gate="G$1" x="93.98" y="-238.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="-237.2614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="95.25" y="-242.062" size="1.778" layer="96"/>
+</instance>
+<instance part="R82" gate="G$1" x="93.98" y="-142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="-140.7414" size="1.778" layer="95"/>
+<attribute name="VALUE" x="95.25" y="-145.542" size="1.778" layer="96"/>
+</instance>
+<instance part="GND105" gate="1" x="93.98" y="-246.38"/>
+<instance part="GND106" gate="1" x="93.98" y="-149.86"/>
 </instances>
 <busses>
 </busses>
@@ -14816,6 +14873,10 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="U$2" gate="G$1" pin="+3V3"/>
 <wire x1="383.54" y1="58.42" x2="391.16" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -14870,7 +14931,7 @@ So, its GND pin must be connected to a different ground.</text>
 <segment>
 <pinref part="P_INPUT" gate="G$1" pin="1"/>
 <pinref part="GND68" gate="1" pin="GND"/>
-<wire x1="-27.94" y1="-134.62" x2="-35.56" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-134.62" x2="-48.26" y2="-134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P_OUT" gate="G$1" pin="2"/>
@@ -15071,7 +15132,7 @@ So, its GND pin must be connected to a different ground.</text>
 <segment>
 <pinref part="P_INPUT2" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="-27.94" y1="-231.14" x2="-35.56" y2="-231.14" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-231.14" x2="-48.26" y2="-231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P_OUT2" gate="G$1" pin="2"/>
@@ -15460,6 +15521,26 @@ So, its GND pin must be connected to a different ground.</text>
 <junction x="-88.9" y="218.44"/>
 <pinref part="GND102" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="GND97" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C59" gate="G$1" pin="2"/>
+<pinref part="GND103" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C58" gate="G$1" pin="2"/>
+<pinref part="GND104" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R81" gate="G$1" pin="1"/>
+<pinref part="GND105" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R82" gate="G$1" pin="1"/>
+<pinref part="GND106" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="SW_IN_1" class="0">
 <segment>
@@ -15498,16 +15579,20 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-132.08" x2="5.08" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-132.08" x2="5.08" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-132.08" x2="-2.54" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-132.08" x2="-5.08" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="5.08" y="-132.08"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="-132.08" x2="-5.08" y2="-132.08" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-132.08"/>
+<wire x1="-5.08" y1="-132.08" x2="-15.24" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-132.08" x2="-17.78" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-132.08"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-2.54" y1="-132.08" x2="-2.54" y2="-127" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-132.08" x2="-15.24" y2="-127" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-2.54" y1="-132.08" x2="-2.54" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-132.08" x2="-15.24" y2="-137.16" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C58" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="-137.16" x2="-5.08" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-132.08"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -15700,12 +15785,12 @@ So, its GND pin must be connected to a different ground.</text>
 <net name="INPUT1" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="-132.08" x2="-20.32" y2="-132.08" width="0.1524" layer="91"/>
-<label x="-30.48" y="-132.08" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="-132.08" x2="-33.02" y2="-132.08" width="0.1524" layer="91"/>
+<label x="-43.18" y="-132.08" size="1.778" layer="95"/>
 <pinref part="P_INPUT" gate="G$1" pin="2"/>
-<wire x1="-20.32" y1="-132.08" x2="-35.56" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-134.62" x2="-20.32" y2="-132.08" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-132.08"/>
+<wire x1="-33.02" y1="-132.08" x2="-48.26" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-134.62" x2="-33.02" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-132.08"/>
 <pinref part="GAP2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -16472,12 +16557,12 @@ So, its GND pin must be connected to a different ground.</text>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-2.54" y1="-142.24" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-142.24" x2="-15.24" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="P-8" gate="1" pin="-5V"/>
 </segment>
 <segment>
 <pinref part="D13" gate="G$1" pin="A"/>
-<wire x1="-2.54" y1="-238.76" x2="-2.54" y2="-241.3" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-238.76" x2="-15.24" y2="-241.3" width="0.1524" layer="91"/>
 <pinref part="P-9" gate="1" pin="-5V"/>
 </segment>
 </net>
@@ -16579,6 +16664,10 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="IC2" gate="B" pin="+IN"/>
 <wire x1="106.68" y1="-231.14" x2="93.98" y2="-231.14" width="0.1524" layer="91"/>
 <label x="83.82" y="-231.14" size="1.778" layer="95"/>
+<pinref part="R81" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="-231.14" x2="86.36" y2="-231.14" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-233.68" x2="93.98" y2="-231.14" width="0.1524" layer="91"/>
+<junction x="93.98" y="-231.14"/>
 </segment>
 <segment>
 <label x="-104.14" y="-472.44" size="1.778" layer="95"/>
@@ -16718,16 +16807,20 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-228.6" x2="5.08" y2="-228.6" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-228.6" x2="5.08" y2="-231.14" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-228.6" x2="-2.54" y2="-228.6" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-228.6" x2="-5.08" y2="-228.6" width="0.1524" layer="91"/>
 <junction x="5.08" y="-228.6"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="-228.6" x2="-5.08" y2="-228.6" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-228.6"/>
+<wire x1="-5.08" y1="-228.6" x2="-15.24" y2="-228.6" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-228.6" x2="-17.78" y2="-228.6" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-228.6"/>
 <pinref part="D14" gate="G$1" pin="A"/>
-<wire x1="-2.54" y1="-228.6" x2="-2.54" y2="-223.52" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-228.6" x2="-15.24" y2="-223.52" width="0.1524" layer="91"/>
 <pinref part="D13" gate="G$1" pin="C"/>
-<wire x1="-2.54" y1="-228.6" x2="-2.54" y2="-233.68" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-228.6" x2="-15.24" y2="-233.68" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C59" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="-233.68" x2="-5.08" y2="-228.6" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-228.6"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -16785,12 +16878,12 @@ So, its GND pin must be connected to a different ground.</text>
 <net name="INPUT2" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="-228.6" x2="-20.32" y2="-228.6" width="0.1524" layer="91"/>
-<label x="-30.48" y="-228.6" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="-228.6" x2="-33.02" y2="-228.6" width="0.1524" layer="91"/>
+<label x="-43.18" y="-228.6" size="1.778" layer="95"/>
 <pinref part="P_INPUT2" gate="G$1" pin="2"/>
-<wire x1="-20.32" y1="-228.6" x2="-35.56" y2="-228.6" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-231.14" x2="-20.32" y2="-228.6" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-228.6"/>
+<wire x1="-33.02" y1="-228.6" x2="-48.26" y2="-228.6" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-231.14" x2="-33.02" y2="-228.6" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-228.6"/>
 <pinref part="GAP4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -16863,6 +16956,10 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="IC9" gate="B" pin="+IN"/>
 <wire x1="106.68" y1="-134.62" x2="93.98" y2="-134.62" width="0.1524" layer="91"/>
 <label x="91.44" y="-134.62" size="1.778" layer="95"/>
+<pinref part="R82" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="-134.62" x2="86.36" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-137.16" x2="93.98" y2="-134.62" width="0.1524" layer="91"/>
+<junction x="93.98" y="-134.62"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y0"/>
@@ -17084,12 +17181,12 @@ So, its GND pin must be connected to a different ground.</text>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-2.54" y1="-121.92" x2="-2.54" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-121.92" x2="-15.24" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V_AN"/>
 </segment>
 <segment>
 <pinref part="D14" gate="G$1" pin="C"/>
-<wire x1="-2.54" y1="-215.9" x2="-2.54" y2="-218.44" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-215.9" x2="-15.24" y2="-218.44" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V_AN"/>
 </segment>
 <segment>
