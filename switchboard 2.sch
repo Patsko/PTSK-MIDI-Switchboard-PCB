@@ -14852,8 +14852,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$1" library="supply1" deviceset="+3V3" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="JP25" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="R60" library="rcl" deviceset="R-US_" device="R0603" value="1k SMD"/>
 <part name="R71" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
@@ -15014,7 +15012,6 @@ Configure as inputs with pull-ups</text>
 2-1 - MIDI Thru
 2-3 - MIDI Out</text>
 <text x="-106.68" y="-325.12" size="1.778" layer="97">The DC blocking caps are optional and may be changed to 0R jumpers if it is guaranteed that the effects inputs and outputs doesn't have DC voltages.</text>
-<text x="203.2" y="66.04" size="1.778" layer="91">Reset button</text>
 <text x="-279.4" y="99.06" size="1.778" layer="97">TX/RX LED</text>
 <text x="-154.94" y="58.42" size="1.778" layer="97">Buttons</text>
 <text x="10.16" y="241.3" size="1.778" layer="97">Diode as protection against damage if Vout &gt; Vin, providing a safe path to discharge the output caps.
@@ -15456,10 +15453,8 @@ So, its GND pin must be connected to a different ground.</text>
 <instance part="U$1" gate="G$1" x="203.2" y="38.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="203.2" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="180.34" y="68.58"/>
-<instance part="GND4" gate="1" x="180.34" y="60.96"/>
-<instance part="JP25" gate="G$1" x="198.12" y="66.04"/>
-<instance part="GND39" gate="1" x="190.5" y="60.96"/>
+<instance part="C4" gate="G$1" x="170.18" y="48.26"/>
+<instance part="GND4" gate="1" x="170.18" y="40.64"/>
 <instance part="R60" gate="G$1" x="-330.2" y="233.68" smashed="yes">
 <attribute name="NAME" x="-328.93" y="237.2614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-326.39" y="231.902" size="1.778" layer="96" rot="R180"/>
@@ -16250,12 +16245,6 @@ So, its GND pin must be connected to a different ground.</text>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="JP25" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="66.04" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND80" gate="1" pin="GND"/>
@@ -18073,23 +18062,18 @@ So, its GND pin must be connected to a different ground.</text>
 <net name="RST" class="0">
 <segment>
 <pinref part="JP_DBG" gate="A" pin="6"/>
-<wire x1="182.88" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
-<label x="162.56" y="43.18" size="1.778" layer="95"/>
+<wire x1="182.88" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
+<label x="162.56" y="50.8" size="1.778" layer="95"/>
+<wire x1="177.8" y1="43.18" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="50.8" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
+<junction x="170.18" y="50.8"/>
 </segment>
 <segment>
 <wire x1="116.84" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <label x="124.46" y="50.8" size="1.778" layer="95"/>
 <pinref part="IC10" gate="G$1" pin="!RESET!/PD0"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="71.12" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP25" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
-<junction x="180.34" y="71.12"/>
-<label x="167.64" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_SWITCH/AD0" class="0">
