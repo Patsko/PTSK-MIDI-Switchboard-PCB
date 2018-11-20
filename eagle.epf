@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 07 01"
+Version="09 01 03"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -371,10 +371,14 @@ UsedLibrary="D:/Eletrônica/Eagle/Bibliotecas/gauss markov-lbr/gm-voltage.lbr"
 UsedLibrary="D:/Eletrônica/Eagle/Bibliotecas/gauss markov-lbr/gm-xfms.lbr"
 
 [Win_1]
+Type="Control Panel"
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
 Number=1
 File="switchboard 2.sch"
-View="-532.514 -501.595 451.625 323.222"
+View="313.009 -252.913 490.153 -104.447"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -413,13 +417,14 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: 313.009 -252.913 490.153 -104.447"
 Sheet="1"
 
-[Win_2]
+[Win_3]
 Type="Board Editor"
 Number=2
 File="switchboard 2.brd"
-View="-20.1112 -13.1803 20.6269 14.9881"
+View="8.69752 9.48336 67.3599 50.0458"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -458,10 +463,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=1
-
-[Win_3]
-Type="Control Panel"
-Number=0
 
 [Desktop]
 Screen="1920 1080"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14733,11 +14733,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="IC17" library="PATSKO" deviceset="OPTOCOUPLER" device="" value="PC817S OPTO"/>
-<part name="R39" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
+<part name="R39" library="rcl" deviceset="R-US_" device="R0603" value="X"/>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
-<part name="R41" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R42" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
-<part name="R43" library="rcl" deviceset="R-US_" device="R0603" value="1M SMD"/>
+<part name="R41" library="rcl" deviceset="R-US_" device="R0603" value="X"/>
+<part name="R42" library="rcl" deviceset="R-US_" device="R0603" value="X"/>
+<part name="R43" library="rcl" deviceset="R-US_" device="R0603" value="X"/>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
 <part name="SJ2" library="jumper" deviceset="SJ" device=""/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -15305,11 +15305,11 @@ So, its GND pin must be connected to a different ground.</text>
 <attribute name="VALUE" x="340.36" y="-165.1" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="355.6" y="-167.64" rot="R270"/>
-<instance part="C3" gate="G$1" x="345.44" y="-149.86"/>
+<instance part="C3" gate="G$1" x="345.44" y="-139.7"/>
 <instance part="GND15" gate="1" x="345.44" y="-157.48"/>
-<instance part="R15" gate="G$1" x="345.44" y="-142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="347.98" y="-142.0114" size="1.778" layer="95"/>
-<attribute name="VALUE" x="347.98" y="-144.272" size="1.778" layer="96"/>
+<instance part="R15" gate="G$1" x="345.44" y="-149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="347.98" y="-149.6314" size="1.778" layer="95"/>
+<attribute name="VALUE" x="347.98" y="-151.892" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="A" x="40.64" y="-231.14"/>
 <instance part="IC2" gate="B" x="114.3" y="-233.68"/>
@@ -16089,10 +16089,6 @@ So, its GND pin must be connected to a different ground.</text>
 <wire x1="358.14" y1="-167.64" x2="360.68" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
@@ -16501,6 +16497,10 @@ So, its GND pin must be connected to a different ground.</text>
 <segment>
 <pinref part="R82" gate="G$1" pin="1"/>
 <pinref part="GND106" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SW_IN_1" class="0">
@@ -17617,17 +17617,6 @@ So, its GND pin must be connected to a different ground.</text>
 <junction x="104.14" y="-147.32"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="-147.32" x2="355.6" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="-147.32" x2="355.6" y2="-160.02" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="RESET"/>
-<wire x1="355.6" y1="-160.02" x2="360.68" y2="-160.02" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<junction x="345.44" y="-147.32"/>
-</segment>
-</net>
 <net name="SWOUT_2-TO_EFF_7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y7"/>
@@ -18145,10 +18134,6 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="P+6" gate="1" pin="+5V_AN"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="P+22" gate="1" pin="+5V_AN"/>
-</segment>
-<segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="-15.24" y1="-121.92" x2="-15.24" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V_AN"/>
@@ -18190,6 +18175,10 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="D7" gate="G$1" pin="C"/>
 <pinref part="P+4" gate="1" pin="+5V_AN"/>
 <wire x1="147.32" y1="-124.46" x2="147.32" y2="-127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+22" gate="1" pin="+5V_AN"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+9V" class="0">
@@ -18710,6 +18699,17 @@ So, its GND pin must be connected to a different ground.</text>
 <pinref part="SJ4" gate="1" pin="1"/>
 <wire x1="-360.68" y1="91.44" x2="-358.14" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-358.14" y="91.44"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="355.6" y1="-144.78" x2="355.6" y2="-160.02" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="RESET"/>
+<wire x1="355.6" y1="-160.02" x2="360.68" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-144.78" x2="355.6" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="345.44" y="-144.78"/>
 </segment>
 </net>
 </nets>
